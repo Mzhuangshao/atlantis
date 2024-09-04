@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "§1§lAtlantis-TheGreatFlood\n§r§bKeep Your Last Breath§r"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "tags/worldgen/biome/has_structure/jungle_temple"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/worldgen/biome/has_structure/igloo"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/worldgen/biome/has_structure/desert_pyramid"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/worldgen/biome/has_structure/woodland_mansion"
+      }
+    ]
+  }
+}
