@@ -20,6 +20,10 @@
       {
         "namespace": "minecraft",
         "path": "tags/worldgen/biome/has_structure/woodland_mansion"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/worldgen/biome/has_structure/swamp_hut"
       }
     ]
   }
