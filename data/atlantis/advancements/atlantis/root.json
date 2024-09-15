@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:packed_ice"
+    },
+    "title": {
+      "text": "亚特兰蒂斯",
+      "color": "blue",
+      "bold": true
+    },
+    "description": {
+      "text": "惊鸿过后。",
+      "color": "light_blue"
+    },
+    "background": "minecraft:textures/block/packed_ice",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {},
+  "sends_telemetry_event": false
+}
