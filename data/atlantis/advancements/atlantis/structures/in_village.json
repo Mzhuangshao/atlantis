@@ -1,0 +1,111 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bell"
+      },
+      "title": {
+        "text": "绿宝石之殇"
+      },
+      "description": {
+        "text": "找到一座地下村庄"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/crossing_the_sea",
+    "criteria": {
+      "in_village_desert": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "minecraft:village_desert"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "in_village_snowy": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "minecraft:village_snowy"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "in_village_taiga": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "minecraft:village_taiga"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "in_village_plains": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "minecraft:village_plains"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "in_village_savanna": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "minecraft:village_savanna"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "in_village_savanna",
+        "in_village_taiga",
+        "in_village_snowy",
+        "in_village_plains",
+        "in_village_desert"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

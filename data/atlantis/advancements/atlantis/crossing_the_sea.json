@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "text": "渡海"
+    },
+    "description": "",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/root",
+  "criteria": {},
+  "requirements": [
+    [
+      "in_water"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

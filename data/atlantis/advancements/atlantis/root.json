@@ -5,19 +5,24 @@
     },
     "title": {
       "text": "亚特兰蒂斯",
-      "color": "blue",
+      "color": "#0000AA",
       "bold": true
     },
     "description": {
       "text": "惊鸿过后。",
-      "color": "light_blue"
+      "color": "#55FFFF"
     },
-    "background": "minecraft:textures/block/packed_ice",
+    "background": "minecraft:textures/block/packed_ice.png",
     "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": false
+    "show_toast": true,
+    "announce_to_chat": true
   },
-  "criteria": {},
-  "sends_telemetry_event": false
+  "criteria": {
+    "in_water": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water"
+      }
+    }
+  }
 }

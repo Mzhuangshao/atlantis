@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": {
+      "text": "采矿时间到！"
+    },
+    "description": {
+      "text": "使用木板和木棍来制作一把镐子"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/crafting_table",
+  "criteria": {
+    "craft_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

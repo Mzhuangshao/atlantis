@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cauldron"
+      },
+      "title": {
+        "text": "水下呼吸"
+      },
+      "description": {
+        "text": "找到一座沼泽小屋"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/crossing_the_sea",
+    "criteria": {
+      "in_swamp_hut": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "atlantis:swamp_hut"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "in_swamp_hut"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

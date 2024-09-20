@@ -1,5 +1,5 @@
 {
-  "feature": "atlantis:trees_old_growth_pine_taiga",
+  "feature": "atlantis:trees_old_growth_spruce_taiga",
   "placement": [
     {
       "type": "minecraft:count",
@@ -8,7 +8,7 @@
         "distribution": [
           {
             "weight": 9,
-            "data": 2
+            "data": 5
           },
           {
             "weight": 1,

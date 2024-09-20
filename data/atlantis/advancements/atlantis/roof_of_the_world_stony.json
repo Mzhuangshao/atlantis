@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:calcite"
+    },
+    "title": {
+      "text": "乞力马扎罗"
+    },
+    "description": {
+      "text": "找到露出水面的裸岩山峰"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "atlantis:atlantis/back_above_sea_level",
+  "criteria": {
+    "roof_of_the_world_stony": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 300
+                  }
+                },
+                "biome": "minecraft:stony_peaks",
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "roof_of_the_world_stony"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
