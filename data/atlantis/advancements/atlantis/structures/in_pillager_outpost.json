@@ -1,13 +1,13 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:cauldron"
+        "item": "minecraft:crossbow"
       },
       "title": {
-        "text": "水下呼吸"
+        "text": "掠夺小队"
       },
       "description": {
-        "text": "找到一座沼泽小屋"
+        "text": "找到一座掠夺者哨塔"
       },
       "frame": "task",
       "show_toast": true,
@@ -16,7 +16,7 @@
     },
     "parent": "atlantis:atlantis/in_water",
     "criteria": {
-      "in_swamp_hut": {
+      "in_pillager_outpost": {
         "trigger": "minecraft:location",
         "conditions": {
           "player": [
@@ -25,7 +25,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "structure": "atlantis:swamp_hut"
+                  "structure": "minecraft:pillager_outpost"
                 }
               }
             }
@@ -35,7 +35,7 @@
     },
     "requirements": [
       [
-        "in_swamp_hut"
+        "in_pillager_outpost"
       ]
     ],
     "sends_telemetry_event": false

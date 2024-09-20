@@ -9,11 +9,18 @@
     "description": "",
     "frame": "goal",
     "show_toast": false,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": false
   },
   "parent": "atlantis:atlantis/root",
-  "criteria": {},
+  "criteria": {
+    "in_water": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water"
+      }
+    }
+  },
   "requirements": [
     [
       "in_water"
