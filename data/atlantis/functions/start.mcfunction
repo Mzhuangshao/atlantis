@@ -16,7 +16,7 @@ execute at @e[tag=atlantis_room] run spawnpoint @a ~ ~ ~
 execute at @e[tag=atlantis_room] run fill ~12 280 ~12 ~-12 280 ~-12 light[level=0,waterlogged=true]
 execute at @e[tag=atlantis_room] run fill ~12 281 ~12 ~-12 319 ~-12 air
 
-tellraw @a {"text":"\nAtlantis >>> ","color":"blue","extra":[{"text":"祝你好运!","color":"green"}]}
+function atlantis:message/game_start
 
 execute as @e[tag=atlantis_local] run kill @e[type=item,distance=0..20]
 execute as @e[tag=atlantis_local] run kill @e[tag=atlantis_lobby]

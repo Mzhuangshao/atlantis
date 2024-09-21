@@ -1,0 +1,77 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": {
+      "text": "冶金时代"
+    },
+    "description": {
+      "text": "集齐铁锭、铜锭、金锭各一组"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/get_iron_20",
+  "criteria": {
+    "get_iron_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+    "get_gold_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+    "get_copper_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_copper_64"
+    ],
+    [
+      "get_gold_64"
+    ],
+    [
+      "get_iron_64"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_block"
+    },
+    "title": {
+      "text": "青铜时代"
+    },
+    "description": {
+      "text": "集齐一组铜块"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/get_three_metals",
+  "criteria": {
+    "get_copper_block_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_block"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_copper_block_64"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

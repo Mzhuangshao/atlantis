@@ -1,6 +1,7 @@
 {
+  "replace": true,
   "values": [
     "minecraft:desert",
-	"minecraft:warm_ocean"
+    "minecraft:warm_ocean"
   ]
 }

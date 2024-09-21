@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coal"
+    },
+    "title": {
+      "text": "煤炭工业"
+    },
+    "description": {
+      "text": "集齐一组煤炭"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/find_coal",
+  "criteria": {
+    "get_coal_64": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_coal_64"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
