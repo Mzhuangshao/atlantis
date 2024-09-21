@@ -1,0 +1,16 @@
+{
+  "name": "atlantis:atlantis_trader_room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "atlantis:atlantis_trader_room",
+        "processors": "minecraft:empty",
+        "liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

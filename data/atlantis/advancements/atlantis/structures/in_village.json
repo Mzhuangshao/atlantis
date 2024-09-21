@@ -4,10 +4,10 @@
         "item": "minecraft:bell"
       },
       "title": {
-        "text": "绿宝石之殇"
+        "text": "大鼻子之殇"
       },
       "description": {
-        "text": "找到一座地下村庄"
+        "text": "找到一座村庄"
       },
       "frame": "task",
       "show_toast": true,

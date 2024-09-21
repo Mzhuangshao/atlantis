@@ -8,11 +8,11 @@
         "distribution": [
           {
             "weight": 20,
-            "data": 4
+            "data": 7
           },
           {
             "weight": 2,
-            "data": 6
+            "data": 8
           }
         ]
       }
