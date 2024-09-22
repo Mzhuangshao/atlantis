@@ -1,0 +1,16 @@
+{
+  "name": "atlantis:atlantis_room_tree",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "atlantis:atlantis_room_tree",
+        "processors": "minecraft:empty",
+        "liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

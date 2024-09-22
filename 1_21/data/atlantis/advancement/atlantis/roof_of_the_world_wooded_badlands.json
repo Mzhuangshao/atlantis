@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_terracotta"
+    },
+    "title": {
+      "text": "世界屋脊"
+    },
+    "description": {
+      "text": "找到露出水面的疏林恶地"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "atlantis:atlantis/back_above_sea_level",
+  "criteria": {
+    "roof_of_the_world_wooded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 300
+                  }
+                },
+                "biome": "minecraft:wooded_badlands",
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "roof_of_the_world_wooded_badlands"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

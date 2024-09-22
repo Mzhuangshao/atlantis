@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:redstone_ore"
+      },
+      "title": {
+        "text": "科技升级"
+      },
+      "description": {
+        "text": "获得红石"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/find_coal",
+    "criteria": {
+      "find_redstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:redstone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "find_redstone"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

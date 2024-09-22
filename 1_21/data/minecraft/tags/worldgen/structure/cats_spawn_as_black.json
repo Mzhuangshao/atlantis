@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:swamp_hut",
+    "atlantis:swamp_hut"
+  ]
+}

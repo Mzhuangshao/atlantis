@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "text": "世界屋脊"
+    },
+    "description": {
+      "text": "找到露出水面的冰封山峰"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "atlantis:atlantis/back_above_sea_level",
+  "criteria": {
+    "roof_of_the_world_frozen": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 300
+                  }
+                },
+                "biome": "minecraft:frozen_peaks",
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "roof_of_the_world_frozen"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

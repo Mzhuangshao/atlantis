@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ochre_froglight"
+    },
+    "title": {
+      "text": "重见天日"
+    },
+    "description": {
+      "text": "浮出水面之上"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/in_water",
+  "criteria": {
+    "back_above_sea_level": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "atlantis:atlantis/in_water": true
+                }
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 280
+                  }
+                },
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "back_above_sea_level"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
