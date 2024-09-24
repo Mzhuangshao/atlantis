@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/find_coal",
+  "parent": "atlantis:atlantis/furnace",
   "criteria": {
     "get_iron_20": {
       "trigger": "minecraft:inventory_changed",

@@ -30,7 +30,7 @@
                     "min": 300
                   }
                 },
-                "biome": "minecraft:stony_peaks",
+                "biomes": "minecraft:stony_peaks",
                 "dimension": "minecraft:overworld"
               }
             }

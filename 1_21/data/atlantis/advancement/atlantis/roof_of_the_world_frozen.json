@@ -30,7 +30,7 @@
                     "min": 300
                   }
                 },
-                "biome": "minecraft:frozen_peaks",
+                "biomes": "minecraft:frozen_peaks",
                 "dimension": "minecraft:overworld"
               }
             }

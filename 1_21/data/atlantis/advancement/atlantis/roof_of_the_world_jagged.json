@@ -30,7 +30,7 @@
                     "min": 300
                   }
                 },
-                "biome": "minecraft:jagged_peaks",
+                "biomes": "minecraft:jagged_peaks",
                 "dimension": "minecraft:overworld"
               }
             }

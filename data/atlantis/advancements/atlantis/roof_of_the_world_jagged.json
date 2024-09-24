@@ -27,7 +27,8 @@
               "location": {
                 "position": {
                   "y": {
-                    "min": 300
+                    "min": 300,
+                    "max": 360
                   }
                 },
                 "biome": "minecraft:jagged_peaks",

@@ -25,7 +25,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "structure": "atlantis:swamp_hut"
+                  "structures": "atlantis:swamp_hut"
                 }
               }
             }

@@ -30,7 +30,7 @@
                     "min": 300
                   }
                 },
-                "biome": "minecraft:wooded_badlands",
+                "biomes": "minecraft:wooded_badlands",
                 "dimension": "minecraft:overworld"
               }
             }

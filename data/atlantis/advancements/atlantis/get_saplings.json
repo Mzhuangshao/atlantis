@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:oak_saplings"
+      },
+      "title": {
+        "text": "大自然的力量"
+      },
+      "description": {
+        "text": "获得树苗"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/getting_wood",
+    "criteria": {
+      "saplings": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "minecraft:saplings"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "saplings"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

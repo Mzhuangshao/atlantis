@@ -1,111 +1,48 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:bell"
-      },
-      "title": {
-        "text": "大鼻子之殇"
-      },
-      "description": {
-        "text": "找到一座村庄"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
     },
-    "parent": "atlantis:atlantis/in_water",
-    "criteria": {
-      "in_village_desert": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:village_desert"
-                }
+    "title": {
+      "text": "大鼻子之殇"
+    },
+    "description": {
+      "text": "找到一座村庄"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/in_water",
+  "criteria": {
+    "in_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:village_savanna",
+                  "minecraft:village_plains",
+                  "minecraft:village_taiga",
+                  "minecraft:village_snowy",
+                  "minecraft:village_desert"
+                ]
               }
             }
-          ]
-        }
-      },
-      "in_village_snowy": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:village_snowy"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "in_village_taiga": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:village_taiga"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "in_village_plains": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:village_plains"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "in_village_savanna": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:village_savanna"
-                }
-              }
-            }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "in_village_savanna",
-        "in_village_taiga",
-        "in_village_snowy",
-        "in_village_plains",
-        "in_village_desert"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "in_village"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

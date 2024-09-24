@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": true
     },
-    "parent": "atlantis:atlantis/find_coal",
+    "parent": "atlantis:atlantis/get_iron_20",
     "criteria": {
       "give_diamond_zombie": {
         "trigger": "minecraft:thrown_item_picked_up_by_entity",
