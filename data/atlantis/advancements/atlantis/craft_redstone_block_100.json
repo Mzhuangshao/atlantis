@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ochre_froglight"
+      "item": "minecraft:redstone_block"
     },
     "title": {
-      "text": "重见天日"
+      "text": "无尽能源"
     },
     "description": {
-      "text": "浮出水面"
+      "text": "合成100块红石块(需要在背包中结算)"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/in_water",
+  "parent": "atlantis:atlantis/find_redstone",
   "criteria": {
-    "back_above_sea_level": {
-      "trigger": "minecraft:location",
+    "craft_redstone_block_100": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
           {
@@ -26,18 +26,15 @@
             "predicate": {
               "type_specific": {
                 "type": "player",
-                "advancements": {
-                  "atlantis:atlantis/in_water": true
-                }
-              },
-              "location": {
-                "position": {
-                  "y": {
-                    "min": 280,
-                    "max": 320
+                "stats": [
+                  {
+                    "type": "minecraft:crafted",
+                    "stat": "minecraft:redstone_block",
+                    "value": {
+                      "min": 100
+                    }
                   }
-                },
-                "dimension": "minecraft:overworld"
+                ]
               }
             }
           }
@@ -47,7 +44,7 @@
   },
   "requirements": [
     [
-      "back_above_sea_level"
+      "craft_redstone_block_100"
     ]
   ],
   "sends_telemetry_event": false

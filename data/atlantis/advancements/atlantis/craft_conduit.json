@@ -1,32 +1,29 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:conduit"
     },
     "title": {
-      "text": "华尔街奇迹"
+      "text": "亚特兰之心"
     },
     "description": {
-      "text": "集齐一组金块"
+      "text": "用鹦鹉螺壳和海洋之心合成潮涌核心"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/get_three_metals",
+  "parent": "atlantis:atlantis/crafting_table",
   "criteria": {
-    "get_gold_block_64": {
+    "conduit": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:gold_block"
-            ],
-            "count": {
-              "min": 64
-            }
+              "minecraft:conduit"
+            ]
           }
         ]
       }
@@ -34,7 +31,7 @@
   },
   "requirements": [
     [
-      "get_gold_block_64"
+      "conduit"
     ]
   ],
   "sends_telemetry_event": false

@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/in_water",
+    "parent": "atlantis:atlantis/back_above_sea_level",
     "criteria": {
       "in_monument": {
         "trigger": "minecraft:location",

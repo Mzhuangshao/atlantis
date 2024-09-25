@@ -1,0 +1,51 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:spyglass"
+      },
+      "title": {
+        "text": "那是美人鱼吗？"
+      },
+      "description": {
+        "text": "透过望远镜观测溺尸"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/killed_drowned",
+    "criteria": {
+      "spyglass_at_drowned": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "looking_at": {
+                    "type": "minecraft:drowned"
+                  }
+                }
+              }
+            }
+          ],
+          "item": {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "spyglass_at_drowned"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
+  

@@ -7,7 +7,7 @@
       "text": "世界屋脊"
     },
     "description": {
-      "text": "找到露出水面的尖峭山峰"
+      "text": "登上露出水面的尖峭山峰"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -16,7 +16,7 @@
   },
   "parent": "atlantis:atlantis/back_above_sea_level",
   "criteria": {
-    "roof_of_the_world_jagged": {
+    "jagged_peaks": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -42,7 +42,7 @@
   },
   "requirements": [
     [
-      "roof_of_the_world_jagged"
+      "jagged_peaks"
     ]
   ],
   "sends_telemetry_event": false

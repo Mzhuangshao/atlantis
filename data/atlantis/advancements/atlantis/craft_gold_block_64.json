@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:coal"
+      "item": "minecraft:gold_block"
     },
     "title": {
-      "text": "煤球蛋子"
+      "text": "华尔街奇迹"
     },
     "description": {
-      "text": "集齐一组煤炭"
+      "text": "集齐一组金块"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/find_coal",
+  "parent": "atlantis:atlantis/get_three_metals",
   "criteria": {
-    "get_coal_64": {
+    "craft_gold_block_64": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:coal"
+              "minecraft:gold_block"
             ],
             "count": {
               "min": 64
@@ -34,7 +34,7 @@
   },
   "requirements": [
     [
-      "get_coal_64"
+      "craft_gold_block_64"
     ]
   ],
   "sends_telemetry_event": false

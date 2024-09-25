@@ -7,16 +7,16 @@
       "text": "世界屋脊"
     },
     "description": {
-      "text": "找到露出水面的冰封山峰"
+      "text": "登上露出水面的冰封山峰"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "atlantis:atlantis/back_above_sea_level",
+  "parent": "atlantis:atlantis/roof_of_the_world_jagged",
   "criteria": {
-    "roof_of_the_world_frozen": {
+    "frozen_peaks": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -42,7 +42,7 @@
   },
   "requirements": [
     [
-      "roof_of_the_world_frozen"
+      "frozen_peaks"
     ]
   ],
   "sends_telemetry_event": false

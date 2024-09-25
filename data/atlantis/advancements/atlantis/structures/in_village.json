@@ -7,14 +7,14 @@
         "text": "大鼻子之殇"
       },
       "description": {
-        "text": "找到一座村庄"
+        "text": "找到一座水下村庄"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/in_water",
+    "parent": "atlantis:atlantis/structures/in_monument",
     "criteria": {
       "in_village_desert": {
         "trigger": "minecraft:location",

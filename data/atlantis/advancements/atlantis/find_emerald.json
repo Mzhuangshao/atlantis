@@ -14,9 +14,9 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/find_coal",
+    "parent": "atlantis:atlantis/find_redstone",
     "criteria": {
-      "find_emerald": {
+      "emerald": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
@@ -31,7 +31,7 @@
     },
     "requirements": [
       [
-        "find_emerald"
+        "emerald"
       ]
     ],
     "sends_telemetry_event": false

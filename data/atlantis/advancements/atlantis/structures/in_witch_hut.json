@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/in_water",
+    "parent": "atlantis:atlantis/structures/in_village",
     "criteria": {
       "in_swamp_hut": {
         "trigger": "minecraft:location",

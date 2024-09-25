@@ -1,32 +1,30 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:crossbow"
+        "item": "minecraft:nautilus_shell"
       },
       "title": {
-        "text": "你也有今天"
+        "text": "杀死大海"
       },
       "description": {
-        "text": "找到一座水下掠夺者哨塔"
+        "text": "杀死一只溺尸"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/structures/in_village",
+    "parent": "atlantis:atlantis/craft_sword",
     "criteria": {
-      "in_pillager_outpost": {
-        "trigger": "minecraft:location",
+      "killed_drowned": {
+        "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "player": [
+          "entity": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "location": {
-                  "structure": "minecraft:pillager_outpost"
-                }
+                "type": "minecraft:drowned"
               }
             }
           ]
@@ -35,7 +33,7 @@
     },
     "requirements": [
       [
-        "in_pillager_outpost"
+        "killed_drowned"
       ]
     ],
     "sends_telemetry_event": false

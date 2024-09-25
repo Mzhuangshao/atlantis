@@ -16,7 +16,7 @@
   },
   "parent": "atlantis:atlantis/crafting_table",
   "criteria": {
-    "craft_pickaxe": {
+    "wooden_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -31,7 +31,7 @@
   },
   "requirements": [
     [
-      "craft_pickaxe"
+      "wooden_pickaxe"
     ]
   ],
   "sends_telemetry_event": false

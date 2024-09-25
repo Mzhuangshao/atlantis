@@ -16,7 +16,7 @@
     },
     "parent": "atlantis:atlantis/craft_pickaxe",
     "criteria": {
-      "find_coal": {
+      "coal": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
@@ -31,7 +31,7 @@
     },
     "requirements": [
       [
-        "find_coal"
+        "coal"
       ]
     ],
     "sends_telemetry_event": false

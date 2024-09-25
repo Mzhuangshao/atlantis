@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:netherite_block"
     },
     "title": {
-      "text": "我发财了！"
+      "text": "月干动力"
     },
     "description": {
-      "text": "集齐一组绿宝石块"
+      "text": "集齐一组下界合金块"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/find_emerald",
+  "parent": "atlantis:atlantis/craft_gold_block_64",
   "criteria": {
-    "get_emerald_block_64": {
+    "craft_netherite_block_64": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:emerald_block"
+              "minecraft:netherite_block"
             ],
             "count": {
               "min": 64
@@ -34,7 +34,7 @@
   },
   "requirements": [
     [
-      "get_emerald_block_64"
+      "craft_netherite_block_64"
     ]
   ],
   "sends_telemetry_event": false

@@ -1,29 +1,32 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:furnace"
+        "item": "minecraft:iron_block"
       },
       "title": {
-        "text": "热门焦点"
+        "text": "钢铁工业"
       },
       "description": {
-        "text": "用八个圆石来制作一个熔炉"
+        "text": "集齐一组铁块"
       },
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_pickaxe",
+    "parent": "atlantis:atlantis/get_three_metals",
     "criteria": {
-      "furnace": {
+      "craft_iron_block_64": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:furnace"
-              ]
+                "minecraft:iron_block"
+              ],
+              "count": {
+                "min": 64
+              }
             }
           ]
         }
@@ -31,7 +34,7 @@
     },
     "requirements": [
       [
-        "furnace"
+        "craft_iron_block_64"
       ]
     ],
     "sends_telemetry_event": false

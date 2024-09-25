@@ -1,31 +1,32 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:crossbow"
+        "item": "minecraft:shulker_box"
       },
       "title": {
-        "text": "你也有今天"
+        "text": "给我干哪来了"
       },
       "description": {
-        "text": "找到一座水下掠夺者哨塔"
+        "text": "把一只潜影贝运到下界并杀死"
       },
-      "frame": "task",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/structures/in_village",
+    "parent": "atlantis:atlantis/craft_sword",
     "criteria": {
-      "in_pillager_outpost": {
-        "trigger": "minecraft:location",
+      "killed_shulker": {
+        "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "player": [
+          "entity": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
+                "type": "minecraft:shulker",
                 "location": {
-                  "structure": "minecraft:pillager_outpost"
+                  "dimension": "minecraft:the_nether"
                 }
               }
             }
@@ -35,9 +36,12 @@
     },
     "requirements": [
       [
-        "in_pillager_outpost"
+        "killed_shulker"
       ]
     ],
+    "rewards": {
+      "experience": 100
+    },
     "sends_telemetry_event": false
   }
   

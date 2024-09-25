@@ -4,19 +4,19 @@
       "item": "minecraft:calcite"
     },
     "title": {
-      "text": "乞力马扎罗"
+      "text": "乌卡兰巴"
     },
     "description": {
-      "text": "找到露出水面的裸岩山峰"
+      "text": "登上露出水面的裸岩山峰"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "atlantis:atlantis/back_above_sea_level",
+  "parent": "atlantis:atlantis/roof_of_the_world_jagged",
   "criteria": {
-    "roof_of_the_world_stony": {
+    "stony_peaks": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -42,7 +42,7 @@
   },
   "requirements": [
     [
-      "roof_of_the_world_stony"
+      "stony_peaks"
     ]
   ],
   "sends_telemetry_event": false

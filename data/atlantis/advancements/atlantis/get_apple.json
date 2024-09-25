@@ -4,17 +4,17 @@
         "item": "minecraft:apple"
       },
       "title": {
-        "text": "每日苹果"
+        "text": "苹果日"
       },
       "description": {
-        "text": "获得一个苹果"
+        "text": "获得苹果"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/get_saplings",
+    "parent": "atlantis:atlantis/get_sapling",
     "criteria": {
       "apple": {
         "trigger": "minecraft:inventory_changed",

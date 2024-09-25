@@ -16,7 +16,7 @@
     },
     "parent": "atlantis:atlantis/find_coal",
     "criteria": {
-      "find_lapis": {
+      "lapis_lazuli": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
@@ -31,7 +31,7 @@
     },
     "requirements": [
       [
-        "find_lapis"
+        "lapis_lazuli"
       ]
     ],
     "sends_telemetry_event": false
