@@ -1,6 +1,7 @@
 # 亚特兰蒂斯水下生存数据包
 
-源地图：https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/
+- 源地图：https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/
+- Modrinth载点: https://modrinth.com/datapack/atlantis-thegreatflood
 
 # 来自源地图的已实现内容
 - 开始大厅  
