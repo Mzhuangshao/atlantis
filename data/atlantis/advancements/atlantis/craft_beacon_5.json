@@ -1,22 +1,22 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:tnt"
+        "item": "minecraft:beacon"
       },
       "title": {
-        "text": "易燃易爆"
+        "text": "带信标"
       },
       "description": {
-        "text": "总计合成100个TNT"
+        "text": "合成5个信标"
       },
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_conduit",
+    "parent": "atlantis:atlantis/craft_quartz_block_1000",
     "criteria": {
-      "craft_tnt_100": {
+      "craft_beacon_5": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "player": [
@@ -29,9 +29,9 @@
                   "stats": [
                     {
                       "type": "minecraft:crafted",
-                      "stat": "minecraft:tnt",
+                      "stat": "minecraft:beacon",
                       "value": {
-                        "min": 100
+                        "min": 5
                       }
                     }
                   ]
@@ -44,7 +44,7 @@
     },
     "requirements": [
       [
-        "craft_tnt_100"
+        "craft_beacon_5"
       ]
     ],
     "sends_telemetry_event": false

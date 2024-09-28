@@ -19,24 +19,11 @@
     "furnace": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
+        "items": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "player",
-                "stats": [
-                  {
-                    "type": "minecraft:crafted",
-                    "stat": "minecraft:furnace",
-                    "value": {
-                      "min": 1
-                    }
-                  }
-                ]
-              }
-            }
+            "items": [
+              "minecraft:furnace"
+            ]
           }
         ]
       }

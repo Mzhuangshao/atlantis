@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/find_coal",
+    "parent": "atlantis:atlantis/craft_coal_block_64",
     "criteria": {
       "lapis_lazuli": {
         "trigger": "minecraft:inventory_changed",

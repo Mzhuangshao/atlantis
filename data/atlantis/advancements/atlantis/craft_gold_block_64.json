@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/get_three_metals",
+  "parent": "atlantis:atlantis/craft_iron_block_64",
   "criteria": {
     "craft_gold_block_64": {
       "trigger": "minecraft:inventory_changed",

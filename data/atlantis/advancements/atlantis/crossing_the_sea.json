@@ -16,7 +16,7 @@
   },
   "parent": "atlantis:atlantis/root",
   "criteria": {
-    "in_water": {
+    "crossing_the_sea": {
       "trigger": "minecraft:enter_block",
       "conditions": {
         "block": "minecraft:water"
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "in_water"
+      "crossing_the_sea"
     ]
   ],
   "sends_telemetry_event": false

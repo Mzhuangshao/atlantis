@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lapis_block"
+    },
+    "title": {
+      "text": "海底两万米"
+    },
+    "description": {
+      "text": "在水下移动累计2万格"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "atlantis:atlantis/back_above_sea_level",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:swim_one_cm",
+                "value": {
+                  "min": 2000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

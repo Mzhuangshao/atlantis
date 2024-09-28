@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/in_water",
+    "parent": "atlantis:atlantis/crossing_the_sea",
     "criteria": {
       "getting_wood": {
         "trigger": "minecraft:inventory_changed",

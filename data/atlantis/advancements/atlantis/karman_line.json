@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "atlantis:atlantis/roof_of_the_world_jagged",
+  "parent": "atlantis:atlantis/roof_of_the_world_stony",
   "criteria": {
     "karman_line": {
       "trigger": "minecraft:location",

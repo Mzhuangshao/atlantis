@@ -9,7 +9,7 @@
       "description": {
         "text": "总计合成100个漏斗"
       },
-      "frame": "goal",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

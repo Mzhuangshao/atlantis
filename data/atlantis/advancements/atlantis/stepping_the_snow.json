@@ -1,22 +1,22 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:cauldron"
+        "item": "minecraft:snow"
       },
       "title": {
-        "text": "水之呼吸"
+        "text": "踏雪"
       },
       "description": {
-        "text": "找到一座沼泽小屋"
+        "text": "后天的永久封冻"
       },
-      "frame": "task",
-      "show_toast": true,
+      "frame": "goal",
+      "show_toast": false,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/structures/in_pillager_outpost",
+    "parent": "atlantis:atlantis/root",
     "criteria": {
-      "in_swamp_hut": {
+      "stepping_the_snow": {
         "trigger": "minecraft:location",
         "conditions": {
           "player": [
@@ -24,8 +24,12 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "location": {
-                  "structure": "atlantis:swamp_hut"
+                "stepping_on": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:snow_block"
+                    ]
+                  }
                 }
               }
             }
@@ -35,7 +39,7 @@
     },
     "requirements": [
       [
-        "in_swamp_hut"
+        "stepping_the_snow"
       ]
     ],
     "sends_telemetry_event": false

@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/in_water",
+    "parent": "atlantis:atlantis/ice_of_Triton",
     "criteria": {
       "craft_glass_1000": {
         "trigger": "minecraft:inventory_changed",
