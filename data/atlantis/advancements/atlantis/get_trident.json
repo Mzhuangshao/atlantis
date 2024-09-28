@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/killed_drowned",
+  "parent": "atlantis:atlantis/spyglass_at_drowned",
   "criteria": {
     "trident": {
       "trigger": "minecraft:inventory_changed",

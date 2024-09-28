@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/crafting_table",
+  "parent": "atlantis:atlantis/waiting_the_wind",
   "criteria": {
     "conduit": {
       "trigger": "minecraft:inventory_changed",

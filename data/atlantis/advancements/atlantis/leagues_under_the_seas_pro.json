@@ -4,16 +4,16 @@
       "item": "minecraft:lapis_block"
     },
     "title": {
-      "text": "海底两万米"
+      "text": "乐水百万米"
     },
     "description": {
-      "text": "在水下移动累计2万格"
+      "text": "在水下游泳累计100万格"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "atlantis:atlantis/back_above_sea_level",
+  "parent": "atlantis:atlantis/leagues_under_the_seas",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",
@@ -26,7 +26,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:swim_one_cm",
                 "value": {
-                  "min": 2000000
+                  "min": 100000000
                 }
               }
             ]

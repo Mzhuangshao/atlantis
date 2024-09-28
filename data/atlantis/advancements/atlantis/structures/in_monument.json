@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/back_above_sea_level",
+    "parent": "atlantis:atlantis/structures/in_ruined_portal",
     "criteria": {
       "in_monument": {
         "trigger": "minecraft:location",

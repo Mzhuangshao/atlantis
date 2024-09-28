@@ -4,7 +4,7 @@
         "item": "minecraft:beacon"
       },
       "title": {
-        "text": "带信标"
+        "text": "带上信标"
       },
       "description": {
         "text": "合成5个信标"
@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_quartz_block_1000",
+    "parent": "atlantis:atlantis/craft_conduit",
     "criteria": {
       "craft_beacon_5": {
         "trigger": "minecraft:inventory_changed",

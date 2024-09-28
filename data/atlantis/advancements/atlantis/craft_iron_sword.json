@@ -1,33 +1,38 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:feather"
+      "item": "minecraft:iron_sword"
     },
     "title": {
-      "text": "等风"
+      "text": "性价比之选！"
     },
     "description": {
-      "text": "拂过海面冰冷的风"
+      "text": "使用铁锭和木棍来制作铁剑"
     },
-    "frame": "goal",
-    "show_toast": false,
+    "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/root",
+  "parent": "atlantis:atlantis/craft_sword",
   "criteria": {
-    "waiting_the_wind": {
+    "iron_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:elytra"
+              "minecraft:iron_sword"
             ]
           }
         ]
       }
     }
   },
+  "requirements": [
+    [
+      "iron_sword"
+    ]
+  ],
   "sends_telemetry_event": false
 }
