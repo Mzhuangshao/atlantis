@@ -32,3 +32,4 @@
 # 结构
 - 雪屋、林地府邸、沙漠神殿、丛林神庙不会生成
 - 女巫小屋经过修改，搜索女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`或者`/locate structure atlantis:swamp_hut`
+- 新结构**游商小屋**，在距离初始小屋约64格的位置生成，游商每5天会在小屋中心的平滑石台阶上刷新
