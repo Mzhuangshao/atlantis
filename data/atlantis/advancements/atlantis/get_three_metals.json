@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/get_iron_20",
+  "parent": "atlantis:atlantis/furnace",
   "criteria": {
     "iron_ingot": {
       "trigger": "minecraft:inventory_changed",

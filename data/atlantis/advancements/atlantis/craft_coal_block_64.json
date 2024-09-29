@@ -16,7 +16,7 @@
   },
   "parent": "atlantis:atlantis/get_coal_64",
   "criteria": {
-    "craft_coal_block_64": {
+    "coal_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -32,10 +32,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "craft_coal_block_64"
-    ]
-  ],
   "sends_telemetry_event": false
 }

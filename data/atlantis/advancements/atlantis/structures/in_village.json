@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/structures/in_monument",
+    "parent": "atlantis:atlantis/structures/in_ruined_portal",
     "criteria": {
       "in_village_desert": {
         "trigger": "minecraft:location",

@@ -1,25 +1,25 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:tnt"
+        "item": "minecraft:glow_ink_sac"
       },
       "title": {
-        "text": "易燃易爆"
+        "text": "迷惑不了一点"
       },
       "description": {
-        "text": "总计合成100个TNT"
+        "text": "累计干掉50只荧光鱿鱼"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_conduit",
+    "parent": "atlantis:atlantis/be_careful_of_those_squid",
     "criteria": {
-      "craft_tnt_100": {
-        "trigger": "minecraft:inventory_changed",
+      "killed_glow_squid": {
+        "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "player": [
+          "entity": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
@@ -28,10 +28,11 @@
                   "type": "player",
                   "stats": [
                     {
-                      "type": "minecraft:crafted",
-                      "stat": "minecraft:tnt",
+                      "type": "minecraft:killed",
+                      "stat": "minecraft:glow_squid",
                       "value": {
-                        "min": 100
+                        "min": 50,
+                        "max": 0
                       }
                     }
                   ]
@@ -44,7 +45,7 @@
     },
     "requirements": [
       [
-        "craft_tnt_100"
+        "killed_glow_squid"
       ]
     ],
     "sends_telemetry_event": false

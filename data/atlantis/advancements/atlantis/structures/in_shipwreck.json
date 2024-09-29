@@ -1,0 +1,66 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:white_banner"
+      },
+      "title": {
+        "text": "诺亚谎言"
+      },
+      "description": {
+        "text": "找到一艘沉船"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "atlantis:atlantis/structures/in_monument",
+    "criteria": {
+      "in_shipwreck": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structure": "minecraft:shipwreck",
+                      "dimension": "minecraft:overworld"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structure": "minecraft:shipwreck_beached",
+                      "dimension": "minecraft:overworld"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "gamemode": "spectator"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": false
+  }
+  

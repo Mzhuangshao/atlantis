@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:emerald_ore"
+        "item": "minecraft:emerald"
       },
       "title": {
         "text": "我找到了！"
@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_redstone_block_100",
+    "parent": "atlantis:atlantis/find_raw_iron",
     "criteria": {
       "emerald": {
         "trigger": "minecraft:inventory_changed",

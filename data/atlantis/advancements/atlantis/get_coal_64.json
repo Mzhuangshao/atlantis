@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:coal"
+      "item": "minecraft:coal_ore"
     },
     "title": {
       "text": "煤球蛋子"
@@ -16,7 +16,7 @@
   },
   "parent": "atlantis:atlantis/find_coal",
   "criteria": {
-    "get_coal_64": {
+    "coal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -32,10 +32,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "get_coal_64"
-    ]
-  ],
   "sends_telemetry_event": false
 }

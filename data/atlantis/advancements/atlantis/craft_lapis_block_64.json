@@ -1,29 +1,32 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:lapis_block"
     },
     "title": {
-      "text": "亚特兰之心"
+      "text": "多彩新世界"
     },
     "description": {
-      "text": "用鹦鹉螺壳和海洋之心合成潮涌核心"
+      "text": "集齐一组青金石块"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/the_rise_of_atlantis",
+  "parent": "atlantis:atlantis/find_lapis_lazuli",
   "criteria": {
-    "conduit": {
+    "craft_lapis_block_64": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:conduit"
-            ]
+              "minecraft:lapis_block"
+            ],
+            "count": {
+              "min": 64
+            }
           }
         ]
       }
@@ -31,7 +34,7 @@
   },
   "requirements": [
     [
-      "conduit"
+      "craft_lapis_block_64"
     ]
   ],
   "sends_telemetry_event": false

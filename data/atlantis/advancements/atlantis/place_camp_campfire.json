@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "atlantis:atlantis/crafting_table",
+  "parent": "atlantis:atlantis/the_rise_of_atlantis",
   "criteria": {
     "campfire": {
       "trigger": "minecraft:placed_block",

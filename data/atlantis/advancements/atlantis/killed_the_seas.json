@@ -1,25 +1,25 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:drowned_spawn_egg"
     },
     "title": {
-      "text": "小心易碎?"
+      "text": "杀死大海"
     },
     "description": {
-      "text": "总计合成1000块石英块"
+      "text": "累计干掉100只溺尸"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/craft_glass_1000",
+  "parent": "atlantis:atlantis/killed_drowned",
   "criteria": {
-    "craft_quartz_block_1000": {
-      "trigger": "minecraft:inventory_changed",
+    "killed_the_seas": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
+        "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -28,10 +28,11 @@
                 "type": "player",
                 "stats": [
                   {
-                    "type": "minecraft:crafted",
-                    "stat": "minecraft:quartz_block",
+                    "type": "minecraft:killed",
+                    "stat": "minecraft:drowned",
                     "value": {
-                      "min": 1000
+                      "min": 100,
+                      "max": 0
                     }
                   }
                 ]
@@ -44,7 +45,7 @@
   },
   "requirements": [
     [
-      "craft_quartz_block_1000"
+      "killed_the_seas"
     ]
   ],
   "sends_telemetry_event": false

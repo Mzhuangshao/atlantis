@@ -1,21 +1,25 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:ice"
+        "item": "minecraft:ink_sac"
       },
       "title": {
-        "text": "万分之一的特里同"
+        "text": "当心鱿鱼！"
       },
       "description": {
-        "text": "收集270块冰"
-      }
+        "text": "累计干掉50只鱿鱼"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_conduit",
+    "parent": "atlantis:atlantis/craft_wooden_sword",
     "criteria": {
-      "ice": {
-        "trigger": "minecraft:inventory_changed",
+      "killed_squid": {
+        "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "player": [
+          "entity": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
@@ -24,10 +28,11 @@
                   "type": "player",
                   "stats": [
                     {
-                      "type": "minecraft:picked_up",
-                      "stat": "minecraft:ice",
+                      "type": "minecraft:killed",
+                      "stat": "minecraft:squid",
                       "value": {
-                        "min": 270
+                        "min": 50,
+                        "max": 0
                       }
                     }
                   ]
@@ -38,6 +43,11 @@
         }
       }
     },
+    "requirements": [
+      [
+        "killed_squid"
+      ]
+    ],
     "sends_telemetry_event": false
   }
   

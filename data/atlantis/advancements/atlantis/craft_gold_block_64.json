@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/craft_iron_block_64",
+  "parent": "atlantis:atlantis/get_gold_ingot",
   "criteria": {
     "craft_gold_block_64": {
       "trigger": "minecraft:inventory_changed",

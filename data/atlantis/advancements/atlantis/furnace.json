@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/craft_pickaxe",
+  "parent": "atlantis:atlantis/find_coal",
   "criteria": {
     "furnace": {
       "trigger": "minecraft:inventory_changed",

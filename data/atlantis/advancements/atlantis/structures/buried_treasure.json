@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chest"
+      },
+      "title": {
+        "text": "黄金时代已去"
+      },
+      "description": {
+        "text": "打开一个埋藏的宝藏"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/structures/in_monument",
+    "criteria": {
+      "ruined_portal": {
+        "trigger": "minecraft:player_generates_container_loot",
+        "conditions": {
+          "loot_table": "minecraft:chests/buried_treasure"
+        }
+      }
+    },
+    "sends_telemetry_event": false
+  }
+  

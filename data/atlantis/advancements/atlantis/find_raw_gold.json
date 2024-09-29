@@ -1,28 +1,28 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:apple"
+        "item": "minecraft:raw_gold"
       },
       "title": {
-        "text": "苹果日"
+        "text": "入门淘金者"
       },
       "description": {
-        "text": "获得苹果"
+        "text": "获得粗金"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/get_sapling",
+    "parent": "atlantis:atlantis/furnace",
     "criteria": {
-      "apple": {
+      "raw_gold": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:apple"
+                "minecraft:raw_gold"
               ]
             }
           ]
@@ -31,7 +31,7 @@
     },
     "requirements": [
       [
-        "apple"
+        "raw_gold"
       ]
     ],
     "sends_telemetry_event": false

@@ -1,22 +1,22 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:hopper"
+        "item": "minecraft:ender_chest"
       },
       "title": {
-        "text": "强劲吸力"
+        "text": "跨维度运输装置"
       },
       "description": {
-        "text": "总计合成100个漏斗"
+        "text": "合成一个末影箱"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_tnt_100",
+    "parent": "atlantis:atlantis/enchanting_table",
     "criteria": {
-      "craft_hopper_100": {
+      "ender_chest": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "player": [
@@ -29,9 +29,9 @@
                   "stats": [
                     {
                       "type": "minecraft:crafted",
-                      "stat": "minecraft:hopper",
+                      "stat": "minecraft:ender_chest",
                       "value": {
-                        "min": 100
+                        "min": 1
                       }
                     }
                   ]
@@ -44,7 +44,7 @@
     },
     "requirements": [
       [
-        "craft_hopper_100"
+        "ender_chest"
       ]
     ],
     "sends_telemetry_event": false

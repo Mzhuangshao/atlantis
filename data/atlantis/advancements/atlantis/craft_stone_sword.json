@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:stone_sword"
     },
     "title": {
-      "text": "亚特兰之心"
+      "text": "石器那会用不着这玩意吧！"
     },
     "description": {
-      "text": "用鹦鹉螺壳和海洋之心合成潮涌核心"
+      "text": "合成一把石剑"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/the_rise_of_atlantis",
+  "parent": "atlantis:atlantis/craft_wooden_sword",
   "criteria": {
-    "conduit": {
+    "stone_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:conduit"
+              "minecraft:stone_sword"
             ]
           }
         ]
@@ -31,7 +31,7 @@
   },
   "requirements": [
     [
-      "conduit"
+      "stone_sword"
     ]
   ],
   "sends_telemetry_event": false

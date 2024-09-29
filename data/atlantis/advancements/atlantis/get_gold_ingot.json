@@ -1,32 +1,29 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:iron_block"
+        "item": "minecraft:gold_ingot"
       },
       "title": {
-        "text": "钢铁工业"
+        "text": "金矿工"
       },
       "description": {
-        "text": "集齐一组铁块"
+        "text": "获得金锭"
       },
-      "frame": "goal",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/get_iron_20",
+    "parent": "atlantis:atlantis/find_raw_gold",
     "criteria": {
-      "craft_iron_block_64": {
+      "gold_ingot": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:iron_block"
-              ],
-              "count": {
-                "min": 64
-              }
+                "minecraft:gold_ingot"
+              ]
             }
           ]
         }
@@ -34,7 +31,7 @@
     },
     "requirements": [
       [
-        "craft_iron_block_64"
+        "gold_ingot"
       ]
     ],
     "sends_telemetry_event": false

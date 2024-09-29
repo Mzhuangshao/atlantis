@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "atlantis:atlantis/leagues_under_the_seas_pro",
+  "parent": "atlantis:atlantis/leagues_under_the_seas",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

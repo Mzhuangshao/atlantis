@@ -1,22 +1,22 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:dark_oak_planks"
     },
     "title": {
-      "text": "世界屋脊"
+      "text": "淘金的遗憾"
     },
     "description": {
-      "text": "登上露出水面的疏林恶地"
+      "text": "找到恶地废弃矿井"
     },
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
-  "parent": "atlantis:atlantis/roof_of_the_world_jagged",
+  "parent": "atlantis:atlantis/structures/in_mineshaft",
   "criteria": {
-    "wooded_badlands": {
+    "in_mineshaft_mesa": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -25,14 +25,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "position": {
-                  "y": {
-                    "min": 300,
-                    "max": 360
-                  }
-                },
-                "biome": "minecraft:wooded_badlands",
-                "dimension": "minecraft:overworld"
+                "structure": "minecraft:mineshaft_mesa"
               }
             }
           }
@@ -42,7 +35,7 @@
   },
   "requirements": [
     [
-      "wooded_badlands"
+      "in_mineshaft_mesa"
     ]
   ],
   "sends_telemetry_event": false

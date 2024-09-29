@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_conduit",
+    "parent": "atlantis:atlantis/the_rise_of_atlantis",
     "criteria": {
       "craft_beacon_5": {
         "trigger": "minecraft:inventory_changed",

@@ -1,13 +1,13 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:oak_sapling"
+        "item": "minecraft:cactus"
       },
       "title": {
-        "text": "大自然的力量"
+        "text": "我们群主可以"
       },
       "description": {
-        "text": "获得任意树苗"
+        "text": "与游商交易获得仙人掌——或者拿起小屋的盆栽？"
       },
       "frame": "task",
       "show_toast": true,
@@ -16,12 +16,14 @@
     },
     "parent": "atlantis:atlantis/getting_wood",
     "criteria": {
-      "saplings": {
+      "cactus": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "tag": "minecraft:saplings"
+              "items": [
+                "minecraft:cactus"
+              ]
             }
           ]
         }
@@ -29,7 +31,7 @@
     },
     "requirements": [
       [
-        "saplings"
+        "cactus"
       ]
     ],
     "sends_telemetry_event": false
