@@ -1,0 +1,47 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:quartz_block"
+      },
+      "title": {
+        "text": "穹顶之下"
+      },
+      "description": {
+        "text": "累计放置十组玻璃"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/craft_quartz_block_640",
+    "criteria": {
+      "quartz_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:quartz_block",
+                      "value": {
+                        "min": 640
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": false
+  }
+  

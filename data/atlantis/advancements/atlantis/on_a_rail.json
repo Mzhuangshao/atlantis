@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:rail"
+      },
+      "title": {
+        "text": "在铁路上"
+      },
+      "description": {
+        "text": "建造一座水下铁路，并坐在矿车上累计移动1km"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "atlantis:atlantis/rise_of_atlantis",
+    "criteria": {
+      "onArail": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:minecart_one_cm",
+                  "value": {
+                    "min": 100000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+  
