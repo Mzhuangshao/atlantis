@@ -9,7 +9,13 @@
           "type": "minecraft:tag",
           "name": "minecraft:decorated_pot_sherds",
           "expand": true,
-          "weight": 1
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",

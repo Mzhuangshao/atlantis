@@ -7,12 +7,17 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:sniffer_egg",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:netherite_upgrade_smithing_template",
-          "weight": 1,
+          "weight": 2,
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.5
             }
           ]
         },
@@ -24,7 +29,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.5
             }
           ]
         },
