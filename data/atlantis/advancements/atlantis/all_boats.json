@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/the_rise_of_atlantis",
+    "parent": "atlantis:atlantis/rise_of_atlantis",
     "criteria": {
       "acacia_boat": {
         "trigger": "minecraft:inventory_changed",

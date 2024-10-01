@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:white_banner"
+        "item": "minecraft:black_banner"
       },
       "title": {
-        "text": "诺亚谎言"
+        "text": "垂死海鸥号"
       },
       "description": {
         "text": "找到一艘沉船"

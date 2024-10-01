@@ -1,22 +1,18 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:beacon"
+        "item": "minecraft:ice"
       },
       "title": {
-        "text": "带上信标"
+        "text": "万分之一的特里同"
       },
       "description": {
-        "text": "合成5个信标"
-      },
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+        "text": "收集270块冰"
+      }
     },
     "parent": "atlantis:atlantis/rise_of_atlantis",
     "criteria": {
-      "craft_beacon_5": {
+      "ice": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "player": [
@@ -28,10 +24,10 @@
                   "type": "player",
                   "stats": [
                     {
-                      "type": "minecraft:crafted",
-                      "stat": "minecraft:beacon",
+                      "type": "minecraft:picked_up",
+                      "stat": "minecraft:ice",
                       "value": {
-                        "min": 5
+                        "min": 270
                       }
                     }
                   ]
@@ -42,11 +38,6 @@
         }
       }
     },
-    "requirements": [
-      [
-        "craft_beacon_5"
-      ]
-    ],
     "sends_telemetry_event": false
   }
   
