@@ -4,10 +4,10 @@
       "id": "minecraft:carrot_on_a_stick"
     },
     "title": {
-      "translate": "When Pigs Used to Fly"
+      "translate": "当猪飞的时候"
     },
     "description": {
-      "translate": "Craft a carrot on a stick so you can ride a pig off a cliff",
+      "translate": "骑着猪从悬崖上飞下",
       "color": "green"
     },
     "frame": "challenge",
