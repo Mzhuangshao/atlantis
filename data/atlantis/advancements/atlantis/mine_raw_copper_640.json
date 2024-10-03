@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:raw_copper"
+    },
+    "title": {
+      "text": "太多啦！"
+    },
+    "description": {
+      "text": "获得粗铜"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/furnace",
+  "criteria": {
+    "raw_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:picked_up",
+                    "stat": "minecraft:raw_copper",
+                    "value": {
+                      "min": 640
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raw_copper"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

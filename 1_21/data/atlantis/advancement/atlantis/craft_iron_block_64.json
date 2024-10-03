@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_block"
+      },
+      "title": {
+        "text": "钢铁工业"
+      },
+      "description": {
+        "text": "集齐一组铁块"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/get_iron_20",
+    "criteria": {
+      "craft_iron_block_64": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_block"
+              ],
+              "count": {
+                "min": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "craft_iron_block_64"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

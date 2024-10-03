@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "text": "踱海"
+    },
+    "description": {
+      "text": "世界淹没后，你走出保护屋，再次浸入水中"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/root",
+  "criteria": {
+    "below_sea_wandering": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "below_sea_wandering"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

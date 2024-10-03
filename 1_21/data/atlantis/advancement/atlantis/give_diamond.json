@@ -12,9 +12,9 @@
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": true
+      "hidden": false
     },
-    "parent": "atlantis:atlantis/find_coal",
+    "parent": "atlantis:atlantis/find_raw_iron",
     "criteria": {
       "give_diamond_zombie": {
         "trigger": "minecraft:thrown_item_picked_up_by_entity",
@@ -28,7 +28,7 @@
               }
             }
           ],
-          "item": {
+          "id": {
             "items": [
               "minecraft:diamond"
             ]
@@ -47,7 +47,7 @@
               }
             }
           ],
-          "item": {
+          "id": {
             "items": [
               "minecraft:diamond"
             ]
@@ -66,7 +66,7 @@
               }
             }
           ],
-          "item": {
+          "id": {
             "items": [
               "minecraft:diamond"
             ]

@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:gold_ingot"
+      },
+      "title": {
+        "text": "金矿工"
+      },
+      "description": {
+        "text": "获得金锭"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/mine_raw_gold_64",
+    "criteria": {
+      "gold_ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:gold_ingot"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "gold_ingot"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:drowned_spawn_egg"
+    },
+    "title": {
+      "text": "杀死大海"
+    },
+    "description": {
+      "text": "累计干掉100只溺尸"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/killed_drowned",
+  "criteria": {
+    "killed_the_seas": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:killed",
+                    "stat": "minecraft:drowned",
+                    "value": {
+                      "min": 100,
+                      "max": 0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_the_seas"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

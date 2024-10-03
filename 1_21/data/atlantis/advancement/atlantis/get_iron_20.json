@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_ore"
+      "id": "minecraft:iron_ingot"
     },
     "title": {
-      "text": "我有20铁，你怕不怕！"
+      "text": "你怕不怕！"
     },
     "description": {
       "text": "集齐20块铁锭"
@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/find_coal",
+  "parent": "atlantis:atlantis/find_raw_iron",
   "criteria": {
     "get_iron_20": {
       "trigger": "minecraft:inventory_changed",

@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:coal"
+      "id": "minecraft:coal_ore"
     },
     "title": {
-      "text": "煤炭工业"
+      "text": "煤球蛋子"
     },
     "description": {
       "text": "集齐一组煤炭"
@@ -16,7 +16,7 @@
   },
   "parent": "atlantis:atlantis/find_coal",
   "criteria": {
-    "get_coal_64": {
+    "coal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -32,10 +32,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "get_coal_64"
-    ]
-  ],
   "sends_telemetry_event": false
 }

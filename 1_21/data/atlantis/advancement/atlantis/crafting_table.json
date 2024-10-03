@@ -1,38 +1,39 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:crafting_table"
+    "display": {
+      "icon": {
+        "id": "minecraft:crafting_table"
+      },
+      "title": {
+        "text": "这是？工作台！"
+      },
+      "description": {
+        "text": "用四个木板来制作一个工作台"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
     },
-    "title": {
-      "text": "这是？工作台！"
-    },
-    "description": {
-      "text": "用四个木板来制作一个工作台"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "parent": "atlantis:atlantis/getting_wood",
-  "criteria": {
-    "crafting_table": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crafting_table"
-            ]
-          }
-        ]
+    "parent": "atlantis:atlantis/getting_wood",
+    "criteria": {
+      "crafting_table": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:crafting_table"
+              ]
+            }
+          ]
+        }
       }
-    }
-  },
-  "requirements": [
-    [
-      "crafting_table"
-    ]
-  ],
-  "sends_telemetry_event": false
-}
+    },
+    "requirements": [
+      [
+        "crafting_table"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

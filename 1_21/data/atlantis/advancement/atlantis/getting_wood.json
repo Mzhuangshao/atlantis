@@ -1,37 +1,36 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:oak_log"
-      },
-      "title": {
-        "text": "获得木头"
-      },
-      "description": {
-        "text": "摧毁树木直到跳出一个木头方块"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
     },
-    "parent": "atlantis:atlantis/root",
-    "criteria": {
-      "getting_wood": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "tag": "minecraft:logs"
-            }
-          ]
-        }
+    "title": {
+      "text": "获得木头"
+    },
+    "description": {
+      "text": "摧毁树木直到跳出一个木头方块"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/below_sea_wandering",
+  "criteria": {
+    "getting_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:logs"
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "getting_wood"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "getting_wood"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,47 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:redstone_lamp"
+      },
+      "title": {
+        "text": "长明灯"
+      },
+      "description": {
+        "text": "累计合成一组红石灯"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/rise_of_atlantis",
+    "criteria": {
+      "redstone_lamp": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "stats": [
+                    {
+                      "type": "minecraft:crafted",
+                      "stat": "minecraft:redstone_lamp",
+                      "value": {
+                        "min": 128
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": false
+  }
+  

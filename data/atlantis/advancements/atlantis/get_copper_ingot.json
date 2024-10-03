@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/find_raw_copper",
+    "parent": "atlantis:atlantis/mine_raw_copper_640",
     "criteria": {
       "copper_ingot": {
         "trigger": "minecraft:inventory_changed",

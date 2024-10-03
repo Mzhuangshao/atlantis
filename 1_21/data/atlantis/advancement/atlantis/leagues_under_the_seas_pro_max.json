@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_block"
+    },
+    "title": {
+      "text": "惊鸿千万里"
+    },
+    "description": {
+      "text": "在水下游泳累计1000万格"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "atlantis:atlantis/leagues_under_the_seas",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:swim_one_cm",
+                "value": {
+                  "min": 1000000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

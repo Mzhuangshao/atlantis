@@ -9,14 +9,14 @@
     "description": {
       "text": "集齐铁锭、铜锭、金锭各一组"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/get_iron_20",
+  "parent": "atlantis:atlantis/furnace",
   "criteria": {
-    "get_iron_64": {
+    "iron_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -31,7 +31,7 @@
         ]
       }
     },
-    "get_gold_64": {
+    "gold_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -46,7 +46,7 @@
         ]
       }
     },
-    "get_copper_64": {
+    "copper_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -64,13 +64,13 @@
   },
   "requirements": [
     [
-      "get_copper_64"
+      "iron_ingot"
     ],
     [
-      "get_gold_64"
+      "gold_ingot"
     ],
     [
-      "get_iron_64"
+      "copper_ingot"
     ]
   ],
   "sends_telemetry_event": false

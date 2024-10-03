@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_banner"
+    },
+    "title": {
+      "text": "垂死海鸥号"
+    },
+    "description": {
+      "text": "找到一艘沉船"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/structures/in_monument",
+  "criteria": {
+    "in_shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "structures": [
+                      "minecraft:shipwreck",
+                      "minecraft:shipwreck_beached"
+                    ],
+                    "dimension": "minecraft:overworld"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+              "type": "minecraft:player",
+              "gamemode": [
+                "spectator"
+              ]
+              }
+            }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

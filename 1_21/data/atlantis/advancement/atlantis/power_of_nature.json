@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:oak_sapling"
+      },
+      "title": {
+        "text": "大自然的力量"
+      },
+      "description": {
+        "text": "与游商交易获得树苗——或者拿起小屋的盆栽？"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/getting_wood",
+    "criteria": {
+      "saplings": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:saplings"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "saplings"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

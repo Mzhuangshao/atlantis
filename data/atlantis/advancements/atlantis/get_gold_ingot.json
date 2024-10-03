@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/find_raw_gold",
+    "parent": "atlantis:atlantis/mine_raw_gold_64",
     "criteria": {
       "gold_ingot": {
         "trigger": "minecraft:inventory_changed",

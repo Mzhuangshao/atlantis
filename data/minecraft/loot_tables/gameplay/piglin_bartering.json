@@ -40,9 +40,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "options": "minecraft:soul_speed"
             }
           ]
         },
@@ -53,9 +51,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "options": "minecraft:soul_speed"
             }
           ]
         },

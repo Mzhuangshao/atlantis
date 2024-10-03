@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/stepping_the_snow",
+  "parent": "atlantis:atlantis/on_snow_steping",
   "criteria": {
     "back_above_sea_level": {
       "trigger": "minecraft:location",
@@ -27,7 +27,7 @@
               "type_specific": {
                 "type": "player",
                 "advancements": {
-                  "atlantis:atlantis/crossing_the_sea": true
+                  "atlantis:atlantis/below_sea_wandering": true
                 }
               },
               "location": {

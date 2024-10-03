@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:redstone_ore"
+        "id": "minecraft:redstone"
       },
       "title": {
         "text": "科技升级"
@@ -14,9 +14,9 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/find_coal",
+    "parent": "atlantis:atlantis/find_raw_iron",
     "criteria": {
-      "find_redstone": {
+      "redstone": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
@@ -31,7 +31,7 @@
     },
     "requirements": [
       [
-        "find_redstone"
+        "redstone"
       ]
     ],
     "sends_telemetry_event": false

@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/waiting_the_wind",
+    "parent": "atlantis:atlantis/in_icy_wind_waiting",
     "criteria": {
       "heart_of_the_sea": {
         "trigger": "minecraft:inventory_changed",

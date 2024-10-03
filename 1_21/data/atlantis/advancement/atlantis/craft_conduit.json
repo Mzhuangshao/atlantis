@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "text": "亚特兰之心"
+    },
+    "description": {
+      "text": "用鹦鹉螺壳和海洋之心合成潮涌核心"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/rise_of_atlantis",
+  "criteria": {
+    "conduit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:conduit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "conduit"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

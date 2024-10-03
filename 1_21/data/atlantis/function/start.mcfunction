@@ -1,6 +1,7 @@
 execute as @e[tag=atlantis_local,tag=!tree_room] run place structure atlantis:atlantis_room ~-5 ~ ~-5
 execute as @e[tag=atlantis_local,tag=tree_room] run place structure atlantis:atlantis_room_tree ~-5 ~ ~-5
 execute as @e[tag=atlantis_local,tag=has_tree] at @e[tag=atlantis_room] run place feature atlantis:fancy_oak ~ ~5 ~
+execute at @e[tag=atlantis_room] run place structure atlantis:atlantis_trader_room ~ ~ ~64
 
 clear @a
 xp set @a 0 levels
@@ -9,10 +10,9 @@ gamemode survival @a
 defaultgamemode survival
 difficulty hard
 
-execute as @e[tag=atlantis_room] run tp @a @s
 execute at @e[tag=atlantis_room] run setworldspawn ~ ~ ~
 execute at @e[tag=atlantis_room] run spawnpoint @a ~ ~ ~
-execute at @e[tag=atlantis_room] run place structure atlantis:atlantis_trader_room ~ ~ ~64
+execute as @e[tag=atlantis_room] run tp @a @s
 
 function atlantis:message/game_start
 

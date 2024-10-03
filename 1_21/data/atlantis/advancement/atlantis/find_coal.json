@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:coal_ore"
+        "id": "minecraft:coal"
       },
       "title": {
-        "text": "工业革命"
+        "text": "恐龙的馈赠"
       },
       "description": {
         "text": "获得煤炭"
@@ -14,9 +14,9 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/craft_pickaxe",
+    "parent": "atlantis:atlantis/craft_wooden_pickaxe",
     "criteria": {
-      "find_coal": {
+      "coal": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
@@ -31,7 +31,7 @@
     },
     "requirements": [
       [
-        "find_coal"
+        "coal"
       ]
     ],
     "sends_telemetry_event": false

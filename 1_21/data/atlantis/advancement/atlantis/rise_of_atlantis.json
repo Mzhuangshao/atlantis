@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:heart_of_the_sea"
+      },
+      "title": {
+        "text": "亚特兰蒂斯的崛起"
+      },
+      "description": {
+        "text": "找到海洋之心"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/in_icy_wind_waiting",
+    "criteria": {
+      "heart_of_the_sea": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:heart_of_the_sea"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": false
+  }
+  

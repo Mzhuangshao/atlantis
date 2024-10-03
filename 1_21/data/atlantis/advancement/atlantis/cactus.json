@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cactus"
+      },
+      "title": {
+        "text": "我们群主可以"
+      },
+      "description": {
+        "text": "与游商交易获得仙人掌——或者拿起小屋的盆栽？"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atlantis:atlantis/getting_wood",
+    "criteria": {
+      "cactus": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cactus"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cactus"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
+  

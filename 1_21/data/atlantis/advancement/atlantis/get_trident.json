@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "text": "我也是波塞冬？"
+    },
+    "description": {
+      "text": "从溺尸手中夺得三叉戟"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/killed_the_seas",
+  "criteria": {
+    "trident": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:trident"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trident"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

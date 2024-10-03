@@ -7,14 +7,14 @@
       "text": "重见天日"
     },
     "description": {
-      "text": "浮出水面之上"
+      "text": "浮出水面"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/in_water",
+  "parent": "atlantis:atlantis/on_snow_steping",
   "criteria": {
     "back_above_sea_level": {
       "trigger": "minecraft:location",
@@ -25,15 +25,16 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "minecraft:player",
+                "type": "player",
                 "advancements": {
-                  "atlantis:atlantis/in_water": true
+                  "atlantis:atlantis/below_sea_wandering": true
                 }
               },
               "location": {
                 "position": {
                   "y": {
-                    "min": 280
+                    "min": 280,
+                    "max": 320
                   }
                 },
                 "dimension": "minecraft:overworld"

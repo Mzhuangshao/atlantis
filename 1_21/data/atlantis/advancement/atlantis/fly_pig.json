@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "When Pigs Used to Fly"
+    },
+    "description": {
+      "translate": "Craft a carrot on a stick so you can ride a pig off a cliff",
+      "color": "green"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "atlantis:atlantis/rise_of_atlantis",
+  "criteria": {
+    "fly_pig": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}
