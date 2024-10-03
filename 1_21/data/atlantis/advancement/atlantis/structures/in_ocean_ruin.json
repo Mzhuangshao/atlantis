@@ -11,7 +11,8 @@
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "atlantis:atlantis/structures/in_monument",
   "criteria": {
@@ -20,36 +21,12 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "structures": [
-                      "minecraft:ocean_ruin_cold",
-                      "minecraft:ocean_ruin_warm"
-                    ],
-                    "dimension": "minecraft:overworld"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
+            "condition": "minecraft:location_check",
             "predicate": {
-              "type_specific": {
-              "type": "minecraft:player",
-              "gamemode": [
-                "spectator"
+              "structures": [
+                "minecraft:ocean_ruin_cold",
+                "minecraft:ocean_ruin_warm"
               ]
-              }
-            }
             }
           }
         ]

@@ -1,47 +1,46 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:glass"
-      },
-      "title": {
-        "text": "穹顶之下"
-      },
-      "description": {
-        "text": "累计放置十组玻璃"
-      },
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:glass"
     },
-    "parent": "atlantis:atlantis/craft_glass_640",
-    "criteria": {
-      "glass": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "player",
-                  "stats": [
-                    {
-                      "type": "minecraft:used",
-                      "stat": "minecraft:sand",
-                      "value": {
-                        "min": 640
-                      }
+    "title": {
+      "text": "穹顶之下"
+    },
+    "description": {
+      "text": "累计放置十组玻璃"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/craft_glass_640",
+  "criteria": {
+    "glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "stats": [
+                  {
+                    "type": "minecraft:used",
+                    "stat": "minecraft:sand",
+                    "value": {
+                      "min": 640
                     }
-                  ]
-                }
+                  }
+                ]
               }
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "sends_telemetry_event": false
+}

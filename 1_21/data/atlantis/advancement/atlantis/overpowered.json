@@ -19,10 +19,8 @@
     "enchanted_golden_apple": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "id": {
-          "items": [
-            "minecraft:enchanted_golden_apple"
-          ]
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
         }
       }
     }

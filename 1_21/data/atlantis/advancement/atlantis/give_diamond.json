@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:diamond"
+        "item": "minecraft:diamond"
       },
       "title": {
         "text": "给你钻石！"
@@ -28,7 +28,7 @@
               }
             }
           ],
-          "id": {
+          "item": {
             "items": [
               "minecraft:diamond"
             ]
@@ -47,7 +47,7 @@
               }
             }
           ],
-          "id": {
+          "item": {
             "items": [
               "minecraft:diamond"
             ]
@@ -66,7 +66,7 @@
               }
             }
           ],
-          "id": {
+          "item": {
             "items": [
               "minecraft:diamond"
             ]

@@ -21,22 +21,14 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
+            "condition": "minecraft:location_check",
             "predicate": {
-              "location": {
-                "structures": "minecraft:mineshaft_mesa"
-              }
+              "structures": "minecraft:mineshaft_mesa"
             }
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "in_mineshaft_mesa"
-    ]
-  ],
   "sends_telemetry_event": false
 }
