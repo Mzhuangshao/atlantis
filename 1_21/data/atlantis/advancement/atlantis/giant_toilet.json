@@ -4,7 +4,7 @@
         "id": "minecraft:hopper"
       },
       "title": {
-        "text": "强劲吸力"
+        "text": "大漩涡"
       },
       "description": {
         "text": "累计合成九组漏斗"
@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/redstone_CandleLight",
+    "parent": "atlantis:atlantis/redstone_candlelight",
     "criteria": {
       "hopper": {
         "trigger": "minecraft:inventory_changed",

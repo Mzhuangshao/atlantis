@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/redstone_CandleLight",
+    "parent": "atlantis:atlantis/redstone_candlelight",
     "criteria": {
       "tnt": {
         "trigger": "minecraft:inventory_changed",
