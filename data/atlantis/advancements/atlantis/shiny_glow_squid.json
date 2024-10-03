@@ -19,7 +19,7 @@
       "killed_glow_squid": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "entity": [
+          "player": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
@@ -31,8 +31,7 @@
                       "type": "minecraft:killed",
                       "stat": "minecraft:glow_squid",
                       "value": {
-                        "min": 50,
-                        "max": 0
+                        "min": 50
                       }
                     }
                   ]

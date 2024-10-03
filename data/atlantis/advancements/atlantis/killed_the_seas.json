@@ -19,7 +19,7 @@
     "killed_the_seas": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
+        "player": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -31,8 +31,7 @@
                     "type": "minecraft:killed",
                     "stat": "minecraft:drowned",
                     "value": {
-                      "min": 100,
-                      "max": 0
+                      "min": 100
                     }
                   }
                 ]
