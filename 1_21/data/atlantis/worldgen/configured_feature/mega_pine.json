@@ -1,6 +1,47 @@
 {
   "type": "minecraft:tree",
   "config": {
+    "ignore_vines": false,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 1,
+      "upper_size": 2
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:spruce_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:water"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:giant_trunk_placer",
+      "base_height": 13,
+      "height_rand_a": 2,
+      "height_rand_b": 14
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": 0,
+      "offset": 0,
+      "height": 0
+    },
     "decorators": [
       {
         "type": "minecraft:alter_ground",
@@ -14,54 +55,6 @@
           }
         }
       }
-    ],
-    "dirt_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:dirt"
-      }
-    },
-    "foliage_placer": {
-      "type": "minecraft:mega_pine_foliage_placer",
-      "crown_height": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 7,
-        "min_inclusive": 3
-      },
-      "offset": 0,
-      "radius": 0
-    },
-    "foliage_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:light",
-        "Properties": {
-          "level": "0"
-        }
-      }
-    },
-    "force_dirt": false,
-    "ignore_vines": false,
-    "minimum_size": {
-      "type": "minecraft:two_layers_feature_size",
-      "limit": 1,
-      "lower_size": 1,
-      "upper_size": 2
-    },
-    "trunk_placer": {
-      "type": "minecraft:giant_trunk_placer",
-      "base_height": 13,
-      "height_rand_a": 2,
-      "height_rand_b": 14
-    },
-    "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:spruce_log",
-        "Properties": {
-          "axis": "y"
-        }
-      }
-    }
+    ]
   }
 }
