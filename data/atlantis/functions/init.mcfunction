@@ -4,3 +4,5 @@ forceload add 30 30 -30 -30
 place template atlantis:atlantis_lobby -14 290 -14
 forceload remove 30 30 -30 -30
 gamerule commandBlockOutput false
+
+function atlantis:message/author
