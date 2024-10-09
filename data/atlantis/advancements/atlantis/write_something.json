@@ -1,28 +1,28 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:paper"
+        "item": "minecraft:writable_book"
       },
       "title": {
-        "text": "用纸书写"
+        "text": "开始的开始"
       },
       "description": {
-        "text": "用甘蔗合成纸"
+        "text": "用它写点东西吧"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "atlantis:atlantis/sugar_cane",
+    "parent": "atlantis:atlantis/write_them_on_paper",
     "criteria": {
-      "paper": {
+      "writable_book": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:paper"
+                "minecraft:writable_book"
               ]
             }
           ]
