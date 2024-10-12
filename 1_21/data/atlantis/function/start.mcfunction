@@ -15,9 +15,10 @@ execute at @e[tag=atlantis_room] run spawnpoint @a ~ ~ ~
 execute as @e[tag=atlantis_room] run tp @a @s
 
 function atlantis:message/game_start
+function atlantis:wandering_trader/trader_room_pos
 
 execute at @e[tag=atlantis_local] run fill ~20 ~8 ~20 ~-20 ~-3 ~-20 air
-execute as @e[tag=atlantis_local] run kill @e[type=item,distance=0..20]
+execute as @e[tag=atlantis_local] run kill @e[type=item,distance=..32]
 execute as @e[tag=atlantis_local] run kill @e[tag=atlantis_lobby]
 execute at @e[tag=atlantis_room] run fill ~12 280 ~12 ~-12 280 ~-12 light[level=0,waterlogged=true]
 execute at @e[tag=atlantis_room] run fill ~12 281 ~12 ~-12 319 ~-12 air

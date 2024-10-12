@@ -1,11 +1,9 @@
 {
-  "carvers": {
-    "air": [
+  "carvers": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
       "minecraft:canyon"
-    ]
-  },
+  ],
   "downfall": 0.8,
   "effects": {
     "fog_color": 12638463,
@@ -19,9 +17,9 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.grove"
+      "sound": "minecraft:music.overworld.old_growth_taiga"
     },
-    "sky_color": 8495359,
+    "sky_color": 8233983,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -32,17 +30,14 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:iceberg_packed",
-      "minecraft:iceberg_blue",
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [
-      "minecraft:blue_ice"
-    ],
+    [],
     [],
     [
       "minecraft:ore_dirt",
@@ -70,21 +65,29 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:ore_emerald"
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
-    [
-      "minecraft:ore_infested"
-    ],
+    [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "minecraft:spring_lava_frozen"
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "atlantis:trees_grove",
+      "minecraft:patch_large_fern",
+      "atlantis:trees_old_growth_spruce_taiga",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_taiga",
+      "minecraft:patch_dead_bush",
+      "minecraft:brown_mushroom_old_growth",
+      "minecraft:red_mushroom_old_growth",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_berry_common"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -208,5 +211,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": -0.2
+  "temperature": 0.25
 }
