@@ -6,3 +6,6 @@ forceload remove 30 30 -30 -30
 gamerule commandBlockOutput false
 
 function atlantis:message/author
+
+scoreboard objectives add minecraft.time dummy
+scoreboard objectives add minecraft.fallDistance dummy
