@@ -1,9 +1,9 @@
 # 亚特兰蒂斯: 水寒火暖
 - 水下生存数据包！
-- 源地图：https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/
+- 原地图：https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/
 - Modrinth载点: https://modrinth.com/datapack/atlantis-thegreatflood
 
-## 来自源地图的已实现内容
+## 来自原地图的已实现内容
 - 开始大厅  
 - 初始小屋    
 - 极高海平面  
