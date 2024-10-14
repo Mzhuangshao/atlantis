@@ -9,8 +9,8 @@
       "bold": true
     },
     "description": {
-      "text": "惊鸿过后。",
-      "color": "#55FFFF"
+      "text": "大海无量。",
+      "color": "#B0A4E3"
     },
     "background": "minecraft:textures/block/packed_ice.png",
     "frame": "task",
