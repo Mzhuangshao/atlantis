@@ -1,7 +1,7 @@
 # 亚特兰蒂斯: 水寒火暖
 - 水下生存数据包！
-- 原地图：https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/
-- Modrinth载点: https://modrinth.com/datapack/atlantis-thegreatflood
+- 原地图：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
+- Modrinth载点: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 
 ## 来自原地图的已实现内容
 - 开始大厅  
