@@ -9,7 +9,7 @@
   "start_height": {
     "type": "minecraft:constant",
     "value": {
-      "absolute": -1
+      "absolute": -2
     }
   },
   "project_start_to_heightmap": "OCEAN_FLOOR",
