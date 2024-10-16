@@ -830,7 +830,7 @@
                 "type": "minecraft:condition",
                 "if_true": {
                   "type": "minecraft:water",
-                  "offset": -226,
+                  "offset": -220,
                   "surface_depth_multiplier": 0,
                   "add_stone_depth": false
                 },
@@ -1579,7 +1579,7 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:water",
-                "offset": -225,
+                "offset": -222,
                 "surface_depth_multiplier": -1,
                 "add_stone_depth": true
               },
