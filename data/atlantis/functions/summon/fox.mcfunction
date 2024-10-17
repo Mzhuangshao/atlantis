@@ -1,0 +1,2 @@
+summon fox ~ ~ ~
+summon fox ~ ~ ~
