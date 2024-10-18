@@ -16,7 +16,7 @@
     },
     "parent": "atlantis:atlantis/structures/in_monument",
     "criteria": {
-      "ruined_portal": {
+      "buried_treasure": {
         "trigger": "minecraft:player_generates_container_loot",
         "conditions": {
           "loot_table": "minecraft:chests/buried_treasure"

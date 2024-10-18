@@ -12,7 +12,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "atlantis:atlantis/roof_of_the_world_jagged",
   "criteria": {
@@ -24,15 +24,21 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "location": {
+              "stepping_on": {
                 "position": {
                   "y": {
-                    "min": 300,
-                    "max": 360
+                    "min": 296,
+                    "max": 320
                   }
                 },
                 "biomes": "minecraft:stony_peaks",
-                "dimension": "minecraft:overworld"
+                "dimension": "minecraft:overworld",
+                "block": {
+                  "blocks": [
+                    "minecraft:stone",
+                    "minecraft:calcite"
+                  ]
+                }
               }
             }
           }

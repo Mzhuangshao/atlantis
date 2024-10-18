@@ -1,2 +1,2 @@
 summon rabbit ~ ~ ~
-summon rabbit ~ ~ ~ 
+summon rabbit ~ ~ ~

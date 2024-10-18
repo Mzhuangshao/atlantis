@@ -11,7 +11,8 @@
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "atlantis:atlantis/rise_of_atlantis",
   "criteria": {

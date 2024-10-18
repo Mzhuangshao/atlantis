@@ -290,7 +290,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/snowy/houses/snowy_farm_1",
-        "processors": "minecraft:farm_snowy",
+        "processors": "minecraft:zombie_snowy",
         "projection": "rigid"
       },
       "weight": 3
@@ -299,7 +299,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/snowy/houses/snowy_farm_2",
-        "processors": "minecraft:farm_snowy",
+        "processors": "minecraft:zombie_snowy",
         "projection": "rigid"
       },
       "weight": 3
