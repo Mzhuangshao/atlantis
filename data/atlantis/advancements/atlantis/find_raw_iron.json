@@ -4,10 +4,10 @@
         "item": "minecraft:raw_iron"
       },
       "title": {
-        "text": "神说，先有铁"
+        "translate": "神说，先有铁"
       },
       "description": {
-        "text": "获得粗铁"
+        "translate": "获得粗铁"
       },
       "frame": "task",
       "show_toast": true,

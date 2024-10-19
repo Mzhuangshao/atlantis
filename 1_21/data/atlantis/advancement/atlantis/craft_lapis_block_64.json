@@ -4,10 +4,10 @@
       "id": "minecraft:lapis_block"
     },
     "title": {
-      "text": "多彩新世界"
+      "translate": "多彩新世界"
     },
     "description": {
-      "text": "集齐一组青金石块"
+      "translate": "集齐一组青金石块"
     },
     "frame": "goal",
     "show_toast": true,

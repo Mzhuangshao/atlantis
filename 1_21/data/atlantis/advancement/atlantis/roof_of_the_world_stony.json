@@ -4,10 +4,10 @@
       "id": "minecraft:calcite"
     },
     "title": {
-      "text": "乌卡兰巴"
+      "translate": "乌卡兰巴"
     },
     "description": {
-      "text": "登上露出水面的裸岩山峰"
+      "translate": "登上露出水面的裸岩山峰"
     },
     "frame": "challenge",
     "show_toast": true,

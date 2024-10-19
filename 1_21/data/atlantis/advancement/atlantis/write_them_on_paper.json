@@ -4,10 +4,10 @@
         "id": "minecraft:paper"
       },
       "title": {
-        "text": "用纸书写"
+        "translate": "用纸书写"
       },
       "description": {
-        "text": "用甘蔗合成纸"
+        "translate": "用甘蔗合成纸"
       },
       "frame": "task",
       "show_toast": true,

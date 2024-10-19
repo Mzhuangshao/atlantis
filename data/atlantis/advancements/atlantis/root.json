@@ -4,12 +4,12 @@
       "item": "minecraft:packed_ice"
     },
     "title": {
-      "text": "亚特兰蒂斯",
+      "translate": "亚特兰蒂斯",
       "color": "#0000AA",
       "bold": true
     },
     "description": {
-      "text": "水寒火暖。",
+      "translate": "水寒火暖。",
       "color": "#B0A4E3"
     },
     "background": "minecraft:textures/block/packed_ice.png",

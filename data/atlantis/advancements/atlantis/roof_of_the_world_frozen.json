@@ -4,10 +4,10 @@
       "item": "minecraft:packed_ice"
     },
     "title": {
-      "text": "世界屋脊"
+      "translate": "世界屋脊"
     },
     "description": {
-      "text": "登上露出水面的冰封山峰"
+      "translate": "登上露出水面的冰封山峰"
     },
     "frame": "challenge",
     "show_toast": true,

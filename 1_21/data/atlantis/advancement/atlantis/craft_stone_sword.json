@@ -4,10 +4,10 @@
       "id": "minecraft:stone_sword"
     },
     "title": {
-      "text": "石器那会用不着这玩意吧！"
+      "translate": "石器那会用不着这玩意吧！"
     },
     "description": {
-      "text": "合成一把石剑"
+      "translate": "合成一把石剑"
     },
     "frame": "task",
     "show_toast": true,

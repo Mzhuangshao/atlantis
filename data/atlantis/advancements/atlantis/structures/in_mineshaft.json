@@ -4,10 +4,10 @@
       "item": "minecraft:oak_planks"
     },
     "title": {
-      "text": "这么热的天就这点冰？"
+      "translate": "这么热的天就这点冰？"
     },
     "description": {
-      "text": "找到废弃矿井"
+      "translate": "找到废弃矿井"
     },
     "frame": "task",
     "show_toast": true,

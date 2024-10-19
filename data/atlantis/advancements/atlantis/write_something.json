@@ -4,10 +4,10 @@
         "item": "minecraft:writable_book"
       },
       "title": {
-        "text": "开始的开始"
+        "translate": "开始的开始"
       },
       "description": {
-        "text": "用它写点东西吧"
+        "translate": "用它写点东西吧"
       },
       "frame": "task",
       "show_toast": true,

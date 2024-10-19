@@ -4,10 +4,10 @@
         "item": "minecraft:oak_sapling"
       },
       "title": {
-        "text": "大自然的力量"
+        "translate": "大自然的力量"
       },
       "description": {
-        "text": "与游商交易获得树苗——或者拿起小屋的盆栽？"
+        "translate": "与游商交易获得树苗——或者拿起小屋的盆栽？"
       },
       "frame": "task",
       "show_toast": true,

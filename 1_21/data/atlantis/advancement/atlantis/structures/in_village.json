@@ -4,10 +4,10 @@
       "id": "minecraft:bell"
     },
     "title": {
-      "text": "大鼻子之殇"
+      "translate": "大鼻子之殇"
     },
     "description": {
-      "text": "找到一座水下村庄"
+      "translate": "找到一座水下村庄"
     },
     "frame": "task",
     "show_toast": true,

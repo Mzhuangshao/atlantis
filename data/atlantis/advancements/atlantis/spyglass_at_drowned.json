@@ -4,10 +4,10 @@
         "item": "minecraft:spyglass"
       },
       "title": {
-        "text": "那是美人鱼吗？"
+        "translate": "那是美人鱼吗？"
       },
       "description": {
-        "text": "透过望远镜观测溺尸"
+        "translate": "透过望远镜观测溺尸"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
       "item": "minecraft:netherite_block"
     },
     "title": {
-      "text": "月干动力"
+      "translate": "月干动力"
     },
     "description": {
-      "text": "集齐一组下界合金块"
+      "translate": "集齐一组下界合金块"
     },
     "frame": "challenge",
     "show_toast": true,

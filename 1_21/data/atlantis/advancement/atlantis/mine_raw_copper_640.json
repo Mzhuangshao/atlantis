@@ -4,10 +4,10 @@
       "id": "minecraft:raw_copper"
     },
     "title": {
-      "text": "太多啦！"
+      "translate": "太多啦！"
     },
     "description": {
-      "text": "获得粗铜"
+      "translate": "获得十组粗铜"
     },
     "frame": "task",
     "show_toast": true,

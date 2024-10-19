@@ -4,10 +4,10 @@
         "item": "minecraft:raw_gold"
       },
       "title": {
-        "text": "入门淘金者"
+        "translate": "入门淘金者"
       },
       "description": {
-        "text": "获得粗金"
+        "translate": "获得一组粗金"
       },
       "frame": "task",
       "show_toast": true,

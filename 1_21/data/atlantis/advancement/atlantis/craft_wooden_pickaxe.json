@@ -4,10 +4,10 @@
       "id": "minecraft:wooden_pickaxe"
     },
     "title": {
-      "text": "采矿时间到！"
+      "translate": "采矿时间到！"
     },
     "description": {
-      "text": "使用木板和木棍来制作一把镐子"
+      "translate": "使用木板和木棍来制作一把镐子"
     },
     "frame": "task",
     "show_toast": true,

@@ -4,10 +4,10 @@
       "item": "minecraft:trident"
     },
     "title": {
-      "text": "我也是波塞冬？"
+      "translate": "我也是波塞冬？"
     },
     "description": {
-      "text": "从溺尸手中夺得三叉戟"
+      "translate": "从溺尸手中夺得三叉戟"
     },
     "frame": "task",
     "show_toast": true,

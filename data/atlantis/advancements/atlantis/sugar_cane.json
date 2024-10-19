@@ -4,10 +4,10 @@
         "item": "minecraft:sugar_cane"
       },
       "title": {
-        "text": "获得甘蔗"
+        "translate": "获得甘蔗"
       },
       "description": {
-        "text": "与游商交易获得甘蔗"
+        "translate": "与游商交易获得甘蔗"
       },
       "frame": "task",
       "show_toast": true,

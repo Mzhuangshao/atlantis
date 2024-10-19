@@ -4,10 +4,10 @@
       "item": "minecraft:quartz_block"
     },
     "title": {
-      "text": "石英块"
+      "translate": "石英块"
     },
     "description": {
-      "text": "累计制作十组石英块"
+      "translate": "累计制作十组石英块"
     },
     "frame": "task",
     "show_toast": true,

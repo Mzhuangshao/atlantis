@@ -4,10 +4,10 @@
         "item": "minecraft:hopper"
       },
       "title": {
-        "text": "大漩涡"
+        "translate": "大漩涡"
       },
       "description": {
-        "text": "累计合成九组漏斗"
+        "translate": "累计合成九组漏斗"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
         "item": "minecraft:heart_of_the_sea"
       },
       "title": {
-        "text": "亚特兰蒂斯的崛起"
+        "translate": "亚特兰蒂斯的崛起"
       },
       "description": {
-        "text": "找到海洋之心"
+        "translate": "找到海洋之心"
       },
       "frame": "task",
       "show_toast": true,

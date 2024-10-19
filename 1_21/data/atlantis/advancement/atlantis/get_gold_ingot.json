@@ -4,10 +4,10 @@
         "id": "minecraft:gold_ingot"
       },
       "title": {
-        "text": "金矿工"
+        "translate": "金矿工"
       },
       "description": {
-        "text": "获得金锭"
+        "translate": "获得金锭"
       },
       "frame": "task",
       "show_toast": true,

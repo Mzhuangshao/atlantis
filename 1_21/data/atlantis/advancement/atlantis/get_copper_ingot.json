@@ -4,10 +4,10 @@
         "id": "minecraft:copper_ingot"
       },
       "title": {
-        "text": "铜矿工"
+        "translate": "铜矿工"
       },
       "description": {
-        "text": "获得铜锭"
+        "translate": "获得铜锭"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
       "item": "minecraft:dark_oak_planks"
     },
     "title": {
-      "text": "淘金时代的遗憾"
+      "translate": "淘金时代的遗憾"
     },
     "description": {
-      "text": "找到恶地废弃矿井"
+      "translate": "找到恶地废弃矿井"
     },
     "frame": "task",
     "show_toast": true,

@@ -4,10 +4,10 @@
         "id": "minecraft:beacon"
       },
       "title": {
-        "text": "带上信标"
+        "translate": "带上信标"
       },
       "description": {
-        "text": "合成5个信标"
+        "translate": "合成5个信标"
       },
       "frame": "goal",
       "show_toast": true,

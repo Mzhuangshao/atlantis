@@ -4,10 +4,10 @@
       "item": "minecraft:glass"
     },
     "title": {
-      "text": "玻璃工厂"
+      "translate": "玻璃工厂"
     },
     "description": {
-      "text": "累计制作二十组玻璃（从熔炉中取出的总数）"
+      "translate": "累计制作二十组玻璃（从熔炉中取出的总数）"
     },
     "frame": "goal",
     "show_toast": true,

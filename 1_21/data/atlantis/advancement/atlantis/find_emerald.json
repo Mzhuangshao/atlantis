@@ -4,10 +4,10 @@
         "id": "minecraft:emerald"
       },
       "title": {
-        "text": "我找到了！"
+        "translate": "我找到了！"
       },
       "description": {
-        "text": "获得绿宝石"
+        "translate": "获得绿宝石"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
         "id": "minecraft:shulker_box"
       },
       "title": {
-        "text": "给我干哪来了"
+        "translate": "给我干哪来了"
       },
       "description": {
-        "text": "把一只潜影贝运到下界并杀死"
+        "translate": "把一只潜影贝运到下界并杀死"
       },
       "frame": "challenge",
       "show_toast": true,

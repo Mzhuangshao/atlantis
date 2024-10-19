@@ -4,10 +4,10 @@
         "item": "minecraft:birch_boat"
       },
       "title": {
-        "text": "舰队Collection"
+        "translate": "舰队Collection"
       },
       "description": {
-        "text": "集齐所有种类的船"
+        "translate": "集齐所有种类的船"
       },
       "frame": "task",
       "show_toast": true,

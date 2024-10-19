@@ -4,10 +4,10 @@
         "item": "minecraft:cactus"
       },
       "title": {
-        "text": "我们群主可以"
+        "translate": "我们群主可以"
       },
       "description": {
-        "text": "与游商交易获得仙人掌——或者拿起小屋的盆栽？"
+        "translate": "与游商交易获得仙人掌——或者拿起小屋的盆栽？"
       },
       "frame": "task",
       "show_toast": true,

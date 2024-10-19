@@ -4,10 +4,10 @@
       "id": "minecraft:sugar"
     },
     "title": {
-      "text": "甜蜜时刻"
+      "translate": "甜蜜时刻"
     },
     "description": {
-      "text": "用甘蔗合成一些糖"
+      "translate": "用甘蔗合成一些糖"
     },
     "frame": "task",
     "show_toast": true,

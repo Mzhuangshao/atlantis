@@ -4,10 +4,10 @@
       "item": "minecraft:lapis_block"
     },
     "title": {
-      "text": "海底两万米"
+      "translate": "海底两万米"
     },
     "description": {
-      "text": "在水下游泳累计2万格"
+      "translate": "在水下游泳累计2万格"
     },
     "frame": "task",
     "show_toast": true,

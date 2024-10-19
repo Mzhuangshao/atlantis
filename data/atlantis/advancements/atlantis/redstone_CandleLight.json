@@ -4,10 +4,10 @@
         "item": "minecraft:redstone_lamp"
       },
       "title": {
-        "text": "长明灯"
+        "translate": "长明灯"
       },
       "description": {
-        "text": "累计合成一组红石灯"
+        "translate": "累计合成两组红石灯"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
       "id": "minecraft:redstone_block"
     },
     "title": {
-      "text": "无尽能源"
+      "translate": "无尽能源"
     },
     "description": {
-      "text": "合成100块红石块(需要在背包中结算)"
+      "translate": "合成100块红石块（需要在背包中结算）"
     },
     "frame": "goal",
     "show_toast": true,

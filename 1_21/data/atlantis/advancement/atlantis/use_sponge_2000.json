@@ -4,10 +4,10 @@
         "id": "minecraft:sponge"
       },
       "title": {
-        "text": "重建亚特兰蒂斯！"
+        "translate": "重建亚特兰蒂斯！"
       },
       "description": {
-        "text": "累计使用海绵2000次"
+        "translate": "累计使用海绵2000次"
       },
       "frame": "challenge",
       "show_toast": true,

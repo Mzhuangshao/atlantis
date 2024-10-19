@@ -4,10 +4,10 @@
         "id": "minecraft:sand"
       },
       "title": {
-        "text": "采沙场"
+        "translate": "采沙场"
       },
       "description": {
-        "text": "累计挖掘二十组沙子"
+        "translate": "累计挖掘二十组沙子"
       },
       "frame": "task",
       "show_toast": true,

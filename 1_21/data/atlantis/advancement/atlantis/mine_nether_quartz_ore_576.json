@@ -4,10 +4,10 @@
         "id": "minecraft:nether_quartz_ore"
       },
       "title": {
-        "text": "石英"
+        "translate": "石英"
       },
       "description": {
-        "text": "累计挖掘九组下界石英矿石"
+        "translate": "累计挖掘九组下界石英矿石"
       },
       "frame": "task",
       "show_toast": true,

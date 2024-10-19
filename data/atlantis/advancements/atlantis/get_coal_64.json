@@ -4,10 +4,10 @@
       "item": "minecraft:coal_ore"
     },
     "title": {
-      "text": "煤球蛋子"
+      "translate": "煤球蛋子"
     },
     "description": {
-      "text": "集齐一组煤炭"
+      "translate": "集齐一组煤炭"
     },
     "frame": "task",
     "show_toast": true,

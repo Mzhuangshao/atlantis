@@ -4,10 +4,10 @@
       "id": "minecraft:firework_rocket"
     },
     "title": {
-      "text": "亚特兰蒂斯航天人！"
+      "translate": "亚特兰蒂斯航天人！"
     },
     "description": {
-      "text": "飞越卡门线(100000m)"
+      "translate": "飞越卡门线(100000m)"
     },
     "frame": "challenge",
     "show_toast": true,

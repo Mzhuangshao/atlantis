@@ -4,10 +4,10 @@
       "id": "minecraft:cauldron"
     },
     "title": {
-      "text": "水之呼吸"
+      "translate": "水之呼吸"
     },
     "description": {
-      "text": "找到一座沼泽小屋"
+      "translate": "找到一座沼泽小屋"
     },
     "frame": "task",
     "show_toast": true,

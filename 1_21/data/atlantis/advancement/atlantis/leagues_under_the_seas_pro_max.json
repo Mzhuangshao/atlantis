@@ -4,10 +4,10 @@
       "id": "minecraft:lapis_block"
     },
     "title": {
-      "text": "惊鸿千万里"
+      "translate": "妈祖在哪儿？"
     },
     "description": {
-      "text": "在水下游泳累计1000万格"
+      "translate": "在水下游泳累计1000万格"
     },
     "frame": "challenge",
     "show_toast": true,

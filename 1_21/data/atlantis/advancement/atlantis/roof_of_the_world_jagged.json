@@ -4,10 +4,10 @@
       "id": "minecraft:snow_block"
     },
     "title": {
-      "text": "世界屋脊"
+      "translate": "世界屋脊"
     },
     "description": {
-      "text": "登上露出水面的尖峭山峰"
+      "translate": "登上露出水面的尖峭山峰"
     },
     "frame": "challenge",
     "show_toast": true,

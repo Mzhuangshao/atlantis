@@ -4,10 +4,10 @@
       "id": "minecraft:coal_block"
     },
     "title": {
-      "text": "煤炭工业"
+      "translate": "煤炭工业"
     },
     "description": {
-      "text": "集齐一组煤炭块"
+      "translate": "集齐一组煤炭块"
     },
     "frame": "goal",
     "show_toast": true,

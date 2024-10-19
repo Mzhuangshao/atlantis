@@ -4,10 +4,10 @@
       "id": "minecraft:ice"
     },
     "title": {
-      "text": "万分之一的特里同"
+      "translate": "万分之一的特里同"
     },
     "description": {
-      "text": "收集270块冰"
+      "translate": "收集270块冰"
     },
     "show_toast": true,
     "announce_to_chat": true,

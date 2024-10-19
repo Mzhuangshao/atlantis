@@ -4,10 +4,10 @@
       "id": "minecraft:black_banner"
     },
     "title": {
-      "text": "垂死海鸥号"
+      "translate": "垂死海鸥号"
     },
     "description": {
-      "text": "找到一艘沉船"
+      "translate": "找到一艘沉船"
     },
     "frame": "task",
     "show_toast": true,

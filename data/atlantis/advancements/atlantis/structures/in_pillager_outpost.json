@@ -4,10 +4,10 @@
         "item": "minecraft:crossbow"
       },
       "title": {
-        "text": "你也有今天"
+        "translate": "你也有今天"
       },
       "description": {
-        "text": "找到一座水下掠夺者哨塔"
+        "translate": "找到一座水下掠夺者哨塔"
       },
       "frame": "task",
       "show_toast": true,

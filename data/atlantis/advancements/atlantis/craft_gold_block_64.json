@@ -4,10 +4,10 @@
       "item": "minecraft:gold_block"
     },
     "title": {
-      "text": "华尔街奇迹"
+      "translate": "华尔街奇迹"
     },
     "description": {
-      "text": "集齐一组金块"
+      "translate": "集齐一组金块"
     },
     "frame": "goal",
     "show_toast": true,

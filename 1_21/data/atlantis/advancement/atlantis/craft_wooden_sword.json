@@ -4,10 +4,10 @@
       "id": "minecraft:wooden_sword"
     },
     "title": {
-      "text": "出击时间到！"
+      "translate": "出击时间到！"
     },
     "description": {
-      "text": "使用木板和木棍来制作一把剑"
+      "translate": "使用木板和木棍来制作一把剑"
     },
     "frame": "task",
     "show_toast": true,

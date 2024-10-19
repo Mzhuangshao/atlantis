@@ -4,10 +4,10 @@
       "id": "minecraft:iron_ingot"
     },
     "title": {
-      "text": "冶金时代"
+      "translate": "冶金时代"
     },
     "description": {
-      "text": "集齐铁锭、铜锭、金锭各一组"
+      "translate": "集齐铁锭、铜锭、金锭各一组"
     },
     "frame": "task",
     "show_toast": true,

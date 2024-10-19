@@ -4,10 +4,10 @@
         "id": "minecraft:rail"
       },
       "title": {
-        "text": "在铁路上"
+        "translate": "在铁路上"
       },
       "description": {
-        "text": "建造一座水下铁路，并坐在矿车上累计移动1km"
+        "translate": "建造一座水下铁路，并坐在矿车上累计移动1km"
       },
       "frame": "goal",
       "show_toast": true,

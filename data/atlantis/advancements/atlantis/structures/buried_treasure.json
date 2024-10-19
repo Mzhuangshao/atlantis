@@ -4,10 +4,10 @@
         "item": "minecraft:chest"
       },
       "title": {
-        "text": "黄金时代已去"
+        "translate": "黄金时代已去"
       },
       "description": {
-        "text": "打开一个埋藏的宝藏"
+        "translate": "打开一个埋藏的宝藏"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
       "id": "minecraft:snow"
     },
     "title": {
-      "text": "踏雪"
+      "translate": "踏雪"
     },
     "description": {
-      "text": "后天的永久封冻"
+      "translate": "后天的永久封冻"
     },
     "frame": "goal",
     "show_toast": false,

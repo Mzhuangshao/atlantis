@@ -4,10 +4,10 @@
         "id": "minecraft:coal"
       },
       "title": {
-        "text": "恐龙的馈赠"
+        "translate": "恐龙的馈赠"
       },
       "description": {
-        "text": "获得煤炭"
+        "translate": "获得煤炭"
       },
       "frame": "task",
       "show_toast": true,

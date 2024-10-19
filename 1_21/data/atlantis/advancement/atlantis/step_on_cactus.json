@@ -4,10 +4,10 @@
       "id": "minecraft:cactus"
     },
     "title": {
-      "text": "我们群主也可以"
+      "translate": "我们群主也可以"
     },
     "description": {
-      "text": "踩上一株仙人掌"
+      "translate": "踩上一株仙人掌"
     },
     "frame": "task",
     "show_toast": true,

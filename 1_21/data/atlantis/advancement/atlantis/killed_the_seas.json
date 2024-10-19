@@ -4,10 +4,10 @@
       "id": "minecraft:drowned_spawn_egg"
     },
     "title": {
-      "text": "杀死大海"
+      "translate": "杀死大海"
     },
     "description": {
-      "text": "累计干掉100只溺尸"
+      "translate": "累计干掉100只溺尸"
     },
     "frame": "goal",
     "show_toast": true,

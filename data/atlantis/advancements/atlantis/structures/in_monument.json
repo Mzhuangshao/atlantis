@@ -4,10 +4,10 @@
         "item": "minecraft:dark_prismarine"
       },
       "title": {
-        "text": "亚特兰蒂斯？"
+        "translate": "亚特兰蒂斯？"
       },
       "description": {
-        "text": "找到一座海底神殿"
+        "translate": "找到一座海底神殿"
       },
       "frame": "task",
       "show_toast": true,

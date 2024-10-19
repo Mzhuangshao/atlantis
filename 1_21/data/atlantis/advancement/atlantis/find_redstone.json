@@ -4,10 +4,10 @@
         "id": "minecraft:redstone"
       },
       "title": {
-        "text": "科技升级"
+        "translate": "科技升级"
       },
       "description": {
-        "text": "获得红石"
+        "translate": "获得红石"
       },
       "frame": "task",
       "show_toast": true,

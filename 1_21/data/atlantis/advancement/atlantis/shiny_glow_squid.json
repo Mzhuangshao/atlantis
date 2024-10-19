@@ -4,10 +4,10 @@
       "id": "minecraft:glow_ink_sac"
     },
     "title": {
-      "text": "亮闪闪的！"
+      "translate": "亮闪闪的！"
     },
     "description": {
-      "text": "累计干掉50只荧光鱿鱼"
+      "translate": "累计干掉50只荧光鱿鱼"
     },
     "frame": "task",
     "show_toast": true,

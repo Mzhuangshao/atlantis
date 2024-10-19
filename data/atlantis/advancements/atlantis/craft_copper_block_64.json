@@ -4,10 +4,10 @@
       "item": "minecraft:copper_block"
     },
     "title": {
-      "text": "青铜时代"
+      "translate": "青铜时代"
     },
     "description": {
-      "text": "集齐一组铜块"
+      "translate": "集齐一组铜块"
     },
     "frame": "goal",
     "show_toast": true,

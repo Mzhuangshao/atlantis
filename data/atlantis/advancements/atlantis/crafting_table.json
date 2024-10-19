@@ -4,10 +4,10 @@
         "item": "minecraft:crafting_table"
       },
       "title": {
-        "text": "这是？工作台！"
+        "translate": "这是？工作台！"
       },
       "description": {
-        "text": "用四个木板来制作一个工作台"
+        "translate": "用四个木板来制作一个工作台"
       },
       "frame": "task",
       "show_toast": true,

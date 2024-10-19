@@ -4,10 +4,10 @@
         "item": "minecraft:note_block"
       },
       "title": {
-        "text": "沉浸于音乐"
+        "translate": "沉浸于音乐"
       },
       "description": {
-        "text": "累计合成两组音符盒"
+        "translate": "累计合成两组音符盒"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
       "id": "minecraft:iron_ingot"
     },
     "title": {
-      "text": "你怕不怕！"
+      "translate": "你怕不怕！"
     },
     "description": {
-      "text": "集齐20块铁锭"
+      "translate": "集齐20块铁锭"
     },
     "frame": "task",
     "show_toast": true,

@@ -4,10 +4,10 @@
         "item": "minecraft:diamond"
       },
       "title": {
-        "text": "给你钻石！"
+        "translate": "给你钻石！"
       },
       "description": {
-        "text": "向僵尸分享你的钻石"
+        "translate": "向僵尸分享你的钻石"
       },
       "frame": "goal",
       "show_toast": true,

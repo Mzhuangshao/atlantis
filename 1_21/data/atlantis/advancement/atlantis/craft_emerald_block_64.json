@@ -4,10 +4,10 @@
       "id": "minecraft:emerald_block"
     },
     "title": {
-      "text": "我发财了！"
+      "translate": "我发财了！"
     },
     "description": {
-      "text": "集齐一组绿宝石块"
+      "translate": "集齐一组绿宝石块"
     },
     "frame": "goal",
     "show_toast": true,

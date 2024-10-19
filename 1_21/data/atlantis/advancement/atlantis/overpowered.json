@@ -4,10 +4,10 @@
       "id": "minecraft:enchanted_golden_apple"
     },
     "title": {
-      "text": "君临天下"
+      "translate": "君临天下"
     },
     "description": {
-      "text": "吃掉一个附魔金苹果"
+      "translate": "吃掉一个附魔金苹果"
     },
     "frame": "challenge",
     "show_toast": true,

@@ -4,10 +4,10 @@
       "item": "minecraft:glass"
     },
     "title": {
-      "text": "玻璃工"
+      "translate": "玻璃工"
     },
     "description": {
-      "text": "累计制作十组玻璃（从熔炉中取出的总数）"
+      "translate": "累计制作十组玻璃（从熔炉中取出的总数）"
     },
     "frame": "task",
     "show_toast": true,

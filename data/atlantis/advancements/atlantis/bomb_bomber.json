@@ -4,10 +4,10 @@
         "item": "minecraft:tnt"
       },
       "title": {
-        "text": "易燃易爆"
+        "translate": "易燃易爆"
       },
       "description": {
-        "text": "累计合成四组TNT"
+        "translate": "累计合成四组TNT"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
         "id": "minecraft:deepslate_diamond_ore"
       },
       "title": {
-        "text": "珍奇矿物爱好者"
+        "translate": "珍奇矿物爱好者"
       },
       "description": {
-        "text": "集齐主世界所有矿石"
+        "translate": "集齐主世界所有矿石"
       },
       "frame": "goal",
       "show_toast": true,

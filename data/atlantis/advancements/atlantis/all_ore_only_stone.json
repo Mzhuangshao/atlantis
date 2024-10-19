@@ -4,10 +4,10 @@
         "item": "minecraft:diamond_ore"
       },
       "title": {
-        "text": "矿物爱好者"
+        "translate": "矿物爱好者"
       },
       "description": {
-        "text": "集齐主世界所有浅层矿石"
+        "translate": "集齐主世界所有浅层矿石"
       },
       "frame": "task",
       "show_toast": true,

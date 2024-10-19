@@ -4,10 +4,10 @@
         "item": "minecraft:kelp"
       },
       "title": {
-        "text": "九方旅人"
+        "translate": "九方旅人"
       },
       "description": {
-        "text": "游历所有海洋群系"
+        "translate": "游历所有海洋群系"
       },
       "frame": "goal",
       "show_toast": true,

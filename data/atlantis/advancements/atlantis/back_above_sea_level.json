@@ -4,10 +4,10 @@
       "item": "minecraft:ochre_froglight"
     },
     "title": {
-      "text": "重见天日"
+      "translate": "重见天日"
     },
     "description": {
-      "text": "浮出水面"
+      "translate": "浮出水面"
     },
     "frame": "goal",
     "show_toast": true,

@@ -4,10 +4,10 @@
       "id": "minecraft:furnace"
     },
     "title": {
-      "text": "「热」门「焦」点"
+      "translate": "「热」门「焦」点"
     },
     "description": {
-      "text": "用八个圆石来制作一个熔炉"
+      "translate": "用八个圆石来制作一个熔炉"
     },
     "frame": "task",
     "show_toast": true,

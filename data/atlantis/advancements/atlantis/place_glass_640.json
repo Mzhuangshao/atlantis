@@ -4,10 +4,10 @@
         "item": "minecraft:glass"
       },
       "title": {
-        "text": "穹顶之下"
+        "translate": "穹顶之下"
       },
       "description": {
-        "text": "累计放置十组玻璃"
+        "translate": "累计放置十组玻璃"
       },
       "frame": "goal",
       "show_toast": true,

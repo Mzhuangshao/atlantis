@@ -1,0 +1,1 @@
+tellraw @a {"text":"\nAtlantis >>> ","color":"blue","extra":[{"text":"流浪商人 ","color":"gold"},{"text":"已刷新","color":"green"}]}

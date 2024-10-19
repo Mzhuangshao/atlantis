@@ -4,10 +4,10 @@
         "item": "minecraft:nautilus_shell"
       },
       "title": {
-        "text": "这是水猴子吗？"
+        "translate": "这是水猴子吗？"
       },
       "description": {
-        "text": "杀死一只溺尸"
+        "translate": "杀死一只溺尸"
       },
       "frame": "task",
       "show_toast": true,

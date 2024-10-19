@@ -4,10 +4,10 @@
         "item": "minecraft:apple"
       },
       "title": {
-        "text": "苹果日"
+        "translate": "苹果日"
       },
       "description": {
-        "text": "获得苹果"
+        "translate": "获得苹果"
       },
       "frame": "task",
       "show_toast": true,

@@ -4,10 +4,10 @@
       "item": "minecraft:ancient_debris"
     },
     "title": {
-      "text": "周期表"
+      "translate": "周期表"
     },
     "description": {
-      "text": "集齐所有矿石"
+      "translate": "集齐所有矿石"
     },
     "frame": "challenge",
     "show_toast": true,
