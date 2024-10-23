@@ -1,18 +1,18 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:birch_boat"
-      },
-      "title": {
-        "translate": "舰队Collection"
-      },
-      "description": {
-        "translate": "集齐所有种类的船"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_boat"
+    },
+    "title": {
+      "translate": "舰队Collection"
+    },
+    "description": {
+      "translate": "集齐所有种类的船"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "atlantis:atlantis/rise_of_atlantis",
     "criteria": {

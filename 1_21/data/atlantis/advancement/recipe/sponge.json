@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge",
+              "minecraft:wet_sponge"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "atlantis:sponge_crystals",
+      "atlantis:sponge_shard",
+      "atlantis:sponge_shell"
+    ]
+  }
+}
