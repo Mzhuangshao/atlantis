@@ -1,0 +1,2 @@
+# 生成点坐标
+tellraw @a {"text":"Atlantis >>> ","color":"blue","extra":[{"text":"流浪商人刷新点位置 X:","color":"gold"},{"nbt":"posX","storage":"atlantis:trader_room","color": "light_purple"},{"text":" Y:","color":"gold"},{"nbt":"posY","storage":"atlantis:trader_room","color": "light_purple"},{"text":" Z:","color":"gold"},{"nbt":"posZ","storage":"atlantis:trader_room","color": "light_purple"}]}

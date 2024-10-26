@@ -1,3 +1,3 @@
 # 主世界有玩家，但生成点空间不满足，报错
 tellraw @a {"text":"\nAtlantis >>> ","color":"blue","extra":[{"text":"ERROR!","color":"dark_red"},{"text":" | ","color":"white"},{"text":"流浪商人刷新点周围空间不足，无法刷新","color":"gold"}]}
-tellraw @a {"text":"Atlantis >>> ","color":"blue","extra":[{"text":"流浪商人刷新点位置 X:","color":"gold"},{"nbt":"posX","storage":"atlantis:trader_room","color": "light_purple"},{"text":" Y:","color":"gold"},{"nbt":"posY","storage":"atlantis:trader_room","color": "light_purple"},{"text":" Z:","color":"gold"},{"nbt":"posZ","storage":"atlantis:trader_room","color": "light_purple"}]}
+function atlantis:message/trader_spawn_pos

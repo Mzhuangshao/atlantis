@@ -16,9 +16,7 @@
   },
   "rewards": {
     "recipes": [
-      "atlantis:sponge_crystals",
-      "atlantis:sponge_shard",
-      "atlantis:sponge_shell"
+      "atlantis:sponge"
     ]
   }
 }
