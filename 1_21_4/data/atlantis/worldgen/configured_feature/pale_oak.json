@@ -29,8 +29,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:water",
-        "Properties": {}
+        "Name": "minecraft:water"
       }
     },
     "trunk_placer": {
@@ -47,7 +46,10 @@
     },
     "decorators": [
       {
-        "type": "minecraft:pale_moss"
+        "type": "minecraft:pale_moss",
+        "ground_probability": 0.8,
+        "leaves_probability": 0.15,
+        "trunk_probability": 0.4
       }
     ]
   }

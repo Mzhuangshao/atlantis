@@ -18,13 +18,28 @@
       }
     },
     "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:pale_oak_log",
-        "Properties": {
-          "axis": "y"
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:creaking_heart",
+            "Properties": {
+              "axis": "y",
+              "natural": "true"
+            }
+          }
+        },
+        {
+          "weight": 90,
+          "data": {
+            "Name": "minecraft:pale_oak_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
         }
-      }
+      ]
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
@@ -45,11 +60,16 @@
       "height": 0
     },
     "decorators": [
+      
       {
-        "type": "minecraft:pale_moss"
+        "type": "minecraft:pale_moss",
+        "ground_probability": 0.8,
+        "leaves_probability": 0.15,
+        "trunk_probability": 0.4
       },
       {
-        "type": "minecraft:creaking_heart"
+        "type": "minecraft:creaking_heart",
+        "probability": 1.0
       }
     ]
   }
