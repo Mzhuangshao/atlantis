@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "atlantis:pale_oak_creaking_checked"
+      },
+      {
+        "chance": 0.9,
+        "feature": "atlantis:pale_oak_checked"
+      }
+    ],
+    "default": "atlantis:pale_oak_checked"
+  }
+}
