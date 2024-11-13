@@ -1,6 +1,8 @@
 execute as @e[tag=atlantis_local,tag=!tree_room] run place structure atlantis:atlantis_room ~-5 ~ ~-5
 execute as @e[tag=atlantis_local,tag=tree_room] run place structure atlantis:atlantis_room_tree ~-5 ~ ~-5
 execute as @e[tag=atlantis_local,tag=has_tree] at @e[tag=atlantis_room] run place feature atlantis:fancy_oak ~ ~5 ~
+execute as @e[tag=atlantis_local,tag=forever_night] run gamerule doDaylightCycle false
+execute as @e[tag=atlantis_local,tag=forever_night] run time set 18000
 execute at @e[tag=atlantis_room] run place structure atlantis:atlantis_trader_room ~ ~ ~64
 
 clear @a
