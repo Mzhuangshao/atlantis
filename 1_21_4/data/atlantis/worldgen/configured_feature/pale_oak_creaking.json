@@ -21,7 +21,7 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 10,
+          "weight": 2,
           "data": {
             "Name": "minecraft:creaking_heart",
             "Properties": {
@@ -31,7 +31,7 @@
           }
         },
         {
-          "weight": 90,
+          "weight": 200,
           "data": {
             "Name": "minecraft:pale_oak_log",
             "Properties": {
@@ -60,7 +60,6 @@
       "height": 0
     },
     "decorators": [
-      
       {
         "type": "minecraft:pale_moss",
         "ground_probability": 0.8,
