@@ -1,4 +1,10 @@
-# 原地图内容
+# 亚特兰蒂斯: 水寒火暖
+
+- 水下生存数据包！
+- 原地图：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
+- Modrinth载点: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
+
+## 原地图内容
 
 - 开始大厅
 - 初始小屋
@@ -45,7 +51,7 @@
 
 ## 规划
 
-**所有规划已完成！**
+1. 进度系统多语言支持，资源包链接
 
 ## 玩法引导（暂定）
 
