@@ -53,7 +53,7 @@
 
 ## 🎨 規劃
 
-1. 進度系統多語言支持，
+1. 進度系統多語言支持，[[亞特蘭提斯語言包]](https://github.com/Mzhuangshao/atlantis-language-pack)
 
 ## ⛏ 玩法引導（暫定）
 

@@ -54,7 +54,7 @@
 
 ## 🎨 规划
 
-1. 进度系统多语言支持，资源包链接
+1. 进度系统多语言支持  [[亚特兰蒂斯语言包]](https://github.com/Mzhuangshao/atlantis-language-pack)
 
 ## ⛏ 玩法引导（暂定）
 
