@@ -2,7 +2,7 @@
 
 - 水下生存数据包！
 - 原地图：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
-- Modrinth载点: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
+- Modrinth 载点: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 
 ## 原地图内容
 
@@ -47,8 +47,9 @@
   - 平原村庄可以生成在森林
   - 沙漠村庄可以生成在暖水海洋
   - 雪原村庄可以生成在积雪的针叶林和雪林
-  - 金合欢村庄可以生成在恶地类群系
   - 针叶林村庄可以生成在原始针叶林类群系
+  - 热带草原村庄可以生成在恶地类群系
+ 
 
 ## 规划
 
