@@ -18,16 +18,16 @@
 - Nether lava sea level height Y40
 - Customized Advancements System (continuously updated)
 - You can choose the begin type in the Start Lobby
-  - *Default*: Start Room only contains cactus, bed, chest, grass block
-  - *Start Saplings*: Four additional saplings are added to the basic supplies above (classic start of the original map)
-  - *Start Trees*: An additional oak tree will be placed directly above the Start Lobby
-- After get a sponge for the first time, unlock the repice of sponge. You can use prismarine crystals, prismarine shard, nautilus shells and sponges to craft more sponges.
+  - *Default* : Start Room only contains cactus, bed, chest, grass block
+  - *Start Saplings* : Four additional saplings are added to the basic supplies above (classic start of the original map)
+  - *Start Trees* : An additional oak tree will be placed directly above the Start Lobby
+- After get a sponge will unlock the repice of sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges.
 - The pale oak planted by the player has a chance to have the Creaking Heart (only 1.21.4+)
 
 ### Mob
 
-- Piglins can barter all Smithing Template (including the Trim and the Upgrade)
-- Sniffer can digging all Pottery Sherd
+- Piglins can bartering all Smithing Template (including the Trim and the Upgrade)
+- Sniffers can digging all Pottery Sherd
 - Kill the players will drop the player head
 
 ### Biomes and Structures
