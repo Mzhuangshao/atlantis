@@ -19,7 +19,7 @@
 - Customized Advancements System (continuously updated)
 - You can choose the begin type in the Start Lobby
   - *Default* : Start Room only contains cactus, bed, chest, grass block
-  - *Start Saplings* : Four additional saplings are added to the basic supplies above (classic start of the original map)
+  - *Start Saplings* : Four additional saplings are added to the basic supplies above (classic room of the original map)
   - *Start Trees* : An additional oak tree will be placed directly above the Start Lobby
 - After get a sponge will unlock the repice of sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges.
 - The pale oak planted by the player has a chance to have the Creaking Heart (only 1.21.4+)
