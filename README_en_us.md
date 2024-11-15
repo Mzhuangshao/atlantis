@@ -1,8 +1,8 @@
 # Atlantis: Fire Beneath Water
 
 - A survival challenges, but underwater
-- Original Map：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
-- Modrinth: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
+- Original Map : [Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
+- Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 
 ## Feature from the Original Map
 
@@ -17,10 +17,10 @@
 - The highest point of the peaks reaches Y312
 - Nether lava sea level height Y40
 - Customized Advancements System (continuously updated)
-- You can choose the opening type in the Start Lobby
- - *Default*: Start Room only contains cactus, bed, chest, grass block
- - *Start Saplings*: Four additional saplings are added to the basic supplies above (classic start of the original map)
- - *Start Trees*: An additional oak tree will be placed directly above the Start Lobby
+- You can choose the begin type in the Start Lobby
+  - *Default*: Start Room only contains cactus, bed, chest, grass block
+  - *Start Saplings*: Four additional saplings are added to the basic supplies above (classic start of the original map)
+  - *Start Trees*: An additional oak tree will be placed directly above the Start Lobby
 - After get a sponge for the first time, unlock the repice of sponge. You can use prismarine crystals, prismarine shard, nautilus shells and sponges to craft more sponges.
 - The pale oak planted by the player has a chance to have the Creaking Heart (only 1.21.4+)
 
