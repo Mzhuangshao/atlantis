@@ -1,18 +1,18 @@
-# Atlantis: Fire Beneath Water
+# 🌊 Atlantis: Fire Beneath Water
 
 - A survival challenges, but underwater
 - Original Map : [Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [English]
 
-## Feature from the Original Map
+## 🔱 Feature from the Original Map
 
 - Start Lobby
 - Start Room
 - Trees without leaves
 - Extremely-High sea level
 
-## Own Feature
+## ⚙️ Own Feature
 
 - Overworld sea level height Y281, water surface height Y280, world height limit Y320 unchanged
 - The highest point of the peaks reaches Y312
@@ -25,13 +25,13 @@
 - After get a sponge will unlock the repice of sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges.
 - The pale oak planted by the player has a chance to have the Creaking Heart (only 1.21.4+)
 
-### Mob
+### 🐱 Mob
 
 - Piglins can bartering all Smithing Template (including the Trim and the Upgrade)
 - Sniffers can digging all Pottery Sherd
 - Kill the players will drop the player head
 
-### Biomes and Structures
+### 🏔 Biomes and Structures
 
 - Icebergs will generate in most Frozen biomes
 - **Woodland Mansion, Igloo, Desert Pyramid, Jungle Pyramid, Desert Well** will *NOT generate*
@@ -51,6 +51,6 @@
   - Savanna Villages can generate in Badlands biomes
   - Taiga Villages can generate in Old Growth Taiga biomes
 
-## Future
+## 🎨 Future
 
 1. Multi-language Support

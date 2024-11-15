@@ -1,18 +1,18 @@
-# 亞特蘭提斯: 水寒火暖
+# 🌊 亞特蘭提斯: 水寒火暖
 
 - 水下生存指令資料包！
 - 原地圖：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth 載點: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [繁體中文]   [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 
-## 原地圖内容
+## 🔱 原地圖内容
 
 - 開始大廳
 - 初始小屋
 - 無葉子樹
 - 極高海平面
 
-## 獨有特性
+## ⚙️ 獨有特性
 
 - 主世界海平面高度Y281,水面高度Y280，世界限高Y320不變
 - 主世界山體最高達到Y312
@@ -25,13 +25,13 @@
 - 首次獲得海綿后，解鎖海綿的合成表，可以用海晶碎片、海晶砂粒、鸚鵡螺殼與海綿合成更多海綿
 - 玩家種植的蒼白橡樹有概率帶有嘎枝之心（僅1.21.4+）
 
-### 生物
+### 🐱 生物
 
 - 豬布林可以交易出所有鍛造模板（含紋飾與升級）
 - 嗅探獸可以挖掘出所有陶片
 - 玩家死亡掉落玩家頭顱
 
-### 生物群系與結構
+### 🏔 生物群系與結構
 
 - 寒冷群系的海平面會生成冰山
 - **綠林府邸（Woodland Mansion）、雪屋（Igloo）、沙漠神殿（Desert Pyramid）、叢林遺跡（Jungle Pyramid）、沙漠水井（Desert Well）**不會生成
@@ -51,11 +51,11 @@
   - 金合歡村莊可以生成在惡地類群系
   - 針葉林村莊可以生成在原生針葉林群系
 
-## 規劃
+## 🎨 規劃
 
 1. 進度系統多語言支持，
 
-## 玩法引導（暫定）
+## ⛏ 玩法引導（暫定）
 
 1. 拉下大廳的拉桿即可開始游戲
   1.1. 默認游戲難度為困難

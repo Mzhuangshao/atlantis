@@ -1,18 +1,18 @@
-# 亚特兰蒂斯: 水寒火暖
+# 🌊 亚特兰蒂斯: 水寒火暖
 
 - 水下生存数据包！
 - 原地图：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth 载点: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - [简体中文]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 
-## 原地图内容
+## 🔱 原地图内容
 
 - 开始大厅
 - 初始小屋
 - 无叶子树
 - 极高海平面
 
-## 独有特性
+## ⚙️ 独有特性
 
 - 主世界海平面高度Y281，水面高度Y280，世界限高Y320不变
 - 主世界山体最高达到Y312
@@ -25,13 +25,13 @@
 - 首次获得海绵后，解锁海绵的合成表，可以用海晶碎片、海晶砂粒、鹦鹉螺壳与海绵合成更多海绵
 - 玩家种植的苍白橡树有概率为带有嘎枝之心（仅1.21.4+）
 
-### 生物
+### 🐱 生物
 
 - 猪灵（Piglin）可以交易出所有锻造模板（含纹饰与升级）
 - 嗅探兽（Sniffer）可以挖掘出所有陶片（Pottery Sherd）
 - 玩家死亡掉落玩家头颅
 
-### 生物群系与结构
+### 🏔 生物群系与结构
 
 - 寒冷群系的海平面会生成冰山
 - **林地府邸（Woodland Mansion）、雪屋（Igloo）、沙漠神殿（Desert Pyramid）、丛林神庙（Jungle Pyramid）、沙漠水井（Desert Well）**不会生成
@@ -52,11 +52,11 @@
   - 热带草原村庄可以生成在恶地类群系
  
 
-## 规划
+## 🎨 规划
 
 1. 进度系统多语言支持，资源包链接
 
-## 玩法引导（暂定）
+## ⛏ 玩法引导（暂定）
 
 1. 拉下大厅的拉杆即可开始游戏\
   1.1. 默认游戏难度为困难\
