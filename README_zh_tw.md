@@ -3,6 +3,7 @@
 - 水下生存指令資料包！
 - 原地圖：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth 載點: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
+- [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [繁體中文]   [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 
 ## 原地圖内容
 
