@@ -38,12 +38,12 @@
   - 生成在距離初始小屋約64格的位置，流浪商人每3天在小屋中心的平滑石臺階上刷新
 - 海底遺跡（Ocean Monument）在所有海洋群系均可生成
 - 埋藏的寶藏（Buried treasure）在所有海洋群系均可生成
-- 掠奪者前哨站（Pillager Outpost）生成在海床表面，牢籠内不再附帶鐵傀儡
+- 掠奪者前哨站（Pillager Outpost）的牢籠内不再附帶鐵巨人
 - 女巫小屋（Swamp Hut）經過修改
   - 生成高度固定，可在沼澤與紅樹林沼澤生成
   - 提升了小屋結構範圍内女巫的生成數量
   - 搜索女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`或者`/locate structure atlantis:swamp_hut`
-- 村莊（Village）不再附帶村民、鐵傀儡和部分動植物
+- 村莊（Village）不再附帶村民、鐵巨人和部分動植物
   - 平原村莊可以生成在森林
   - 沙漠村莊可以生成在暖水海洋
   - 雪原村莊可以生成在積雪的針葉林和雪林
