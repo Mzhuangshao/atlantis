@@ -34,8 +34,8 @@
 ### 生物群系与结构
 
 - 寒冷群系的海平面会生成冰山
-- **林地府邸（Woodland Mansion）、雪屋（Igloo）、沙漠神殿（Desert Pyramid）、丛林神庙（Jungle Pyramid）、沙漠水井（Desert Well）**不会生成
-- 新增结构**游商小屋（Wandering trader Room）**
+- **林地府邸**（Woodland Mansion）、**雪屋**（Igloo）、**沙漠神殿**（Desert Pyramid）、**丛林神庙**、（Jungle Pyramid）、**沙漠水井**（Desert Well）不会生成
+- 新增结构 **游商小屋（Wandering trader Room）**
   - 生成在距离初始小屋约64格的位置，游商每3天在小屋中心的平滑石台阶上刷新
 - 海底神殿（Ocean Monument）在所有海洋群系均可生成
 - 埋藏的宝藏（Buried treasure）在所有海洋群系均可生成
