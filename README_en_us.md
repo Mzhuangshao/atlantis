@@ -19,9 +19,10 @@
 - Nether lava sea level height Y40
 - Customized Advancements System (continuously updated)
 - You can choose the begin type in the Start Lobby
-  - *Default* : Start Room only contains cactus, bed, chest, grass block
+  - Default : Start Room only contains cactus, bed, chest, grass block
   - *Start Saplings* : Four additional saplings are added to the basic supplies above (classic room of the original map)
-  - *Start Trees* : An additional oak tree will be placed directly above the Start Lobby
+  - *Start Trees* : An additional oak tree will be placed directly above the Start Room
+  - *Forever Night*: Stop the days and nights pass, freeze the game time at midnight with full moon
 - After get a sponge will unlock the repice of sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges.
 - The pale oak planted by the player has a chance to have the Creaking Heart (only 1.21.4+)
 
@@ -35,7 +36,7 @@
 
 - Icebergs will generate in most Frozen biomes
 - **Woodland Mansion, Igloo, Desert Pyramid, Jungle Pyramid, Desert Well** will *NOT generate*
-- New Structure **Wandering trader room**
+- New Structure **Wandering trader Room**
   - Generate nearby the Start Room about 64-blocks. The wandering trader will spawn on double smooth stone slab at the structure center every 3-days.
 - Ocean Monument can generate in all Ocean biomes
 - Buried treasure can generate in all Ocean biomes

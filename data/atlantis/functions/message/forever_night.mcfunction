@@ -1,1 +1,0 @@
-tellraw @a {"text":"\nAtlantis >>> ","color":"blue","extra":[{"text":"永夜模式","color":"blue"},{"text":"启用","color":"green"}]}
