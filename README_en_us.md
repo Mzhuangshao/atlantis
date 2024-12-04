@@ -23,8 +23,10 @@
   - *Start Saplings* : Four additional saplings are added to the basic supplies above (classic room of the original map)
   - *Start Trees* : An additional oak tree will be placed directly above the Start Room
   - *Forever Night*: Stop the days and nights pass, freeze the game time at midnight with full moon
-- After get a sponge will unlock the repice of sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges.
-- The pale oak planted by the player has a chance to have the Creaking Heart (only 1.21.4+)
+- After get a Sponge will unlock the repice of Sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges.
+- The Pale Oak planted by the player has a chance to have the Creaking Heart (only 1.21.4+)
+- Cocoa beans can be caught as junk when fishing in Jungle and Sparse Jungle
+- Sweet berries can be caught as junk when fishing in Taiga, Old Growth Spruce Taiga, and Old Growth Pine Taiga
 
 ### 🐱 Mob
 
