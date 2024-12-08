@@ -9,23 +9,17 @@
           "type": "minecraft:tag",
           "name": "minecraft:decorated_pot_sherds",
           "expand": true,
-          "weight": 1,
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:torchflower_seeds",
-          "weight": 120
+          "weight": 100
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:pitcher_pod",
-          "weight": 120
+          "weight": 100
         }
       ]
     }
