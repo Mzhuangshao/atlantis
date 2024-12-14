@@ -29,7 +29,7 @@
                   "stats": [
                     {
                       "type": "minecraft:used",
-                      "stat": "minecraft:sand",
+                      "stat": "minecraft:glass",
                       "value": {
                         "min": 640
                       }
