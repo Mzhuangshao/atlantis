@@ -33,7 +33,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2.5
       },
       "entries": [
@@ -44,6 +44,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bundle",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_contents",

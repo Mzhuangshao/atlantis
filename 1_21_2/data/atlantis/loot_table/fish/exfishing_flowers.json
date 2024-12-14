@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 2
+        "min": 1,
+        "max": 6
       },
       "entries": [
         {
@@ -20,8 +20,8 @@
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 2.5
+        "min": 0,
+        "max": 2
       },
       "entries": [
         {
@@ -31,6 +31,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bundle",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_contents",
