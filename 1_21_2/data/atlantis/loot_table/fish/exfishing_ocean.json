@@ -38,8 +38,24 @@
       },
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "atlantis:fish/exfishing_normal"
+          "type": "minecraft:item",
+          "name": "minecraft:bundle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "atlantis:fish/exfishing_normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

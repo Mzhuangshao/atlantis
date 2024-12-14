@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chest",
+          "name": "minecraft:barrel",
           "functions": [
             {
               "function": "minecraft:set_loot_table",
-              "type": "minecraft:chest",
+              "type": "minecraft:barrel",
               "name": "atlantis:fish/exfishing_ocean"
             }
           ],
@@ -82,11 +82,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chest",
+          "name": "minecraft:barrel",
           "functions": [
             {
               "function": "minecraft:set_loot_table",
-              "type": "minecraft:chest",
+              "type": "minecraft:barrel",
               "name": "atlantis:fish/exfishing_taiga"
             }
           ],
@@ -122,11 +122,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chest",
+          "name": "minecraft:barrel",
           "functions": [
             {
               "function": "minecraft:set_loot_table",
-              "type": "minecraft:chest",
+              "type": "minecraft:barrel",
               "name": "atlantis:fish/exfishing_jungle"
             }
           ],
@@ -156,11 +156,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chest",
+          "name": "minecraft:barrel",
           "functions": [
             {
               "function": "minecraft:set_loot_table",
-              "type": "minecraft:chest",
+              "type": "minecraft:barrel",
               "name": "atlantis:fish/exfishing_flowers"
             }
           ],
@@ -184,11 +184,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chest",
+          "name": "minecraft:barrel",
           "functions": [
             {
               "function": "minecraft:set_loot_table",
-              "type": "minecraft:chest",
+              "type": "minecraft:barrel",
               "name": "atlantis:fish/exfishing_normal"
             }
           ]
