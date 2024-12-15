@@ -17,7 +17,7 @@ execute as @e[tag=atlantis_room] run tp @a @s
 
 function atlantis:message/game_start
 function atlantis:message/author
-function atlantis:wandering_trader/trader_room_pos
+function atlantis:events/wandering_trader/trader_room_pos
 
 execute at @e[tag=atlantis_local] run fill ~20 ~8 ~20 ~-20 ~-3 ~-20 air
 execute as @e[tag=atlantis_local] run kill @e[type=item,distance=..32]

@@ -1,3 +1,3 @@
 execute unless data storage atlantis:lobby {structure_spawned:1b} run function atlantis:init
 
-function atlantis:wandering_trader/clock
+function atlantis:events/wandering_trader/clock
