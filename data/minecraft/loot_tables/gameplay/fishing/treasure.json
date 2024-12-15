@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:barrel",
-              "name": "atlantis:fish/exfishing_ocean"
+              "name": "atlantis:fishing/exfishing_ocean"
             }
           ],
           "conditions": [
@@ -87,7 +87,7 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:barrel",
-              "name": "atlantis:fish/exfishing_taiga"
+              "name": "atlantis:fishing/exfishing_taiga"
             }
           ],
           "conditions": [
@@ -127,7 +127,7 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:barrel",
-              "name": "atlantis:fish/exfishing_jungle"
+              "name": "atlantis:fishing/exfishing_jungle"
             }
           ],
           "conditions": [
@@ -161,7 +161,7 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:barrel",
-              "name": "atlantis:fish/exfishing_flowers"
+              "name": "atlantis:fishing/exfishing_flowers"
             }
           ],
           "conditions": [
@@ -189,7 +189,7 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:barrel",
-              "name": "atlantis:fish/exfishing_normal"
+              "name": "atlantis:fishing/exfishing_normal"
             }
           ]
         },
