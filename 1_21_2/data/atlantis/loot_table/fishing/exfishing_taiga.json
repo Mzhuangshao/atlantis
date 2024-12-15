@@ -49,7 +49,7 @@
               "entries": [
                 {
                   "type": "minecraft:loot_table",
-                  "value": "atlantis:fish/exfishing_normal"
+                  "value": "atlantis:fishing/exfishing_normal"
                 }
               ]
             }
@@ -58,5 +58,5 @@
       ]
     }
   ],
-  "random_sequence": "atlantis:fish/exfishing_taiga"
+  "random_sequence": "atlantis:fishing/exfishing_taiga"
 }

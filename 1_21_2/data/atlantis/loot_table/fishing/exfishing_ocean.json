@@ -3,25 +3,38 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 6
+        "min": 2,
+        "max": 8
       },
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 2
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "atlantis:normal_flowers",
-          "expand": true
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:kelp"
         }
       ]
     },
     {
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 2.5
       },
       "entries": [
         {
@@ -39,7 +52,7 @@
               "entries": [
                 {
                   "type": "minecraft:loot_table",
-                  "value": "atlantis:fish/exfishing_normal"
+                  "value": "atlantis:fishing/exfishing_normal"
                 }
               ]
             }
@@ -48,5 +61,5 @@
       ]
     }
   ],
-  "random_sequence": "atlantis:fish/exfishing_flowers"
+  "random_sequence": "atlantis:fishing/exfishing_ocean"
 }

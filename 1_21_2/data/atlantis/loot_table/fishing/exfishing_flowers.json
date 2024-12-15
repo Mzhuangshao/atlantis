@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 4
+        "min": 1,
+        "max": 6
       },
       "entries": [
         {
@@ -12,20 +12,16 @@
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:jungle_sapling"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cocoa_beans",
-          "weight": 10
+          "type": "minecraft:tag",
+          "name": "atlantis:normal_flowers",
+          "expand": true
         }
       ]
     },
     {
       "rolls": {
         "min": 0,
-        "max": 2.5
+        "max": 2
       },
       "entries": [
         {
@@ -43,7 +39,7 @@
               "entries": [
                 {
                   "type": "minecraft:loot_table",
-                  "value": "atlantis:fish/exfishing_normal"
+                  "value": "atlantis:fishing/exfishing_normal"
                 }
               ]
             }
@@ -52,5 +48,5 @@
       ]
     }
   ],
-  "random_sequence": "atlantis:fish/exfishing_jungle"
+  "random_sequence": "atlantis:fishing/exfishing_flowers"
 }

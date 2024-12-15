@@ -3,31 +3,22 @@
   "pools": [
     {
       "rolls": {
-        "min": 2,
-        "max": 8
+        "min": 0,
+        "max": 4
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:heart_of_the_sea",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.02
-            }
-          ]
+          "type": "minecraft:empty",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard"
+          "name": "minecraft:jungle_sapling"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:kelp"
+          "name": "minecraft:cocoa_beans",
+          "weight": 10
         }
       ]
     },
@@ -52,7 +43,7 @@
               "entries": [
                 {
                   "type": "minecraft:loot_table",
-                  "value": "atlantis:fish/exfishing_normal"
+                  "value": "atlantis:fishing/exfishing_normal"
                 }
               ]
             }
@@ -61,5 +52,5 @@
       ]
     }
   ],
-  "random_sequence": "atlantis:fish/exfishing_ocean"
+  "random_sequence": "atlantis:fishing/exfishing_jungle"
 }
