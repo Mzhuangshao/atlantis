@@ -3,7 +3,6 @@
   "biomes": "#minecraft:has_structure/village_desert",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "beard_thin",
   "start_pool": "atlantis:animal_dome/desert/dome_desert",
   "size": 1,
   "start_height": {

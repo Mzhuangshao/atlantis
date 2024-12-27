@@ -3,13 +3,12 @@
   "biomes": "minecraft:mushroom_fields",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "beard_thin",
   "start_pool": "atlantis:animal_dome/mushroom/dome_mushroom",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",
     "value": {
-      "absolute": -1
+      "absolute": -2
     }
   },
   "project_start_to_heightmap": "OCEAN_FLOOR_WG",

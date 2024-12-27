@@ -3,7 +3,6 @@
   "biomes": "#minecraft:is_overworld",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "beard_thin",
   "start_pool": "atlantis:animal_dome/snowy/dome_snowy",
   "size": 1,
   "start_height": {
