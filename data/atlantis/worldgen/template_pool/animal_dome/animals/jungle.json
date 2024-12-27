@@ -1,0 +1,15 @@
+{
+  "name": "atlantis:jungle_animals",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animals/jungle/",
+        "projection": "rigid",
+        "processors": []
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

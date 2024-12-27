@@ -103,6 +103,12 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
+                    "biome": "minecraft:snowy_taiga"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
                     "biome": "minecraft:old_growth_pine_taiga"
                   }
                 },
