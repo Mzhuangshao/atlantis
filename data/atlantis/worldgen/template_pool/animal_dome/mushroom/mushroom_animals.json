@@ -1,14 +1,14 @@
 {
-  "name": "atlantis:desert_animals",
+  "name": "atlantis:mushroom_animals",
   "elements": [
     {
+      "weight": 1,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animals/desert/",
+        "location": "atlantis:animal_dome/animals/mushroom/mooshroom",
         "projection": "rigid",
         "processors": []
-      },
-      "weight": 1
+      }
     }
   ],
   "fallback": "minecraft:empty"
