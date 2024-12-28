@@ -5,7 +5,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/beach/animals/turtle_1",
+        "location": "atlantis:animal_dome/animals/llama",
         "projection": "rigid",
         "processors": []
       }
@@ -14,7 +14,16 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/beach/animals/turtle_2",
+        "location": "atlantis:animal_dome/animals/donkey",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/horse",
         "projection": "rigid",
         "processors": []
       }
