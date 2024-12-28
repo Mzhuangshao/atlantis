@@ -1,0 +1,12 @@
+{
+  "name": "atlantis:swamp_animals",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

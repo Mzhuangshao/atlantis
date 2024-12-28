@@ -13,6 +13,18 @@
     {
       "structure": "atlantis:animal_dome_desert",
       "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_beach",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_jungle",
+      "weight": 1
     }
   ]
 }

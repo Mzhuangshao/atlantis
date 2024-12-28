@@ -1,0 +1,39 @@
+{
+  "name": "atlantis:jungle_animals",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/jungle/panda",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/jungle/ocelot",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/jungle/parrot",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
