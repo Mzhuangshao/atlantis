@@ -1,11 +1,11 @@
 {
-  "name": "atlantis:desert_animals",
+  "name": "atlantis:common_animals",
   "elements": [
     {
       "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/camel",
+        "location": "atlantis:animal_dome/beach/animals/turtle_1",
         "projection": "rigid",
         "processors": []
       }
@@ -14,13 +14,13 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/rabbit_desert",
+        "location": "atlantis:animal_dome/beach/animals/turtle_2",
         "projection": "rigid",
         "processors": []
       }
     },
     {
-      "weight": 5,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:empty_pool_element"
       }

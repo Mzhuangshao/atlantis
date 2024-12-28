@@ -25,6 +25,10 @@
     {
       "structure": "atlantis:animal_dome_jungle",
       "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_taiga",
+      "weight": 1
     }
   ]
 }

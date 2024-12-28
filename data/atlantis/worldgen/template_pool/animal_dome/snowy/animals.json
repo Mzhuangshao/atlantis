@@ -1,11 +1,11 @@
 {
-  "name": "atlantis:desert_animals",
+  "name": "atlantis:snowy_animals",
   "elements": [
     {
-      "weight": 10,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/desert/animals/camel",
+        "location": "atlantis:animal_dome/animals/common/sheep",
         "projection": "rigid",
         "processors": []
       }
@@ -14,7 +14,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/desert/animals/rabbit_desert",
+        "location": "atlantis:animal_dome/animals/fox",
         "projection": "rigid",
         "processors": []
       }
