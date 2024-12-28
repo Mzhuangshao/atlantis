@@ -5,7 +5,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/jungle/panda",
+        "location": "atlantis:animal_dome/jungle/animals/panda",
         "projection": "rigid",
         "processors": []
       }
@@ -14,7 +14,7 @@
       "weight": 8,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/jungle/ocelot",
+        "location": "atlantis:animal_dome/jungle/animals/ocelot",
         "projection": "rigid",
         "processors": []
       }
@@ -23,7 +23,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/jungle/parrot",
+        "location": "atlantis:animal_dome/jungle/animals/parrot",
         "projection": "rigid",
         "processors": []
       }

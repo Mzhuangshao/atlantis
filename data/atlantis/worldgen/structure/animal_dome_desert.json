@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/village_desert",
+  "biomes": "#atlantis:has_structure/animal_dome_desert",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "atlantis:animal_dome/desert/dome_desert",
+  "start_pool": "atlantis:animal_dome/desert/dome",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

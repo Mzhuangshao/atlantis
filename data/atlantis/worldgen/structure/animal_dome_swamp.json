@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#atlantis:has_structure/animal_dome_swamp",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "atlantis:animal_dome/snowy/dome_snowy",
+  "start_pool": "atlantis:animal_dome/swamp/dome",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

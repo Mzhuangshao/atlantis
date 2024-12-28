@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/mushroom/mooshroom",
+        "location": "atlantis:animal_dome/mushroom/animals/mooshroom",
         "projection": "rigid",
         "processors": []
       }
