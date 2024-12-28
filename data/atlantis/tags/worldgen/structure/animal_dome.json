@@ -6,6 +6,9 @@
     "atlantis:animal_dome_swamp",
     "atlantis:animal_dome_beach",
     "atlantis:animal_dome_snowy",
-    "atlantis:animal_dome_taiga"
+    "atlantis:animal_dome_taiga",
+    "atlantis:animal_dome_plains",
+    "atlantis:animal_dome_savanna",
+    "atlantis:animal_dome"
   ]
 }
