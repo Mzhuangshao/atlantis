@@ -7,8 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "atlantis:animal_dome/swamp/dome_swamp",
-        "processors": "minecraft:empty",
-        "liquid_settings": "ignore_waterlogging"
+        "processors": "minecraft:empty"
       }
     }
   ],

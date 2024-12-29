@@ -1,0 +1,30 @@
+{
+  "name": "atlantis:savanna_animals",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/armadillo",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/wolf",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

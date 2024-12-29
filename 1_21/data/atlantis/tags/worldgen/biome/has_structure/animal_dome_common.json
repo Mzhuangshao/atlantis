@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_hills",
+    "minecraft:meadow",
+    "minecraft:river"
+  ]
+}

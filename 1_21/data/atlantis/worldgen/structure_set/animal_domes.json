@@ -1,0 +1,50 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 8,
+    "spacing": 24,
+    "salt": 14544113
+  },
+  "structures": [
+    {
+      "structure": "atlantis:animal_dome",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_plains",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_desert",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_beach",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_savanna",
+      "weight": 1
+    }
+  ]
+}
