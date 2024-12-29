@@ -45,6 +45,10 @@
     {
       "structure": "atlantis:animal_dome_savanna",
       "weight": 1
+    },
+    {
+      "structure": "atlantis:animal_dome_wooded_badlands",
+      "weight": 1
     }
   ]
 }

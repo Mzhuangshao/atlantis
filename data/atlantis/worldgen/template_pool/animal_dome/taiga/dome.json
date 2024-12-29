@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "atlantis:animal_dome/taiga/dome_taiga_1",
+        "location": "atlantis:animal_dome/taiga/dome_taiga_fox",
         "processors": "minecraft:empty"
       }
     },
@@ -15,7 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "atlantis:animal_dome/taiga/dome_taiga_2",
+        "location": "atlantis:animal_dome/taiga/dome_taiga_wolf",
         "processors": "minecraft:empty"
       }
     }

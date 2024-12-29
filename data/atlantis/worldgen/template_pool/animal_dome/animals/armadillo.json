@@ -1,0 +1,21 @@
+{
+  "name": "atlantis:armadillo",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/armadillo",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

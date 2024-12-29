@@ -1,19 +1,11 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "separation": 8,
-    "spacing": 24,
+    "separation": 4,
+    "spacing": 12,
     "salt": 14544113
   },
   "structures": [
-    {
-      "structure": "atlantis:animal_dome",
-      "weight": 1
-    },
-    {
-      "structure": "atlantis:animal_dome_plains",
-      "weight": 1
-    },
     {
       "structure": "atlantis:animal_dome_mushroom",
       "weight": 1
@@ -39,11 +31,7 @@
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_snowy",
-      "weight": 1
-    },
-    {
-      "structure": "atlantis:animal_dome_savanna",
+      "structure": "atlantis:animal_dome_common",
       "weight": 1
     }
   ]
