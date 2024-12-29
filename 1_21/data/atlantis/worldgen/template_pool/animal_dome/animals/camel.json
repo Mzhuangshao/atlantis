@@ -1,11 +1,11 @@
 {
-  "name": "atlantis:mushroom_animals",
+  "name": "atlantis:camel",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/mooshroom",
+        "location": "atlantis:animal_dome/animals/camel",
         "projection": "rigid",
         "processors": []
       }

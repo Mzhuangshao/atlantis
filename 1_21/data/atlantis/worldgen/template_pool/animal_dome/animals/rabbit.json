@@ -1,26 +1,17 @@
 {
-  "name": "atlantis:beach_animals",
+  "name": "atlantis:rabbit",
   "elements": [
     {
       "weight": 20,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/turtle_1",
+        "location": "atlantis:animal_dome/animals/rabbit",
         "projection": "rigid",
         "processors": []
       }
     },
     {
       "weight": 8,
-      "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/turtle_2",
-        "projection": "rigid",
-        "processors": []
-      }
-    },
-    {
-      "weight": 3,
       "element": {
         "element_type": "minecraft:empty_pool_element"
       }

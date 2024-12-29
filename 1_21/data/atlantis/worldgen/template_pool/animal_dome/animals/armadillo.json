@@ -1,20 +1,11 @@
 {
-  "name": "atlantis:savanna_animals",
+  "name": "atlantis:armadillo",
   "elements": [
     {
-      "weight": 15,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/armadillo",
-        "projection": "rigid",
-        "processors": []
-      }
-    },
-    {
-      "weight": 15,
-      "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atlantis:animal_dome/animals/wolf",
         "projection": "rigid",
         "processors": []
       }
