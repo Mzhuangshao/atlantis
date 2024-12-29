@@ -20,7 +20,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 8,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/common/cow_2",
@@ -38,7 +38,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 8,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/common/pig_2",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 8,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/common/sheep_21",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 8,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/common/sheep_22",
