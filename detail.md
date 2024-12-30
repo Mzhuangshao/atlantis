@@ -47,8 +47,8 @@
 
 ### 🐱 生物
 
-- 猪灵（Piglin）可以交易出所有锻造模板（含纹饰与升级）
-- 嗅探兽（Sniffer）可以挖掘出所有陶片（Pottery Sherd）
+- 猪灵 (Piglin) 可以交易出所有锻造模板（含纹饰与升级）
+- 嗅探兽 (Sniffer) 可以挖掘出所有陶片 (Pottery Sherd)
 - 玩家死亡掉落**玩家头颅**
 
 ### ⛰ 世界生成
@@ -60,12 +60,12 @@
 
 ### 🏚 结构
 
-#### 新结构 游商小屋（Wandering trader Room）
+#### 新结构 游商小屋 (Wandering trader Room)
 
 - 生成在距离初始小屋约64格的位置
 - 流浪商人每3天在小屋中心的平滑石台阶上刷新
 
-#### 新结构 生物<ruby>圈<rt>juàn</rt></ruby>（Animal Domes）
+#### 新结构 生物<ruby>圈<rt>juàn</rt></ruby> (Animal Domes)
 
 > *一座座玻璃球罩使希望留存，动物们得以在这场洪水中存活*
 
