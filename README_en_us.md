@@ -91,6 +91,11 @@ You can change some game settings by pulling the lever in the Start Lobby
 | Taiga Village | Can generate in Old Growth Taiga biomes |
 | Savanna Village | Can generate in Badlands biomes |
 
+- Increased the count of witches spawned within the hut structure range
+- To locate the nearest Swamp Hut, use the command `/locate structure #minecraft:swamp_hut` or `/locate structure atlantis:swamp_hut`
+- To locate the nearest Animal Domes, use the command `/locate structure #atlantis:animal_dome`
+- To locate a specific type of Animal Domes, use the command `/locate structure atlantis:animal_dome_[type]`
+
 ## 🎨 Future
 
 1. Multi-language Support
