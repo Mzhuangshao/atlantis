@@ -88,7 +88,7 @@
 | 平原村莊 (Plains Village) | 可以生成在森林 |
 | 沙漠村莊 (Desert Village) | 可以生成在暖水海洋 |
 | 雪原村落 (Snowy Village) | 可以生成在積雪的針葉林與雪林 |
-| 針葉林村莊 (Taiga Village) | 可以生成在原生針葉林群系 |
+| 針葉林村莊 (Taiga Village) | 可以生成在原生針葉林類群系 |
 | 金合歡村莊 (Savanna Village) | 可以生成在惡地類群系 |
 
 - 提升了女巫小屋結構範圍內女巫的生成數量

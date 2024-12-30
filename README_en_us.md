@@ -5,14 +5,14 @@
 - Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [English]
 
-## 🔱 Original map content
+## 🔱 Original Map Content
 
 - Start Lobby
 - Start Room
 - Leafless Trees
 - Extremely-High sea level
 
-## ⚙️ Unique content
+## ⚙️ Unique Content
 
 ### ⚙️ Start Lobby
 
@@ -39,7 +39,7 @@ You can change some game settings by pulling the lever in the Start Lobby
 | Taiga biomes | Sweet berries, spruce saplings and rabbit hide |
 | Ocean biomes | Kelp, prismarine crystals, prismarine shard and Heart of the Sea |
 
-### ⚙️ Other content
+### ⚙️ Others
 
 - Customized Advancements System (continuously updated)
 - After obtaining a Sponge for the first time will unlock the repice of Sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges
@@ -71,20 +71,20 @@ You can change some game settings by pulling the lever in the Start Lobby
 
 - Scattered around the world, with different appearances depending on the biome
 
-#### Vanilla structures
+#### Vanilla Structures
 
 | Vanilla Structures | Changes |
 |-------------------------------- |---------------------------------------- |
-| Woodland Mansion | **No longer generates** |
-| Igloo | **No longer generates** |
-| Desert Pyramid | **No longer generates** |
-| Jungle Pyramid | **No longer generates** |
-| Desert Well | **No longer generates** |
+| Woodland Mansion | **No longer generated** |
+| Igloo | **No longer generated** |
+| Desert Pyramid | **No longer generated** |
+| Jungle Pyramid | **No longer generated** |
+| Desert Well | **No longer generated** |
 | Ocean Monument | Can generate in all Ocean biomes |
 | Buried treasure | Can generate in all Ocean biomes |
-| Pillager Outpost | No longer contain iron golems |
+| Pillager Outpost | No longer contain Iron Golems |
 | Swamp Hut | Fixed generate height, can generate in Swamp and Mangrove Swamp |
-| Village | No longer comes with villagers, iron golems, and some flora and fauna |
+| Village | No longer contain with Villagers, Iron Golems, and some flora and fauna |
 | Plains Village | Can generate in Forest |
 | Desert Village | Can generate in Warm Ocean |
 | Snowy Village | Can generate in Snowy Taiga and Grove |
