@@ -93,7 +93,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atlantis:fishing/nuggets"
+          "value": "atlantis:fishing/nuggets"
         }
       ]
     }
