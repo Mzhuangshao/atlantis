@@ -43,7 +43,7 @@
               "entries": [
                 {
                   "type": "minecraft:loot_table",
-                  "value": "atlantis:fishing/exfishing_normal"
+                  "value": "atlantis:fishing/nuggets"
                 }
               ]
             }
@@ -52,5 +52,5 @@
       ]
     }
   ],
-  "random_sequence": "atlantis:fishing/exfishing_jungle"
+  "random_sequence": "atlantis:fishing/jungle"
 }

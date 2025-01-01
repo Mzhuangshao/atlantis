@@ -1,39 +1,38 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:coal"
-      },
-      "title": {
-        "translate": "恐龙的馈赠"
-      },
-      "description": {
-        "translate": "获得煤炭"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:coal"
     },
-    "parent": "atlantis:atlantis/craft_wooden_pickaxe",
-    "criteria": {
-      "coal": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:coal"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "恐龙的馈赠"
+    },
+    "description": {
+      "translate": "获得煤炭"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/craft_wooden_pickaxe",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ]
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "coal"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "coal"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

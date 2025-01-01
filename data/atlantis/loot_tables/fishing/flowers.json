@@ -26,10 +26,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atlantis:fishing/exfishing_normal"
+          "name": "atlantis:fishing/nuggets"
         }
       ]
     }
   ],
-  "random_sequence": "atlantis:fishing/exfishing_flowers"
+  "random_sequence": "atlantis:fishing/flowers"
 }

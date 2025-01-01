@@ -1,39 +1,38 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:apple"
-      },
-      "title": {
-        "translate": "苹果日"
-      },
-      "description": {
-        "translate": "获得苹果"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
     },
-    "parent": "atlantis:atlantis/power_of_nature",
-    "criteria": {
-      "apple": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:apple"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "苹果日"
+    },
+    "description": {
+      "translate": "获得苹果"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/power_of_nature",
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ]
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "apple"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "apple"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

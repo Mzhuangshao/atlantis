@@ -1,39 +1,38 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:redstone"
-      },
-      "title": {
-        "translate": "科技升级"
-      },
-      "description": {
-        "translate": "获得红石"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
     },
-    "parent": "atlantis:atlantis/find_raw_iron",
-    "criteria": {
-      "redstone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:redstone"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "科技升级"
+    },
+    "description": {
+      "translate": "获得红石"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/find_raw_iron",
+  "criteria": {
+    "redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "redstone"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "redstone"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

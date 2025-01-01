@@ -1,144 +1,143 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:diamond_ore"
-      },
-      "title": {
-        "translate": "矿物爱好者"
-      },
-      "description": {
-        "translate": "集齐主世界所有浅层矿石"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_ore"
     },
-    "parent": "atlantis:atlantis/rise_of_atlantis",
-    "criteria": {
-      "coal_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:coal_ore"
-              ]
-            }
-          ]
-        }
-      },
-      "iron_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:iron_ore"
-              ]
-            }
-          ]
-        }
-      },
-      "diamond_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:diamond_ore"
-              ]
-            }
-          ]
-        }
-      },
-      "redstone_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:redstone_ore"
-              ]
-            }
-          ]
-        }
-      },
-      "gold_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:gold_ore"
-              ]
-            }
-          ]
-        }
-      },
-      "copper_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:copper_ore"
-              ]
-            }
-          ]
-        }
-      },
-      "emerald_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:emerald_ore"
-              ]
-            }
-          ]
-        }
-      },
-      "lapis_ore": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:lapis_ore"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "矿物爱好者"
+    },
+    "description": {
+      "translate": "集齐主世界所有浅层矿石"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/rise_of_atlantis",
+  "criteria": {
+    "coal_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal_ore"
+            ]
+          }
+        ]
       }
     },
-    "requirements": [
-      [
-        "coal_ore"
-      ],
-      [
-        "iron_ore"
-      ],
-      [
-        "diamond_ore"
-      ],
-      [
-        "redstone_ore"
-      ],
-      [
-        "gold_ore"
-      ],
-      [
-        "copper_ore"
-      ],
-      [
-        "emerald_ore"
-      ],
-      [
-        "lapis_ore"
-      ]
+    "iron_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "diamond_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "redstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "gold_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "emerald_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "lapis_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coal_ore"
     ],
-    "sends_telemetry_event": false
-  }
-  
+    [
+      "iron_ore"
+    ],
+    [
+      "diamond_ore"
+    ],
+    [
+      "redstone_ore"
+    ],
+    [
+      "gold_ore"
+    ],
+    [
+      "copper_ore"
+    ],
+    [
+      "emerald_ore"
+    ],
+    [
+      "lapis_ore"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
