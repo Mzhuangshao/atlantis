@@ -195,6 +195,17 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:barrel",
+              "name": "atlantis:fishing/misc"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
               "name": "atlantis:fishing/nuggets"
             }
           ]

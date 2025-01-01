@@ -42,6 +42,18 @@
           "name": "atlantis:fishing/nuggets"
         }
       ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "atlantis:fishing/misc"
+        }
+      ]
     }
   ],
   "random_sequence": "atlantis:fishing/ocean"
