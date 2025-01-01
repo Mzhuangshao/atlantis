@@ -1,43 +1,42 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:cauldron"
-      },
-      "title": {
-        "translate": "水之呼吸"
-      },
-      "description": {
-        "translate": "找到一座沼泽小屋"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:cauldron"
     },
-    "parent": "atlantis:atlantis/structures/in_pillager_outpost",
-    "criteria": {
-      "in_swamp_hut": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "atlantis:swamp_hut"
-                }
+    "title": {
+      "translate": "水之呼吸"
+    },
+    "description": {
+      "translate": "找到一座沼泽小屋"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/structures/in_pillager_outpost",
+  "criteria": {
+    "in_swamp_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "atlantis:swamp_hut"
               }
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "in_swamp_hut"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "in_swamp_hut"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,39 +1,38 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:sugar_cane"
-      },
-      "title": {
-        "translate": "获得甘蔗"
-      },
-      "description": {
-        "translate": "与游商交易获得甘蔗"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar_cane"
     },
-    "parent": "atlantis:atlantis/getting_wood",
-    "criteria": {
-      "sugar_cane": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:sugar_cane"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "获得甘蔗"
+    },
+    "description": {
+      "translate": "与游商交易获得甘蔗"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/getting_wood",
+  "criteria": {
+    "sugar_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ]
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "sugar_cane"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "sugar_cane"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

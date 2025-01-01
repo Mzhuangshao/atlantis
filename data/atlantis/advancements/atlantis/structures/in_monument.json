@@ -1,43 +1,42 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:dark_prismarine"
-      },
-      "title": {
-        "translate": "亚特兰蒂斯？"
-      },
-      "description": {
-        "translate": "找到一座海底神殿"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_prismarine"
     },
-    "parent": "atlantis:atlantis/back_above_sea_level",
-    "criteria": {
-      "in_monument": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:monument"
-                }
+    "title": {
+      "translate": "亚特兰蒂斯？"
+    },
+    "description": {
+      "translate": "找到一座海底神殿"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/back_above_sea_level",
+  "criteria": {
+    "in_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:monument"
               }
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "in_monument"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "in_monument"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

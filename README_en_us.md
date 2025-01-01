@@ -5,14 +5,14 @@
 - Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [English]
 
-## 🔱 Original Map Content
+## 🔱 Original Map Feature
 
 - Start Lobby
 - Start Room
 - Leafless Trees
 - Extremely-High sea level
 
-## ⚙️ Unique Content
+## ⚙️ Unique Feature
 
 ### ⚙️ Start Lobby
 
@@ -20,11 +20,11 @@ You can change some game settings by pulling the lever in the Start Lobby
 
 - **Default**: The Start Room only contains cactus, bed, chest, and grass block
 
-| Lobby Options | Effect after enabling |
-|------------|-------------------------------------------------------|
+| Lobby Options  |                                Effect after enabling                                         |
+|----------------|----------------------------------------------------------------------------------------------|
 | Start Saplings | Add four additional saplings to the **Default** supplies (classic start of the original map) |
-| Start Trees | Place an additional oak tree directly above the Start Room |
-| Midnight Mode | Stop the days and nights pass, and Freeze the game time at midnight with full moon |
+| Start Trees    | Place an additional oak tree directly above the Start Room                                   |
+| Midnight Mode  | Stop the days and nights pass, and Freeze the game time at midnight with full moon           |
 
 ### 🎣 Fishing
 
@@ -32,12 +32,12 @@ You can change some game settings by pulling the lever in the Start Lobby
 - Barrels contain gold and iron nuggets. Barrels in 1.21.2+ use Bundle to store gold and iron nuggets.
 - Some biomes have additional supplies in barrels, as shown below
 
-| Biomes | Barrel contents |
-|--------------|----------------------------------|
-| Flower Forest | Common flowers |
-| Jungle biomes | Jungle saplings and cocoa beans |
-| Taiga biomes | Sweet berries, spruce saplings and rabbit hide |
-| Ocean biomes | Kelp, prismarine crystals, prismarine shard and Heart of the Sea |
+|    Biomes     |                       Barrel contents                            |
+|---------------|------------------------------------------------------------------|
+| Flower Forest | Common flowers                                                   |
+| Jungle biomes | Jungle saplings and cocoa beans                                  |
+| Taiga biomes  | Sweet berries, spruce saplings and rabbit hide                   |
+| Ocean biomes  | Kelp, prismarine crystals, prismarine shard and Heart of the Sea |
 
 ### ⚙️ Others
 
@@ -73,23 +73,23 @@ You can change some game settings by pulling the lever in the Start Lobby
 
 #### Vanilla Structures
 
-| Vanilla Structures | Changes |
-|-------------------------------- |---------------------------------------- |
-| Woodland Mansion | **No longer generated** |
-| Igloo | **No longer generated** |
-| Desert Pyramid | **No longer generated** |
-| Jungle Pyramid | **No longer generated** |
-| Desert Well | **No longer generated** |
-| Ocean Monument | Can generate in all Ocean biomes |
-| Buried treasure | Can generate in all Ocean biomes |
-| Pillager Outpost | No longer contain Iron Golems |
-| Swamp Hut | Fixed generate height, can generate in Swamp and Mangrove Swamp |
-| Village | No longer contain with Villagers, Iron Golems, and some flora and fauna |
-| Plains Village | Can generate in Forest |
-| Desert Village | Can generate in Warm Ocean |
-| Snowy Village | Can generate in Snowy Taiga and Grove |
-| Taiga Village | Can generate in Old Growth Taiga biomes |
-| Savanna Village | Can generate in Badlands biomes |
+| Vanilla Structures |                Changes                                                  |
+|------------------- |------------------------------------------------------------------------ |
+| Woodland Mansion   | **No longer generated**                                                 |
+| Igloo              | **No longer generated**                                                 |
+| Desert Pyramid     | **No longer generated**                                                 |
+| Jungle Pyramid     | **No longer generated**                                                 |
+| Desert Well        | **No longer generated**                                                 |
+| Ocean Monument     | Can generate in all Ocean biomes                                        |
+| Buried treasure    | Can generate in all Ocean biomes                                        |
+| Pillager Outpost   | No longer contain Iron Golems                                           |
+| Swamp Hut          | Fixed generate height, can generate in Swamp and Mangrove Swamp         |
+| Village            | No longer contain with Villagers, Iron Golems, and some flora and fauna |
+| Plains Village     | Can generate in Forest                                                  |
+| Desert Village     | Can generate in Warm Ocean                                              |
+| Snowy Village      | Can generate in Snowy Taiga and Grove                                   |
+| Taiga Village      | Can generate in Old Growth Taiga biomes                                 |
+| Savanna Village    | Can generate in Badlands biomes                                         |
 
 - Increased the count of witches spawned within the hut structure range
 - To locate the nearest Swamp Hut, use the command `/locate structure #minecraft:swamp_hut` or `/locate structure atlantis:swamp_hut`

@@ -1,34 +1,33 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:sugar"
-      },
-      "title": {
-        "translate": "甜蜜时刻"
-      },
-      "description": {
-        "translate": "用甘蔗合成一些糖"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar"
     },
-    "parent": "atlantis:atlantis/sugar_cane",
-    "criteria": {
-      "sugar": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:sugar"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "甜蜜时刻"
+    },
+    "description": {
+      "translate": "用甘蔗合成一些糖"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/sugar_cane",
+  "criteria": {
+    "sugar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          }
+        ]
       }
-    },
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "sends_telemetry_event": false
+}

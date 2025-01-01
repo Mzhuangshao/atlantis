@@ -73,23 +73,23 @@
 
 #### 原版結構
 
-| 原版結構 | 更改 |
+| 原版結構                        | 更改             |
 |-------------------------------- |---------------------------------------- |
-| 綠林府邸 (Woodland Mansion) | **不再生成** |
-| 雪屋 (Igloo) | **不再生成** |
-| 沙漠神殿 (Desert Pyramid) | **不再生成** |
-| 叢林遺跡 (Jungle Pyramid) | **不再生成** |
-| 沙漠水井 (Desert Well) | **不再生成** |
-| 海底遺跡 (Ocean Monument) | 可以生成在所有海洋群系 |
-| 埋藏的寶藏 (Buried treasure) | 可以生成在所有海洋群系 |
-| 掠奪者前哨站 (Pillager Outpost) | 不再附帶鐵傀儡 |
-| 女巫小屋 (Swamp Hut) | 生成高度固定，可在沼澤與紅樹林沼澤生成 |
-| 村莊 (Village) | 不再附帶村民、鐵巨人和部分動植物 |
-| 平原村莊 (Plains Village) | 可以生成在森林 |
-| 沙漠村莊 (Desert Village) | 可以生成在暖水海洋 |
-| 雪原村落 (Snowy Village) | 可以生成在積雪的針葉林與雪林 |
-| 針葉林村莊 (Taiga Village) | 可以生成在原生針葉林類群系 |
-| 金合歡村莊 (Savanna Village) | 可以生成在惡地類群系 |
+| 綠林府邸 (Woodland Mansion)     | **不再生成**                            |
+| 雪屋 (Igloo)                    | **不再生成**                          |
+| 沙漠神殿 (Desert Pyramid)       | **不再生成**                            |
+| 叢林遺跡 (Jungle Pyramid)       | **不再生成**                             |
+| 沙漠水井 (Desert Well)          | **不再生成**                        |
+| 海底遺跡 (Ocean Monument)       | 可以生成在所有海洋群系                    |
+| 埋藏的寶藏 (Buried treasure     | 可以生成在所有海洋群系                      |
+| 掠奪者前哨站 (Pillager Outpost) | 不再附帶鐵傀儡                        |
+| 女巫小屋 (Swamp Hut)            | 生成高度固定，可在沼澤與紅樹林沼澤生成 |
+| 村莊 (Village)                  | 不再附帶村民、鐵巨人和部分動植物        |
+| 平原村莊 (Plains Village)       | 可以生成在森林                       |
+| 沙漠村莊 (Desert Village)       | 可以生成在暖水海洋                    |
+| 雪原村落 (Snowy Village)        | 可以生成在積雪的針葉林與雪林            |
+| 針葉林村莊 (Taiga Village)      | 可以生成在原生針葉林類群系              |
+| 金合歡村莊 (Savanna Village)    | 可以生成在惡地類群系                     |
 
 - 提升了女巫小屋結構範圍內女巫的生成數量
 - 定位女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`或`/locate structure atlantis:swamp_hut`

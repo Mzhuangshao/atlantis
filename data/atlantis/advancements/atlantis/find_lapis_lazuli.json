@@ -1,39 +1,38 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:lapis_lazuli"
-      },
-      "title": {
-        "translate": "色彩大发现"
-      },
-      "description": {
-        "translate": "获得青金石"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:lapis_lazuli"
     },
-    "parent": "atlantis:atlantis/find_raw_iron",
-    "criteria": {
-      "lapis_lazuli": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:lapis_lazuli"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "色彩大发现"
+    },
+    "description": {
+      "translate": "获得青金石"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/find_raw_iron",
+  "criteria": {
+    "lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "lapis_lazuli"
-      ]
-    ],
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "requirements": [
+    [
+      "lapis_lazuli"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
