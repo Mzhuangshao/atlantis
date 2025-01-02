@@ -11,6 +11,7 @@
 - Start Room
 - Leafless Trees
 - Extremely-High sea level
+- Underwater Villages and Ruins
 
 ## ⚙️ Unique Feature
 
@@ -42,7 +43,7 @@ You can change some game settings by pulling the lever in the Start Lobby
 ### ⚙️ Others
 
 - Customized Advancements System (continuously updated)
-- After obtaining a Sponge for the first time will unlock the repice of Sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more sponges
+- After obtaining a Sponge for the first time will unlock the repice of Sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more
 - The Pale Oak planted by the player has a chance to have the Creaking Heart (Only in 1.21.4+)
 
 ### 🐱 Mobs
@@ -91,7 +92,7 @@ You can change some game settings by pulling the lever in the Start Lobby
 | Taiga Village      | Can generate in Old Growth Taiga biomes                                 |
 | Savanna Village    | Can generate in Badlands biomes                                         |
 
-- Increased the count of witches spawned within the hut structure range
+- Modified the count of witches spawn within the hut structure range
 - To locate the nearest Swamp Hut, use the command `/locate structure #minecraft:swamp_hut` or `/locate structure atlantis:swamp_hut`
 - To locate the nearest Animal Domes, use the command `/locate structure #atlantis:animal_dome`
 - To locate a specific type of Animal Domes, use the command `/locate structure atlantis:animal_dome_[type]`

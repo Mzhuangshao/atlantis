@@ -11,6 +11,7 @@
 - 初始小屋
 - 无叶子树
 - 极高海平面
+- 水下村庄与遗迹
 
 ## ⚙️ 独有内容
 
@@ -91,8 +92,8 @@
 | 针叶林村庄 (Taiga Village)       | 可以生成在原始针叶林类群系                |
 | 热带草原村庄 (Savanna Village)   | 可以生成在恶地类群系                      |
 
-- 提升女巫小屋结构范围内女巫的生成数量
-- 定位女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`或者`/locate structure atlantis:swamp_hut`
+- 提升了女巫小屋的结构范围内生成女巫数量
+- 定位女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`或`/locate structure atlantis:swamp_hut`
 - 定位距离最近的生物圈可以使用指令`/locate structure #atlantis:animal_dome`
 - 单独定位特定类型的生物圈可以使用指令`/locate structure atlantis:animal_dome_[类型]`
 
@@ -103,8 +104,8 @@
 ## ⛏ 玩法引导（暂定）
 
 1. 拉下大厅的拉杆即可开始游戏\
-	1.1. 默认游戏难度为困难\
-	1.2. 初始小屋默认不带树苗，可通过大厅内其它拉杆开启
+  1.1. 默认游戏难度为困难\
+  1.2. 初始小屋默认不带树苗，可通过大厅内其它拉杆开启
 2. 到达初始小屋后，观察周边地形，寻找离你最近的树木（如果有的话）
 3. 尝试获得你的第一块木头，注意不要溺水！
 4. 制作工作台
