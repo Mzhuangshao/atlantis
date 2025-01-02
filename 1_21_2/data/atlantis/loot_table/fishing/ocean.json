@@ -39,12 +39,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bundle"
+          "name": "minecraft:bundle",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bundle",
-          "weight": 4,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_contents",

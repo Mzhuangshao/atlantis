@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 4
+        "min": 2,
+        "max": 6
       },
       "entries": [
         {
@@ -14,7 +14,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spruce_sapling",
-          "weight": 5
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -36,12 +36,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bundle"
+          "name": "minecraft:bundle",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bundle",
-          "weight": 4,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_contents",

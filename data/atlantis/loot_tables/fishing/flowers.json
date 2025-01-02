@@ -14,7 +14,8 @@
         {
           "type": "minecraft:tag",
           "name": "atlantis:normal_flowers",
-          "expand": true
+          "expand": true,
+          "weight": 8
         }
       ]
     },
