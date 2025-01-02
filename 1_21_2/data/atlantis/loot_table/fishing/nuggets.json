@@ -2,45 +2,43 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 50,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8,
                 "min": 4
-              },
-              "function": "minecraft:set_count"
+              }
             }
-          ],
-          "name": "minecraft:iron_nugget",
-          "weight": 50
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 50,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8,
                 "min": 4
-              },
-              "function": "minecraft:set_count"
+              }
             }
-          ],
-          "name": "minecraft:gold_nugget",
-          "weight": 50
+          ]
         }
-      ],
-      "rolls": {
-        "min": 2,
-        "max": 4
-      }
+      ]
     }
   ],
   "random_sequence": "atlantis:fishing/nuggets"
