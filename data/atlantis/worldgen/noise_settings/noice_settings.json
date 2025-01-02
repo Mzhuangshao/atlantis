@@ -24,19 +24,19 @@
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_barrier",
       "xz_scale": 1,
-      "y_scale": 1
+      "y_scale": 1.0
     },
     "fluid_level_floodedness": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_fluid_level_floodedness",
       "xz_scale": 1,
-      "y_scale": 0.02
+      "y_scale": 0.67
     },
     "fluid_level_spread": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_fluid_level_spread",
       "xz_scale": 1,
-      "y_scale": 0.0001428571428571
+      "y_scale": 0.7142857142857143
     },
     "lava": {
       "type": "minecraft:noise",
