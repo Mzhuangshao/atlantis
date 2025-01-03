@@ -92,7 +92,7 @@
 | 针叶林村庄 (Taiga Village)       | 可以生成在原始针叶林类群系                |
 | 热带草原村庄 (Savanna Village)   | 可以生成在恶地类群系                      |
 
-- 提升了女巫小屋的结构范围内生成女巫数量
+- 提升了女巫小屋的结构范围内生成女巫的数量
 - 定位女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`或`/locate structure atlantis:swamp_hut`
 - 定位距离最近的生物圈可以使用指令`/locate structure #atlantis:animal_dome`
 - 单独定位特定类型的生物圈可以使用指令`/locate structure atlantis:animal_dome_[类型]`
