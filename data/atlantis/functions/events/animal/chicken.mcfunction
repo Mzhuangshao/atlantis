@@ -1,2 +1,0 @@
-summon chicken ~ ~ ~
-summon chicken ~ ~ ~

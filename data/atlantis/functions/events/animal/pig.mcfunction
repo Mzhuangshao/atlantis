@@ -1,2 +1,0 @@
-summon pig ~ ~ ~
-summon pig ~ ~ ~

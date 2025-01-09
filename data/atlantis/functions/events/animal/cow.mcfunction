@@ -1,2 +1,0 @@
-summon cow ~ ~ ~
-summon cow ~ ~ ~
