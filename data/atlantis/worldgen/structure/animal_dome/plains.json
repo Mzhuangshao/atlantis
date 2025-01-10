@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#atlantis:has_structure/animal_dome_swamp",
+  "biomes": "#atlantis:has_structure/animal_dome/plains",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "atlantis:animal_dome/swamp/dome",
+  "start_pool": "atlantis:animal_dome/plains/dome",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#atlantis:has_structure/animal_dome_savanna",
+  "biomes": "#atlantis:has_structure/animal_dome/snowy",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "atlantis:animal_dome/savanna/dome",
+  "start_pool": "atlantis:animal_dome/snowy/dome",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

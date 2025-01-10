@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#atlantis:has_structure/animal_dome_snowy",
+  "biomes": "#atlantis:has_structure/animal_dome/mushroom",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "atlantis:animal_dome/snowy/dome",
+  "start_pool": "atlantis:animal_dome/mushroom/dome",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

@@ -139,7 +139,9 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_shepherds_house_1",
-        "processors": {},
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       },
       "weight": 2
