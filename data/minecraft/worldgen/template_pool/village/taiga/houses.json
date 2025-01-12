@@ -211,7 +211,9 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_large_farm_1",
-        "processors": "minecraft:zombie_taiga",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       },
       "weight": 6
@@ -220,7 +222,9 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_large_farm_2",
-        "processors": "minecraft:zombie_taiga",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       },
       "weight": 6
@@ -229,7 +233,9 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_small_farm_1",
-        "processors": "minecraft:zombie_taiga",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       },
       "weight": 1

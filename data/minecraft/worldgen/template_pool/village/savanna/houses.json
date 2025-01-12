@@ -279,7 +279,9 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/savanna/houses/savanna_large_farm_1",
-        "processors": "minecraft:zombie_savanna",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       },
       "weight": 4
@@ -288,7 +290,9 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/savanna/houses/savanna_large_farm_2",
-        "processors": "minecraft:zombie_savanna",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       },
       "weight": 6
@@ -297,7 +301,9 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/savanna/houses/savanna_small_farm",
-        "processors": "minecraft:zombie_savanna",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       },
       "weight": 4
