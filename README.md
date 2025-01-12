@@ -1,32 +1,32 @@
 # 🌊 亚特兰蒂斯: 水寒火暖
 
-- 水下生存数据包！
-- 原地图：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
+- 一款水下生存数据包，基于经典水下生存地图《Atlantis - Take Your Last Breath》，使用数据包进行重制。
+- 本数据包改写了世界生成，玩家可以用自己喜欢的种子生成水下世界 **（所以要求创建世界时添加）**。
+- 原作地图：[Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth 载点: [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - [简体中文]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 
-## 🔱 原地图内容
+## 🔱 原作内容
 
-- 开始大厅
-- 初始小屋
-- 无叶子树
-- 极高海平面
-- 水下村庄与遗迹
+- 开始大厅；
+- 初始小屋；
+- 无叶子树；
+- 极高海平面；
+- 水下村庄与遗迹。
 
 ## ⚙️ 独有内容
 
 ### ⚙️ 开始大厅
 
-通过开始大厅的拉杆可以选择更改一些游戏设置
+通过开始大厅的拉杆可以选择更改一些游戏设置。
 
-- **默认配置 - 经典小屋**: 小屋中有四种树苗、仙人掌、床、补给箱和出生点草方块
-
-| 大厅选项     |                                                    |
-| ------------ | -------------------------------------------------- |
-| **经典小屋** | 小屋中有四种树苗、仙人掌、床、补给箱和出生点草方块 |
-| *无树苗小屋* | 删除经典小屋中的四种树苗                           |
-| 一草一木     | 在小屋正上方额外放置一颗橡树                       |
-| 永夜模式     | 停止日夜流逝，游戏时间冻结在午夜月圆               |
+| 大厅选项                 |                                                    |
+| ------------------------ | -------------------------------------------------- |
+| **经典小屋**（默认配置） | 小屋中有床、补给箱、仙人掌、四种树苗和出生点草方块 |
+| *无树苗小屋*             | 删除经典小屋中的四种树苗                           |
+| 一草一木                 | 在小屋正上方额外放置一颗橡树                       |
+| 永夜模式                 | 停止日夜流逝，游戏时间冻结在午夜月圆               |
+| 死亡不掉落               |                                                    |
 
 ### 🎣 钓鱼
 

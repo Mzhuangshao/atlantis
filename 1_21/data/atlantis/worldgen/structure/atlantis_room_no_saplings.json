@@ -4,7 +4,7 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "atlantis:atlantis_room_tree",
+  "start_pool": "atlantis:atlantis_room_no_saplings",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

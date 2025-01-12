@@ -1,3 +1,3 @@
 gamerule doDaylightCycle false
 time set 18000
-function atlantis:message/midnight_mode
+function atlantis:message/endless_night

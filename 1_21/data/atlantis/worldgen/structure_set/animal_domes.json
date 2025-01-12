@@ -7,47 +7,47 @@
   },
   "structures": [
     {
-      "structure": "atlantis:animal_dome_beach",
+      "structure": "atlantis:animal_dome/beach",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_common",
+      "structure": "atlantis:animal_dome/common",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_desert",
+      "structure": "atlantis:animal_dome/desert",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_jungle",
+      "structure": "atlantis:animal_dome/jungle",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_mushroom",
+      "structure": "atlantis:animal_dome/mushroom",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_plains",
+      "structure": "atlantis:animal_dome/plains",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_savanna",
+      "structure": "atlantis:animal_dome/savanna",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_snowy",
+      "structure": "atlantis:animal_dome/snowy",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_swamp",
+      "structure": "atlantis:animal_dome/swamp",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_taiga",
+      "structure": "atlantis:animal_dome/taiga",
       "weight": 1
     },
     {
-      "structure": "atlantis:animal_dome_wooded_badlands",
+      "structure": "atlantis:animal_dome/wooded_badlands",
       "weight": 1
     }
   ]

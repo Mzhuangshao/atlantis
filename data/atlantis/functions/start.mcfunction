@@ -1,7 +1,7 @@
 execute as @e[tag=atlantis_local,tag=!classic_dome] run place structure atlantis:atlantis_room_no_saplings ~-5 ~ ~-5
 execute as @e[tag=atlantis_local,tag=classic_dome] run place structure atlantis:atlantis_room ~-5 ~ ~-5
 execute as @e[tag=atlantis_local,tag=has_tree] at @e[tag=atlantis_room] run place feature atlantis:fancy_oak ~ ~5 ~
-execute as @e[tag=atlantis_local,tag=midnight_mode] run function atlantis:settings/midnight_mode
+execute as @e[tag=atlantis_local,tag=endless_night] run function atlantis:settings/endless_night
 execute at @e[tag=atlantis_room] run place structure atlantis:atlantis_trader_room ~ ~ ~64
 
 clear @a

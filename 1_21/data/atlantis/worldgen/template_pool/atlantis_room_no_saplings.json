@@ -1,5 +1,5 @@
 {
-  "name": "atlantis:atlantis_room_tree",
+  "name": "atlantis:atlantis_room_no_saplings",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "atlantis:atlantis_room_tree",
+        "location": "atlantis:atlantis_room_no_saplings",
         "processors": "minecraft:empty",
         "liquid_settings": "ignore_waterlogging"
       }

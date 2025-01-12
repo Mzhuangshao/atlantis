@@ -1,2 +1,0 @@
-summon wolf ~ ~ ~
-summon wolf ~ ~ ~

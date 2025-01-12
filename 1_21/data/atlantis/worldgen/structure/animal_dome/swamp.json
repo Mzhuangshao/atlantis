@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#atlantis:has_structure/animal_dome_taiga",
+  "biomes": "#atlantis:has_structure/animal_dome/swamp",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "atlantis:animal_dome/taiga/dome",
+  "start_pool": "atlantis:animal_dome/swamp/dome",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

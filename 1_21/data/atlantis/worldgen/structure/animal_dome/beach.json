@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#atlantis:has_structure/animal_dome_jungle",
+  "biomes": "#atlantis:has_structure/animal_dome/beach",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "atlantis:animal_dome/jungle/dome",
+  "start_pool": "atlantis:animal_dome/beach/dome",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",
