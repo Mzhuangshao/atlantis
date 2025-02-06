@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "SPS",
+    "PSP"
+  ],
+  "key": {
+    "S": "minecraft:sponge",
+    "P": [
+      "minecraft:prismarine_crystals",
+      "minecraft:prismarine_shard",
+      "minecraft:nautilus_shell"
+    ]
+  },
+  "result": {
+    "id": "minecraft:sponge",
+    "count": 6
+  }
+}
