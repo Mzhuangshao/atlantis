@@ -27,7 +27,7 @@
 | Dome Type - *No Saplings* (Difficult) | Delete the four saplings in the Classic Dome                                       |
 | Oak Supply                            | Place an additional oak tree directly above the Dome                               |
 | Endless Night                         | Stop the days and nights pass, and Freeze the game time at midnight with full moon |
-| No drops when dying                   | ~~Streamer Mode~~                                                                  |
+| Keep Inventory                        | ~~Streamer Mode~~                                                                  |
 
 ### 🎣 Fishing
 
