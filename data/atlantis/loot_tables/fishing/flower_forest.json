@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:tag",
-          "name": "atlantis:normal_flowers",
+          "name": "atlantis:flowers_in_flower_forest",
           "expand": true,
           "weight": 8
         }
@@ -27,10 +27,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "atlantis:fishing/nuggets"
+          "name": "atlantis:fishing/nuggets"
         }
       ]
     }
   ],
-  "random_sequence": "atlantis:fishing/flowers"
+  "random_sequence": "atlantis:fishing/flowers_in_flower_forest"
 }

@@ -52,7 +52,8 @@
                     "biomes": [
                       "minecraft:old_growth_pine_taiga",
                       "minecraft:old_growth_spruce_taiga",
-                      "minecraft:taiga"
+                      "minecraft:taiga",
+                      "minecraft:snowy_taiga"
                     ]
                   }
                 }
@@ -99,7 +100,37 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:barrel",
-              "name": "atlantis:fishing/flowers"
+              "name": "atlantis:fishing/sunflower_plains"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": [
+                      "minecraft:sunflower_plains"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/flower_forest"
             }
           ],
           "conditions": [

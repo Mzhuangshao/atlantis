@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:tag",
-          "name": "atlantis:normal_flowers",
+          "name": "atlantis:flowers_in_sunflower_plains",
           "expand": true,
           "weight": 8
         }
@@ -32,5 +32,5 @@
       ]
     }
   ],
-  "random_sequence": "atlantis:fishing/flowers"
+  "random_sequence": "atlantis:fishing/flowers_in_sunflower_plains"
 }
