@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "他们都上哪去了？！"
+    },
+    "description": {
+      "translate": "找到废弃传送门遗迹"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/back_above_sea_level",
+  "criteria": {
+    "ruined_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": [
+                "minecraft:ruined_portal",
+                "minecraft:ruined_portal_desert",
+                "minecraft:ruined_portal_jungle",
+                "minecraft:ruined_portal_mountain",
+                "minecraft:ruined_portal_nether",
+                "minecraft:ruined_portal_ocean",
+                "minecraft:ruined_portal_swamp"
+              ],
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

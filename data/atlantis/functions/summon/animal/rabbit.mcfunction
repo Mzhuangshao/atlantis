@@ -1,2 +1,0 @@
-summon rabbit ~ ~ ~
-summon rabbit ~ ~ ~

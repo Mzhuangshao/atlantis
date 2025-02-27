@@ -1,2 +1,0 @@
-summon horse ~ ~ ~
-summon horse ~ ~ ~

@@ -1,141 +1,140 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:kelp"
-      },
-      "title": {
-        "translate": "九方旅人"
-      },
-      "description": {
-        "translate": "游历所有海洋群系"
-      },
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
     },
-    "parent": "atlantis:atlantis/back_above_sea_level",
-    "criteria": {
-      "ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "ocean"
-            }
-          }
-        }
-      },
-      "deep_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:deep_ocean"
-            }
-          }
-        }
-      },
-      "warm_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:warm_ocean"
-            }
-          }
-        }
-      },
-      "cold_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:cold_ocean"
-            }
-          }
-        }
-      },
-      "deep_cold_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:deep_cold_ocean"
-            }
-          }
-        }
-      },
-      "lukewarm_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:lukewarm_ocean"
-            }
-          }
-        }
-      },
-      "frozen_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:frozen_ocean"
-            }
-          }
-        }
-      },
-      "deep_frozen_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:deep_frozen_ocean"
-            }
-          }
-        }
-      },
-      "deep_lukewarm_ocean": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "biome": "minecraft:deep_lukewarm_ocean"
-            }
+    "title": {
+      "translate": "九方旅人"
+    },
+    "description": {
+      "translate": "游历所有海洋群系"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/back_above_sea_level",
+  "criteria": {
+    "ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "ocean"
           }
         }
       }
     },
-    "requirements": [
-      [
-        "ocean"
-      ],
-      [
-        "deep_ocean"
-      ],
-      [
-        "warm_ocean"
-      ],
-      [
-        "cold_ocean"
-      ],
-      [
-        "deep_cold_ocean"
-      ],
-      [
-        "lukewarm_ocean"
-      ],
-      [
-        "frozen_ocean"
-      ],
-      [
-        "deep_frozen_ocean"
-      ],
-      [
-        "deep_lukewarm_ocean"
-      ]
+    "deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_ocean"
+          }
+        }
+      }
+    },
+    "warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:warm_ocean"
+          }
+        }
+      }
+    },
+    "cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:cold_ocean"
+          }
+        }
+      }
+    },
+    "deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_cold_ocean"
+          }
+        }
+      }
+    },
+    "lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:lukewarm_ocean"
+          }
+        }
+      }
+    },
+    "frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:frozen_ocean"
+          }
+        }
+      }
+    },
+    "deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_frozen_ocean"
+          }
+        }
+      }
+    },
+    "deep_lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_lukewarm_ocean"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ocean"
     ],
-    "sends_telemetry_event": false
-  }
-  
+    [
+      "deep_ocean"
+    ],
+    [
+      "warm_ocean"
+    ],
+    [
+      "cold_ocean"
+    ],
+    [
+      "deep_cold_ocean"
+    ],
+    [
+      "lukewarm_ocean"
+    ],
+    [
+      "frozen_ocean"
+    ],
+    [
+      "deep_frozen_ocean"
+    ],
+    [
+      "deep_lukewarm_ocean"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

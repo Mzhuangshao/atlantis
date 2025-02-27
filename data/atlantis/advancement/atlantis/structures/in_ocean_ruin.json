@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_stone_bricks"
+    },
+    "title": {
+      "translate": "比基尼海滩"
+    },
+    "description": {
+      "translate": "找到一座水下遗迹"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/structures/in_monument",
+  "criteria": {
+    "in_ocean_ruin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": [
+                "minecraft:ocean_ruin_cold",
+                "minecraft:ocean_ruin_warm"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

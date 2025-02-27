@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "atlantis:overworld/warped_gradient",
+  "argument2": "minecraft:overworld_amplified/offset"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "atlantis:horse_donkey",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/donkey",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atlantis:animal_dome/animals/horse",
+        "projection": "rigid",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_sapling",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2.5
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "atlantis:fishing/nuggets"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "atlantis:fishing/jungle"
+}

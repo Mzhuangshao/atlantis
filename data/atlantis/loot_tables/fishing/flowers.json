@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "atlantis:normal_flowers",
+          "expand": true,
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "atlantis:fishing/nuggets"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "atlantis:fishing/flowers"
+}

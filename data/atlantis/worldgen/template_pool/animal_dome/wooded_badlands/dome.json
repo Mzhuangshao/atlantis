@@ -1,0 +1,15 @@
+{
+  "name": "atlantis:animal_dome_wooded_badlands",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "atlantis:animal_dome/others/dome_wolf_armadillo",
+        "processors": "minecraft:empty"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

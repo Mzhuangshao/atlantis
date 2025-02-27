@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "无尽能源"
+    },
+    "description": {
+      "translate": "合成100块红石块（需要在背包中结算）"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/find_redstone",
+  "criteria": {
+    "craft_redstone_block_100": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:crafted",
+                    "stat": "minecraft:redstone_block",
+                    "value": {
+                      "min": 100
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_redstone_block_100"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -11,21 +11,10 @@
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_upgrade_smithing_template",
-          "weight": 2,
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
-        },
-        {
           "type": "minecraft:tag",
-          "name": "minecraft:trim_templates",
+          "name": "atlantis:smithing_templates",
           "expand": true,
-          "weight": 1,
+          "weight": 2,
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -40,7 +29,9 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:soul_speed"
+              "enchantments": [
+                "minecraft:soul_speed"
+              ]
             }
           ]
         },
@@ -51,7 +42,9 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:soul_speed"
+              "enchantments": [
+                "minecraft:soul_speed"
+              ]
             }
           ]
         },

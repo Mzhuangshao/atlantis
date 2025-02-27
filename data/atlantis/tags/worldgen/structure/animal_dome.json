@@ -1,0 +1,15 @@
+{
+  "values": [
+    "atlantis:animal_dome/beach",
+    "atlantis:animal_dome/common",
+    "atlantis:animal_dome/desert",
+    "atlantis:animal_dome/jungle",
+    "atlantis:animal_dome/mushroom",
+    "atlantis:animal_dome/plains",
+    "atlantis:animal_dome/savanna",
+    "atlantis:animal_dome/snowy",
+    "atlantis:animal_dome/swamp",
+    "atlantis:animal_dome/taiga",
+    "atlantis:animal_dome/wooded_badlands"
+  ]
+}
