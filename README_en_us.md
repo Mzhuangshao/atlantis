@@ -35,14 +35,15 @@
 - Barrels may contain gold and iron nuggets, Barrels in 1.21.2+ use Bundle to store gold and iron nuggets.
 - Some biomes have additional supplies in barrels, as shown below.
 
-| Barrel type   | Barrel contents                                                                                                    |
-| ------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Normal        | Gold and iron nuggets                                                                                              |
-| Misc          | Wheat, carrots, potatoes, poisonous potatoes, leather equipment, arrows, glass bottles, bones and sskeleton skulls |
-| Flower forest | Common flowers                                                                                                     |
-| Jungle biomes | Jungle saplings and cocoa beans                                                                                    |
-| Taiga biomes  | Sweet berries, spruce saplings and rabbit hide                                                                     |
-| Ocean biomes  | Kelp, prismarine shards, prismarine gravel and Heart of the Sea                                                    |
+| Barrel type      | Barrel contents                                                                                                    |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Normal           | Gold and iron nuggets                                                                                              |
+| Misc             | Wheat, carrots, potatoes, poisonous potatoes, leather equipment, arrows, glass bottles, bones and sskeleton skulls |
+| Flower forest    | Common flowers                                                                                                     |
+| Sunflower plains | Sunflowers                                                                                                         |
+| Jungle biomes    | Jungle saplings and cocoa beans                                                                                    |
+| Taiga biomes     | Sweet berries, spruce saplings and rabbit hide                                                                     |
+| Ocean biomes     | Kelp, prismarine shards, prismarine gravel and Heart of the Sea                                                    |
 
 ### ⚙️ Others
 
