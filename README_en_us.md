@@ -1,10 +1,12 @@
 # 🌊 Atlantis: Fire Beneath Water
 
 - A survival challenges, but underwater.
-- This data pack rebuild the world generation, you can different seeds to generate a different underwater worlds **(So it is required to add it when creating NEW world)**.
+- This datapack rebuild the world generation, you can use different seeds to generate a different underwater worlds 
+  - **(So it is required to add it when you are creating NEW world)**.
 - Original Map : [Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
-- [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [English]
+- **Videos** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
+- Readme in other languages : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)] → [English] ←
 
 ## 🔱 Original Map Feature
 
