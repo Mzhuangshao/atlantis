@@ -89,7 +89,7 @@
 | 叢林遺跡 (Jungle Pyramid)       | **不再生成**                           |
 | 沙漠水井 (Desert Well)          | **不再生成**                           |
 | 海底遺跡 (Ocean Monument)       | 可以生成在所有海洋生態域               |
-| 埋藏的寶藏 (Buried treasure     | 可以生成在所有海洋生態域               |
+| 埋藏的寶藏 (Buried treasure)     | 可以生成在所有海洋生態域               |
 | 掠奪者前哨站 (Pillager Outpost) | 不再附帶鐵傀儡                         |
 | 女巫小屋 (Swamp Hut)            | 生成高度固定，可在沼澤與紅樹林沼澤生成 |
 | 村莊 (Village)                  | 不再附帶村民、鐵巨人和部分動植物       |
