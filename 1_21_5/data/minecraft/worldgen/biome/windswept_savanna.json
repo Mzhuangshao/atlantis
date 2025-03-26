@@ -71,7 +71,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_windswept_savanna",
+      "atlantis:trees_windswept_savanna",
       "minecraft:flower_default",
       "minecraft:patch_grass_normal",
       "minecraft:brown_mushroom_normal",
