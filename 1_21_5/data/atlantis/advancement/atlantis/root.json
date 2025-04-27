@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "亚特兰蒂斯",
+      "color": "#0000AA",
+      "bold": true
+    },
+    "description": {
+      "translate": "水寒火暖。",
+      "color": "#B0A4E3"
+    },
+    "background": "minecraft:block/packed_ice",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "in_water": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water"
+      }
+    }
+  }
+}
