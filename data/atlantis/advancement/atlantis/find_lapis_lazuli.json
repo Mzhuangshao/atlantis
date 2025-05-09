@@ -4,14 +4,14 @@
       "id": "minecraft:lapis_lazuli"
     },
     "title": {
-      "translate": "色彩大发现"
+      "translate": "获得青金石"
     },
     "description": {
-      "translate": "获得青金石"
+      "translate": ""
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/find_raw_iron",

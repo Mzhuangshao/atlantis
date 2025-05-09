@@ -4,10 +4,10 @@
       "id": "minecraft:crying_obsidian"
     },
     "title": {
-      "translate": "他们都上哪去了？！"
+      "translate": "逃离毁灭的传送门"
     },
     "description": {
-      "translate": "找到废弃传送门遗迹"
+      "translate": "利用传送门逃离世界末日——找到废弃传送门遗迹"
     },
     "frame": "task",
     "show_toast": true,

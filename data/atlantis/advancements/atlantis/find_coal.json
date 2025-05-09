@@ -4,14 +4,14 @@
       "item": "minecraft:coal"
     },
     "title": {
-      "translate": "恐龙的馈赠"
+      "translate": "找到煤炭"
     },
     "description": {
-      "translate": "获得煤炭"
+      "text": ""
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/craft_wooden_pickaxe",

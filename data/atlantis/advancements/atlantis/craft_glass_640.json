@@ -4,14 +4,14 @@
       "item": "minecraft:glass"
     },
     "title": {
-      "translate": "玻璃工"
+      "translate": "累计制作十组玻璃"
     },
     "description": {
-      "translate": "累计制作十组玻璃（从熔炉中取出的总数）"
+      "text": ""
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/mine_sand_576",

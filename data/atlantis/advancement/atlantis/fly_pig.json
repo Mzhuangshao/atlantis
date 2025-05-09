@@ -7,8 +7,7 @@
       "translate": "当猪飞的时候"
     },
     "description": {
-      "translate": "骑着猪从悬崖上飞下",
-      "color": "green"
+      "translate": "骑着猪从悬崖上飞下"
     },
     "frame": "challenge",
     "show_toast": true,

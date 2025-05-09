@@ -5,6 +5,7 @@
   - **(So it is required to add it when you are creating NEW world)**.
 - Original Map : [Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
+- mcmod : [Atlantis: Fire Beneath Water](https://www.mcmod.cn/class/17704.html)
 - **Videos** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
 - Readme in other languages : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)] → [English] ←
 
@@ -64,7 +65,7 @@
 - Overworld sea level is Y281, water surface is Y280, world height limit is Y320 unchanged.
 - Overworld mountains reach up to Y312。
 - Nether lava sea level is Y40.
-- Modified the depth noise of Ocean biomes. Now there will be landforms similar to continental shelves and continental slopes on the seabed, and the ocean biomes have become deeper.
+- Modified the depth noise of Ocean. Now there will be landforms similar to continental shelves and continental slopes on the seabed, and the ocean biomes have become deeper.
 - Icebergs will be generated in most cold biomes.
 
 ### 🏚 Structures
@@ -90,7 +91,6 @@
 | Jungle Pyramid     | **No longer generated**                                                 |
 | Desert Well        | **No longer generated**                                                 |
 | Ocean Monument     | Can generate in all Ocean biomes                                        |
-| Buried treasure    | Can generate in all Ocean biomes                                        |
 | Pillager Outpost   | No longer contain Iron Golems                                           |
 | Swamp Hut          | Fixed generate height, can generate in Swamp and Mangrove Swamp         |
 | Village            | No longer contain with Villagers, Iron Golems, and some flora and fauna |

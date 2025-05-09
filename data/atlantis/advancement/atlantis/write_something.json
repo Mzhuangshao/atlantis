@@ -1,34 +1,33 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:writable_book"
-      },
-      "title": {
-        "translate": "开始的开始"
-      },
-      "description": {
-        "translate": "用它写点东西吧"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
     },
-    "parent": "atlantis:atlantis/write_them_on_paper",
-    "criteria": {
-      "writable_book": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:writable_book"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "开始的开始"
+    },
+    "description": {
+      "translate": "用它写点东西吧"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/getting_wood",
+  "criteria": {
+    "writable_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:writable_book"
+            ]
+          }
+        ]
       }
-    },
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "sends_telemetry_event": false
+}

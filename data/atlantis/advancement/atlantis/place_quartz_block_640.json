@@ -1,47 +1,46 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:quartz_block"
-      },
-      "title": {
-        "translate": "穹顶之下"
-      },
-      "description": {
-        "translate": "累计放置十组石英块"
-      },
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_block"
     },
-    "parent": "atlantis:atlantis/craft_quartz_block_640",
-    "criteria": {
-      "quartz_block": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "player",
-                  "stats": [
-                    {
-                      "type": "minecraft:used",
-                      "stat": "minecraft:quartz_block",
-                      "value": {
-                        "min": 640
-                      }
+    "title": {
+      "translate": "累计放置十组石英块"
+    },
+    "description": {
+      "translate": ""
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/craft_quartz_block_640",
+  "criteria": {
+    "quartz_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:used",
+                    "stat": "minecraft:quartz_block",
+                    "value": {
+                      "min": 640
                     }
-                  ]
-                }
+                  }
+                ]
               }
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "sends_telemetry_event": false
+}

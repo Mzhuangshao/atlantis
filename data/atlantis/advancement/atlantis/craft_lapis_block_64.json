@@ -4,14 +4,14 @@
       "id": "minecraft:lapis_block"
     },
     "title": {
-      "translate": "多彩新世界"
+      "translate": "集齐一组青金石块"
     },
     "description": {
-      "translate": "集齐一组青金石块"
+      "text": ""
     },
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/find_lapis_lazuli",

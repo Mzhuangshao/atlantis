@@ -4,8 +4,9 @@
 - 本資料包修改了世界生成，玩家可以用自己喜歡的種子碼生成水下世界 **（所以要求在新建世界時添加）**
 - 原作地圖 : [Survival Map: ATLANTIS - Take your last breath - Minecraft 1.5.1](https://www.planetminecraft.com/project/survival-map-atlantis---take-your-last-breath---minecraft-151/)
 - Modrinth 載點 : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
+- mcmod 百科頁面 : [亚特兰蒂斯：水寒火暖](https://www.mcmod.cn/class/17704.html)
 - **影片與概念PV** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
-- 頁面選擇 : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)] → [繁體中文] ← [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
+- 閲讀語言選擇 : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)] → [繁體中文] ← [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 
 ## 🔱 原作內容
 
@@ -32,19 +33,19 @@
 
 ### 🎣 釣魚
 
-- 木桶可當作寶藏釣上來；
+- 釣魚時，木桶可當作**寶藏**釣上來；
 - 木桶可能裝有金粒和鐵粒，在1.21.2+會額外使用收納袋儲存金粒和鐵粒；
 - 不同類型的木桶的物資如下所示。
 
-| 木桶類型         | 木桶的內容物                                                       |
-| ---------------- | ------------------------------------------------------------------ |
-| 普通桶           | 金粒和鐵粒                                                         |
-| 雜項             | 小麥、胡蘿蔔、土豆、毒土豆、皮革裝備、箭矢、玻璃瓶、骨頭和骷髏頭顱 |
-| 繁花森林生態域桶 | 常見的花卉                                                         |
-| 向日葵平原桶     | 向日葵                                                             |
-| 叢林類生態域桶   | 叢林樹苗與可可豆                                                   |
-| 針葉林類生態域桶 | 甜莓果、雲杉樹苗及兔子皮                                           |
-| 海洋類生態域桶   | 海帶、海磷碎片、海磷晶體與海洋之心                                 |
+| 木桶類型           | 木桶的內容物                                                       |
+| ------------------ | ------------------------------------------------------------------ |
+| 普通桶             | 金粒和鐵粒                                                         |
+| 雜項桶             | 小麥、胡蘿蔔、土豆、毒土豆、皮革裝備、箭矢、玻璃瓶、骨頭和骷髏頭顱 |
+| 繁花森林木桶       | 常見的花卉                                                         |
+| 向日葵平原木桶     | 向日葵                                                             |
+| 叢林類生態域木桶   | 叢林樹苗與可可豆                                                   |
+| 針葉林類生態域木桶 | 甜莓果、雲杉樹苗及兔子皮                                           |
+| 海洋類生態域木桶   | 海帶、海磷碎片、海磷晶體與*海洋之心*                                 |
 
 ### ⚙️ 其它內容
 
@@ -62,9 +63,9 @@
 
 - 主世界海平面高度Y281，水面高度Y280，世界限高Y320不變；
 - 主世界山體最高達Y312；
-- 下界熔岩海高度Y40；
-- 修改了海洋類生態域的深度噪声，現在的海底會有類似大陸架和大陸坡的地形，海洋類生態域變得更深了；
-- 寒冷的生態域的海平面會生成冰山。
+- 地獄岩漿海高度修改為Y40；
+- 修改了海洋的深度噪声，現在的海底會有類似大陸架和大陸坡的地形，*海洋類生態域變得更深了*；
+- 部分寒冷的生態域會生成冰山。
 
 ### 🏚 結構
 
@@ -89,7 +90,6 @@
 | 叢林遺跡 (Jungle Pyramid)       | **不再生成**                           |
 | 沙漠水井 (Desert Well)          | **不再生成**                           |
 | 海底遺跡 (Ocean Monument)       | 可以生成在所有海洋生態域               |
-| 埋藏的寶藏 (Buried treasure)     | 可以生成在所有海洋生態域               |
 | 掠奪者前哨站 (Pillager Outpost) | 不再附帶鐵傀儡                         |
 | 女巫小屋 (Swamp Hut)            | 生成高度固定，可在沼澤與紅樹林沼澤生成 |
 | 村莊 (Village)                  | 不再附帶村民、鐵巨人和部分動植物       |
@@ -106,15 +106,36 @@
 
 ## 🎨 規劃
 
-1. 進度系統多語言支持，[[亞特蘭提斯語言包]](https://github.com/Mzhuangshao/atlantis-language-pack)
+1. 多語言支持，[[亞特蘭提斯語言包]](https://github.com/Mzhuangshao/atlantis-language-pack)
 
 ## ⛏ 玩法引導（暫定）
 
 1. 拉下大廳的拉桿即可開始游戲
   1.1. 默認游戲難度為困難
-  1.2. 初始小屋默認不帶樹苗，可通過大廳内其它拉桿開啓
+  1.2. 玻璃屋默認提供四種樹苗
 2. 來到初始小屋后，觀察周邊地形，尋找離你最近的樹木（如果有的話）
 3. 嘗試獲取你的第一塊木頭，注意不要溺水！
 4. 製作工作臺
 5. 你可選擇水下遠行搜尋文明遺跡，亦或前往地下找尋資源發育
 6. 重新建立屬於你的文明
+
+## 🎉特別感謝
+
+- 影雨ShadowStorm : 文案提供、副標題題名
+- Nickid2018 : 技術支援
+- 中文 Minecraft Wiki : 技術支援
+
+#### 
+
+- 舞秋風台 [[YouTube](https://www.youtube.com/@MrChesterccj)] [[Bilibili](https://space.bilibili.com/3513275)] <!-- https://www.bilibili.com/video/av1073531 https://www.youtube.com/watch?v=RbzBAtncUks -->
+- 悠然小天 [[Bilibili](https://space.bilibili.com/3746384)] <!-- https://v.youku.com/video?vid=XODAwMTg1MTcy -->
+
+#### 
+
+- 小黑犬解说 [[Bilibili](https://space.bilibili.com/191880668)] <!-- https://www.douyin.com/video/7423354055461784883-->
+- 剑阳大宝贝 [[Bilibili](https://space.bilibili.com/3546735683046223)] <!-- https://www.bilibili.com/video/av113271323494903 -->
+- 晓K人 [[Bilibili](https://space.bilibili.com/3546697930115900)] <!-- https://www.bilibili.com/video/av113271323494910 -->
+- 九糖Jokioo [[Bilibili](https://space.bilibili.com/3494363103496786)]
+- 悠尼YOONI [[Youtube](https://www.youtube.com/@YOONI_QQ)] <!-- https://www.youtube.com/watch?v=NN-afHildzY -->
+- 红月RedMoon [[Youtube](https://www.youtube.com/@MoonRed)] <!-- https://www.youtube.com/watch?v=J9wV-tJ5JCM -->
+- 阿斯asuhosus [[Youtube](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)]

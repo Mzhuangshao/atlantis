@@ -4,14 +4,14 @@
       "item": "minecraft:quartz_block"
     },
     "title": {
-      "translate": "穹顶之下"
+      "translate": "累计放置十组石英块"
     },
     "description": {
-      "translate": "累计放置十组石英块"
+      "text": ""
     },
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/craft_quartz_block_640",

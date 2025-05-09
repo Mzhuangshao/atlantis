@@ -7,7 +7,7 @@
       "translate": "亚特兰蒂斯的崛起"
     },
     "description": {
-      "translate": "找到海洋之心"
+      "translate": "用鹦鹉螺壳和海洋之心合成潮涌核心"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,18 +16,23 @@
   },
   "parent": "atlantis:atlantis/in_icy_wind_waiting",
   "criteria": {
-    "heart_of_the_sea": {
+    "conduit": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:heart_of_the_sea"
+              "minecraft:conduit"
             ]
           }
         ]
       }
     }
   },
+  "requirements": [
+    [
+      "conduit"
+    ]
+  ],
   "sends_telemetry_event": false
 }

@@ -4,14 +4,14 @@
       "item": "minecraft:glass"
     },
     "title": {
-      "translate": "玻璃工厂"
+      "translate": "累计制作二十组玻璃"
     },
     "description": {
-      "translate": "累计制作二十组玻璃（从熔炉中取出的总数）"
+      "text": ""
     },
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/craft_glass_640",

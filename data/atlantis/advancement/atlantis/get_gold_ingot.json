@@ -4,14 +4,14 @@
       "id": "minecraft:gold_ingot"
     },
     "title": {
-      "translate": "金矿工"
+      "translate": "获得金锭"
     },
     "description": {
-      "translate": "获得金锭"
+      "translate": ""
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/mine_raw_gold_64",

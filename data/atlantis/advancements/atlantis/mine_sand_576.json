@@ -4,14 +4,14 @@
       "item": "minecraft:sand"
     },
     "title": {
-      "translate": "采沙工"
+      "translate": "挖掘九组沙子"
     },
     "description": {
-      "translate": "累计挖掘九组沙子"
+      "text": ""
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/rise_of_atlantis",

@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atlantis:atlantis/write_them_on_paper",
+  "parent": "atlantis:atlantis/getting_wood",
   "criteria": {
     "writable_book": {
       "trigger": "minecraft:inventory_changed",
