@@ -138,4 +138,4 @@
 - 九糖Jokioo [[Bilibili](https://space.bilibili.com/3494363103496786)]
 - 悠尼YOONI [[Youtube](https://www.youtube.com/@YOONI_QQ)] <!-- https://www.youtube.com/watch?v=NN-afHildzY -->
 - 红月RedMoon [[Youtube](https://www.youtube.com/@MoonRed)] <!-- https://www.youtube.com/watch?v=J9wV-tJ5JCM -->
-- 阿斯 [[Youtube](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)]
+- 阿斯asuhosus [[Youtube](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)]
