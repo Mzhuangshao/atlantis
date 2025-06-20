@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2.6
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "atlantis:maps/animal_dome_map"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0.4,
+        "max": 1.6
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "atlantis:fishing/nuggets"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "atlantis:fishing/jungle"
+}

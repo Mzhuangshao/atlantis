@@ -12,7 +12,8 @@
             {
               "function": "minecraft:exploration_map",
               "destination": "atlantis:animal_dome",
-              "decoration": "minecraft:target_x"
+              "decoration": "target_x",
+              "zoom": 1
             }
           ]
         }
