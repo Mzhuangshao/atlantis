@@ -73,10 +73,6 @@
                   }
                 }
               ]
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
             }
           ]
         },
@@ -119,10 +115,6 @@
                   }
                 }
               ]
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
             }
           ]
         },
@@ -143,6 +135,12 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
+                    "biome": "minecraft:bamboo_jungle"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
                     "biome": "minecraft:jungle"
                   }
                 },
@@ -153,10 +151,6 @@
                   }
                 }
               ]
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
             }
           ]
         },
@@ -181,10 +175,6 @@
                   }
                 }
               ]
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
             }
           ]
         },
@@ -209,10 +199,6 @@
                   }
                 }
               ]
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
             }
           ]
         },

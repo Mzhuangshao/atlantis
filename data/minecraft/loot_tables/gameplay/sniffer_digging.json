@@ -9,7 +9,7 @@
           "type": "minecraft:tag",
           "name": "minecraft:decorated_pot_sherds",
           "expand": true,
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:item",
