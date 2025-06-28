@@ -1,29 +1,28 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "PSP",
-      "SPS",
-      "PSP"
-    ],
-    "key": {
-      "S": {
-        "item": "minecraft:sponge"
-      },
-      "P": [
-        {
-          "item": "minecraft:prismarine_crystals"
-        },
-        {
-          "item": "minecraft:prismarine_shard"
-        },
-        {
-          "item": "minecraft:nautilus_shell"
-        }
-      ]
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "SPS",
+    "PSP"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sponge"
     },
-    "result": {
-      "item": "minecraft:sponge",
-      "count": 6
-    }
+    "P": [
+      {
+        "item": "minecraft:prismarine_crystals"
+      },
+      {
+        "item": "minecraft:prismarine_shard"
+      },
+      {
+        "item": "minecraft:nautilus_shell"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:sponge",
+    "count": 6
   }
-  
+}
