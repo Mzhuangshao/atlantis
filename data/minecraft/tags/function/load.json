@@ -1,4 +1,6 @@
 {
-	"values": ["atlantis:load"],
-	"replace": false
+  "values": [
+    "atlantis:load"
+  ],
+  "replace": false
 }

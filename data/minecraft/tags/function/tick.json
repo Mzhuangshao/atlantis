@@ -1,4 +1,6 @@
 {
-	"values": ["atlantis:tick"],
-	"replace": false
+  "values": [
+    "atlantis:tick"
+  ],
+  "replace": false
 }
