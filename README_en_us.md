@@ -34,13 +34,14 @@
 
 ### 🎣 Fishing
 
-- Barrels can be fished up as treasuress.
-- Barrels may contain gold and iron nuggets, Barrels in 1.21.2+ use Bundle to store gold and iron nuggets.
+- Barrels can be fished up in open water area.
+- All types of Barrels will contain gold and iron nuggets, in 1.21.2+ Bundles will appear and store gold and iron nuggets.
 - Some biomes have additional supplies in barrels, as shown below.
 
 | Barrel type      | Barrel contents                                                                                                    |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Normal           | Gold and iron nuggets                                                                                              |
+| Maps             | *Animal Domes Map*, empty map, compass and paper                                                                   |
 | Misc             | Wheat, carrots, potatoes, poisonous potatoes, leather equipment, arrows, glass bottles, bones and sskeleton skulls |
 | Flower forest    | Common flowers                                                                                                     |
 | Sunflower plains | Sunflowers                                                                                                         |
@@ -59,6 +60,7 @@
 - Piglins can bartering all Smithing Template (including the Trim and the Upgrade).
 - Sniffers can dig up all Pottery Sherd.
 - Players drop **Player heads** when they killed by another player.
+- River biomes have a lower chance of spawning Drowned than normal worlds.
 
 ### ⛰ World Generation
 
@@ -80,6 +82,7 @@
 > *Glass domes keep hope alive, let animals survive the flood*
 
 - Scattered around the world, with different appearances depending on the biome.
+- The Map to this structure can be obtained by fishing the barrel.
 
 #### Vanilla Structures
 
