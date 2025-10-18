@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/ocean"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_ocean"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/taiga"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_taiga"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/jungle"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_jungle"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/sunflower_plains"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": [
+                      "minecraft:sunflower_plains"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/flower_forest"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": [
+                      "minecraft:flower_forest"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/misc"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "atlantis:fishing/nuggets"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}
