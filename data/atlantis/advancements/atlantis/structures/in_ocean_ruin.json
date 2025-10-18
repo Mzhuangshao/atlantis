@@ -7,11 +7,12 @@
       "translate": "比基尼海滩"
     },
     "description": {
-      "translate": "溺尸的派对——找到一座水下遗迹"
+      "translate": "溺尸派对——找到水下遗迹"
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "atlantis:atlantis/structures/in_monument",
   "criteria": {
@@ -43,19 +44,6 @@
                 }
               }
             ]
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "player",
-                  "gamemode": "spectator"
-                }
-              }
-            }
           }
         ]
       }

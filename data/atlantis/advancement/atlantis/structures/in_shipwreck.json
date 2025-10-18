@@ -7,7 +7,7 @@
       "translate": "沉没的垂死海鸥"
     },
     "description": {
-      "translate": "找到一艘沉船"
+      "translate": "找到沉船"
     },
     "frame": "task",
     "show_toast": true,

@@ -7,11 +7,11 @@
       "translate": "你也有今天"
     },
     "description": {
-      "translate": "找到一座水下掠夺者哨塔"
+      "translate": "找到水下掠夺者哨塔"
     },
     "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "atlantis:atlantis/structures/in_village",

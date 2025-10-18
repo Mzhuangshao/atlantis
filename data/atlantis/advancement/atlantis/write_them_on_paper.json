@@ -1,34 +1,33 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:paper"
-      },
-      "title": {
-        "translate": "用纸书写"
-      },
-      "description": {
-        "translate": "弄出一些纸"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
     },
-    "parent": "atlantis:atlantis/sugar_cane",
-    "criteria": {
-      "paper": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:paper"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "用纸书写"
+    },
+    "description": {
+      "translate": "合成一些纸"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atlantis:atlantis/sugar_cane",
+  "criteria": {
+    "paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
       }
-    },
-    "sends_telemetry_event": false
-  }
-  
+    }
+  },
+  "sends_telemetry_event": false
+}

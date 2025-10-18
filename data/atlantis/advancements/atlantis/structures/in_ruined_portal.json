@@ -7,11 +7,12 @@
       "translate": "水火不容"
     },
     "description": {
-      "translate": "利用传送门逃离世界末日——找到废弃传送门遗迹"
+      "translate": "利用传送门逃离末日——找到废弃传送门遗迹"
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "atlantis:atlantis/back_above_sea_level",
   "criteria": {
@@ -93,19 +94,6 @@
                 }
               }
             ]
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "player",
-                  "gamemode": "spectator"
-                }
-              }
-            }
           }
         ]
       }

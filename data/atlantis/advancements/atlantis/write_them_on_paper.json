@@ -7,7 +7,7 @@
       "translate": "用纸书写"
     },
     "description": {
-      "translate": "用甘蔗合成纸"
+      "translate": "合成一些纸"
     },
     "frame": "task",
     "show_toast": true,

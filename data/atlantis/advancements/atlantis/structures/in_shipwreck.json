@@ -7,11 +7,12 @@
       "translate": "沉没的垂死海鸥"
     },
     "description": {
-      "translate": "找到一艘沉船"
+      "translate": "找到沉船"
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "atlantis:atlantis/structures/in_monument",
   "criteria": {
@@ -43,19 +44,6 @@
                 }
               }
             ]
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "player",
-                  "gamemode": "spectator"
-                }
-              }
-            }
           }
         ]
       }
