@@ -1,8 +1,8 @@
-execute as @e[tag=atlantis_local,tag=!classic_dome] run place structure atlantis:atlantis_room_no_saplings ~-5 ~ ~-5
-execute as @e[tag=atlantis_local,tag=classic_dome] run place structure atlantis:atlantis_room ~-5 ~ ~-5
-execute as @e[tag=atlantis_local,tag=has_tree] at @e[tag=atlantis_room] run place feature atlantis:fancy_oak ~ ~5 ~
-execute as @e[tag=atlantis_local,tag=endless_night] run function atlantis:settings/endless_night
-execute at @e[tag=atlantis_room] run place structure atlantis:atlantis_trader_room ~ ~ ~64
+execute as @e[tag=atlantis_local,tag=!classic_dome,limit=1] run place structure atlantis:atlantis_room_no_saplings ~-5 ~ ~-5
+execute as @e[tag=atlantis_local,tag=classic_dome,limit=1] run place structure atlantis:atlantis_room ~-5 ~ ~-5
+execute as @e[tag=atlantis_local,tag=has_tree,limit=1] at @e[tag=atlantis_room] run place feature atlantis:fancy_oak ~ ~5 ~
+execute as @e[tag=atlantis_local,tag=endless_night,limit=1] run function atlantis:settings/endless_night
+execute at @e[tag=atlantis_room,limit=1] run place structure atlantis:atlantis_trader_room ~ ~ ~64
 
 clear @a
 xp set @a 0 levels
@@ -19,6 +19,7 @@ function atlantis:message/game_start
 function atlantis:message/author
 function atlantis:events/wandering_trader/trader_room_pos
 
+# 清除大厅及其附属物，包括定位标记、文字盔甲架、掉落物
 execute at @e[tag=atlantis_local] run fill ~16 ~8 ~16 ~-16 ~-3 ~-16 air
 execute as @e[tag=atlantis_local] run kill @e[type=item,distance=..48]
 execute as @e[tag=atlantis_local] run kill @e[tag=atlantis_lobby]
