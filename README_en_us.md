@@ -52,7 +52,7 @@
 ### ⚙️ Others
 
 - The surface is extremely cold, **making movement very difficult for players**.
-  - ***Players with sustained resistance buffs can withstand the cold of the sea.***
+  - ***Players with sustained resistance II buffs can withstand the cold of the sea.***
   - ***Players with the Ocean Blessing buff can also withstand the cold of the sea.***
 - Customized Advancements System (continuously updated).
 - After obtaining a Sponge for the first time will unlock the repice of Sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more.
