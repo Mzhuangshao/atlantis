@@ -8,7 +8,7 @@
 - **影片與概念PV** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
 - 閲讀語言選擇 : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)] → [繁體中文] ← [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 
-## 🔱 原作內容
+## 🔱 原作特色內容
 
 - 開始大廳；
 - 初始小屋；
@@ -20,7 +20,7 @@
 
 ### ⚙️ 大廳
 
-- 正式開始前集中報到的預備地點；
+- 正式開始前集中報到的預備地點，玩家默認出生在大廳；
 - 透過大廳的拉桿可以選擇更改一些遊戲設置。
 
 | 大廳選項                          |                                                    |
@@ -34,30 +34,30 @@
 ### 🎣 釣魚
 
 - 在開放水域釣魚時，木桶可以作爲釣魚戰利品出現；
-- 所有類型的木桶都會出現金粒和鐵粒，在1.21.2+會出現空收納袋並用其收納金粒和鐵粒；
+- 所有類型的木桶都會出現金粒和鐵粒，在1.21.2及更高版本會出現空收納袋，並用其收納金粒和鐵粒；
 - 不同類型的木桶的物資如下所示。
 
-| 木桶類型           | 木桶的內容物                                                       |
-| ------------------ | ------------------------------------------------------------------ |
-| 普通木桶           | 金粒和鐵粒                                                         |
-| 地圖木桶           | *動物圈地圖*、空地圖、指南針、紙張                                 |
-| 雜物木桶           | 小麥、胡蘿蔔、土豆、毒土豆、皮革裝備、箭矢、玻璃瓶、骨頭和骷髏頭顱 |
-| 繁花森林木桶       | 常見的花卉                                                         |
-| 向日葵平原木桶     | 向日葵                                                             |
-| 叢林類生態域木桶   | 叢林樹苗與可可豆                                                   |
-| 針葉林類生態域木桶 | 甜莓果、雲杉樹苗及兔子皮                                           |
-| 海洋類生態域木桶   | 海帶、海磷碎片、海磷晶體與*海洋之心*                               |
+| 木桶類型         | 木桶的特有內容物                                                   | 木桶的普通内容物                               |
+| ---------------- | ------------------------------------------------------------------ | ---------------------------------------------- |
+| 普通木桶         | 金粒、鐵粒                                                         |                                                |
+| 地圖木桶         | *動物圈地圖*、空地圖、指南針、紙張                                 | 金粒、鉄粒、*收納袋（在1.21.2及更高版本出現）* |
+| 雜物木桶         | 小麥、胡蘿蔔、土豆、毒土豆、皮革裝備、箭矢、玻璃瓶、骨頭、骷髏頭顱 | 金粒、鉄粒、*收納袋（在1.21.2及更高版本出現）* |
+| 繁花森林木桶     | 常見的花卉                                                         | 金粒、鉄粒、*收納袋（在1.21.2及更高版本出現）* |
+| 向日葵平原木桶   | 向日葵                                                             | 金粒、鉄粒、*收納袋（在1.21.2及更高版本出現）* |
+| 叢林生態域木桶   | 叢林樹苗、可可豆                                                   | 金粒、鉄粒、*收納袋（在1.21.2及更高版本出現）* |
+| 針葉林生態域木桶 | 甜莓果、雲杉樹苗、兔子皮                                           | 金粒、鉄粒、*收納袋（在1.21.2及更高版本出現）* |
+| 海洋生態域木桶   | 海帶、海磷碎片、海磷晶體、*海洋之心*                               | 金粒、鉄粒、*收納袋（在1.21.2及更高版本出現）* |
 
 ### ⚙️ 其它內容
 
 - 自訂的進度系統（持續更新中）；
-- 首次獲得海綿後會解鎖海綿的合成表，用海磷碎片、海磷晶體、鸚鵡螺殼搭配海綿合成更多海綿；
-- 玩家種植的蒼白橡樹有機率帶有嘎枝之心（僅1.​​21.4+）。
+- 可以用海磷碎片、海磷晶體、鸚鵡螺殼搭配海綿合成更多海綿，這個合成配方在獲得海綿后自動解鎖；
+- 玩家手動種植的蒼白橡樹有機率帶有嘎枝之心（在1.21.4及更高版本出現）。
 
 ### 🐱 生物
 
-- 豬布林可以交易所有鍛造模板（含紋飾與升級）；
-- 嗅探獸可以挖掘出所有陶片；
+- 豬布林可以交易所有鍛造模板（含紋飾模板與裝備升級模板）；
+- 嗅探獸可以挖掘出所有陶片碎片；
 - 玩家被玩家掄死會掉落**玩家頭顱**；
 - 河流生態域刷新沉尸的幾率比正常世界更低。
 
@@ -65,9 +65,9 @@
 
 - 主世界海平面高度Y281，水面高度Y280，世界限高Y320不變；
 - 主世界山體最高達Y312；
+- 主世界的海底會有類似大陸架和大陸坡的地形，*海洋變得更深了*；
 - 地獄岩漿海高度修改為Y40；
-- 修改了海洋的深度噪声，現在的海底會有類似大陸架和大陸坡的地形，*海洋類生態域變得更深了*；
-- 部分寒冷的生態域會生成冰山。
+- 部分寒冷的生態域的海平面會生成冰山。
 
 ### 🏚 結構
 
@@ -94,7 +94,7 @@
 | 沙漠水井 (Desert Well)          | **不再生成**                           |
 | 海底遺跡 (Ocean Monument)       | 可以生成在所有海洋生態域               |
 | 掠奪者前哨站 (Pillager Outpost) | 不再附帶鐵傀儡                         |
-| 女巫小屋 (Swamp Hut)            | 生成高度固定，可在沼澤與紅樹林沼澤生成 |
+| 女巫小屋 (Swamp Hut)            | **生成高度固定**，可在沼澤與紅樹林沼澤生成 |
 | 村莊 (Village)                  | 不再附帶村民、鐵巨人和部分動植物       |
 | 平原村莊 (Plains Village)       | 可以生成在森林                         |
 | 沙漠村莊 (Desert Village)       | 可以生成在暖水海洋                     |
@@ -124,21 +124,25 @@
 
 ## 🎉特別感謝
 
+- minecraft-pg5 : 原作團隊
 - 影雨ShadowStorm : 文案提供、副標題題名
 - Nickid2018 : 技術支援
-- 中文 Minecraft Wiki : 技術支援
+- 中文 Minecraft Wiki 及社群 : 技術支援
 
 #### 
 
-- 舞秋風台 [[YouTube](https://www.youtube.com/@MrChesterccj)] [[Bilibili](https://space.bilibili.com/3513275)] <!-- https://www.bilibili.com/video/av1073531 https://www.youtube.com/watch?v=RbzBAtncUks -->
-- 悠然小天 [[Bilibili](https://space.bilibili.com/3746384)] <!-- https://v.youku.com/video?vid=XODAwMTg1MTcy -->
+- 舞秋風台 [[YouTube 頻道](https://www.youtube.com/@MrChesterccj)] [[Bilibili 頻道](https://space.bilibili.com/3513275)] <!-- https://www.bilibili.com/video/av1073531 https://www.youtube.com/watch?v=RbzBAtncUks -->
+- 悠然小天 [[Bilibili 頻道](https://space.bilibili.com/3746384)] <!-- https://v.youku.com/video?vid=XODAwMTg1MTcy -->
 
 #### 
 
-- 小黑犬解说 [[Bilibili](https://space.bilibili.com/191880668)] <!-- https://www.douyin.com/video/7423354055461784883-->
-- 剑阳大宝贝 [[Bilibili](https://space.bilibili.com/3546735683046223)] <!-- https://www.bilibili.com/video/av113271323494903 -->
-- 晓K人 [[Bilibili](https://space.bilibili.com/3546697930115900)] <!-- https://www.bilibili.com/video/av113271323494910 -->
-- 九糖Jokioo [[Bilibili](https://space.bilibili.com/3494363103496786)]
-- 悠尼YOONI [[Youtube](https://www.youtube.com/@YOONI_QQ)] <!-- https://www.youtube.com/watch?v=NN-afHildzY -->
-- 红月RedMoon [[Youtube](https://www.youtube.com/@MoonRed)] <!-- https://www.youtube.com/watch?v=J9wV-tJ5JCM -->
-- 阿斯asuhosus [[Youtube](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)]
+- 小黑犬解说 [[Bilibili 頻道](https://space.bilibili.com/191880668)] <!-- https://www.douyin.com/video/7423354055461784883-->
+- 剑阳大宝贝 [[Bilibili 頻道](https://space.bilibili.com/3546735683046223)] <!-- https://www.bilibili.com/video/av113271323494903 -->
+- 晓K人 [[Bilibili 頻道](https://space.bilibili.com/3546697930115900)] <!-- https://www.bilibili.com/video/av113271323494910 -->
+- 九糖Jokioo [[Bilibili 頻道](https://space.bilibili.com/3494363103496786)]
+- 悠尼YOONI [[Youtube 頻道](https://www.youtube.com/@YOONI_QQ)] <!-- https://www.youtube.com/watch?v=NN-afHildzY -->
+- 红月RedMoon [[Youtube 頻道](https://www.youtube.com/@MoonRed)] [[Bilibili 頻道](https://space.bilibili.com/488765688)] <!-- https://www.youtube.com/watch?v=J9wV-tJ5JCM -->
+- 阿斯asuhosus [[Youtube 頻道](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)] <!-- https://www.youtube.com/watch?v=bKmsmwyKYl0 -->
+- 胡闹的啊宅 [[Bilibili 頻道](https://space.bilibili.com/403200093)] <!-- https://www.bilibili.com/video/av114804106729156 -->
+- 奈何祥云xy [[Bilibili 頻道](https://space.bilibili.com/383292431)] <!-- https://www.bilibili.com/video/av115156948422369 -->
+- 
