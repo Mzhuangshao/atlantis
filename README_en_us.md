@@ -35,29 +35,32 @@
 ### 🎣 Fishing
 
 - Barrels can be fished up in open water area.
-- All types of Barrels will contain gold and iron nuggets, in 1.21.2+ Bundles will appear and store gold and iron nuggets.
+- All types of Barrels will contain gold and iron nuggets, in 1.21.2 and later, Bundles will appear, containing gold and iron nuggets.
 - Some biomes have additional supplies in barrels, as shown below.
 
-| Barrel type      | Barrel contents                                                                                                    |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Normal           | Gold and iron nuggets                                                                                              |
-| Maps             | *Animal Domes Map*, empty map, compass and paper                                                                   |
-| Misc             | Wheat, carrots, potatoes, poisonous potatoes, leather equipment, arrows, glass bottles, bones and sskeleton skulls |
-| Flower forest    | Common flowers                                                                                                     |
-| Sunflower plains | Sunflowers                                                                                                         |
-| Jungle biomes    | Jungle saplings and cocoa beans                                                                                    |
-| Taiga biomes     | Sweet berries, spruce saplings and rabbit hide                                                                     |
-| Ocean biomes     | Kelp, prismarine shards, prismarine gravel and Heart of the Sea                                                    |
+| Barrel type      | Unique contents of Barrels                                                                                     | Common contents of Barrels                                            |
+| ---------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Normal           | Gold and iron nuggets                                                                                          | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
+| Maps             | *Animal Domes Map*, empty map, compass and paper                                                               | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
+| Misc             | Wheat, carrots, potatoes, poisonous potatoes, leather equipment, arrows, glass bottles, bones, skeleton skulls | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
+| Flower forest    | Common flowers                                                                                                 | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
+| Sunflower plains | Sunflowers                                                                                                     | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
+| Jungle biomes    | Jungle saplings and cocoa beans                                                                                | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
+| Taiga biomes     | Sweet berries, spruce saplings and rabbit hide                                                                 | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
+| Ocean biomes     | Kelp, prismarine shards, prismarine gravel and Heart of the Sea                                                | Gold nuggets, iron nuggets, *Bundles (available in 1.21.2 and later)* |
 
 ### ⚙️ Others
 
+- The surface is extremely cold, **making movement very difficult for players**.
+  - ***Players with sustained resistance buffs can withstand the cold of the sea.***
+  - ***Players with the Ocean Blessing buff can also withstand the cold of the sea.***
 - Customized Advancements System (continuously updated).
 - After obtaining a Sponge for the first time will unlock the repice of Sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more.
-- The Pale Oak planted by the player has a chance to have the Creaking Heart (Only in 1.21.4+).
+- The Pale Oak planted by the player has a chance to have the Creaking Heart ((available in 1.21.4 and later).
 
 ### 🐱 Mobs
 
-- Piglins can bartering all Smithing Template (including the Trim and the Upgrade).
+- Piglins can bartering all Smithing Template (including the Trim Template and the Upgrade Template).
 - Sniffers can dig up all Pottery Sherd.
 - Players drop **Player heads** when they killed by another player.
 - River biomes have a lower chance of spawning Drowned than normal worlds.
@@ -67,7 +70,7 @@
 - Overworld sea level is Y281, water surface is Y280, world height limit is Y320 unchanged.
 - Overworld mountains reach up to Y312。
 - Nether lava sea level is Y40.
-- Modified the depth noise of Ocean. Now there will be landforms similar to continental shelves and continental slopes on the seabed, and the ocean biomes have become deeper.
+- Now there will be landforms similar to continental shelves and continental slopes on the seabed, and the ocean have become deeper.
 - Icebergs will be generated in most cold biomes.
 
 ### 🏚 Structures
