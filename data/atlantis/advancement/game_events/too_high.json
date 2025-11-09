@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "too_high": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 280.5,
+                "max": 100000
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "too_high"
+    ]
+  ],
+  "rewards": {
+    "function": "atlantis:events/over_high_effect/warning"
+  }
+}
