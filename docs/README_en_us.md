@@ -12,7 +12,7 @@
 ## 🔱 Original Map Feature
 
 - Start Lobby
-- Start Room
+- Start Dome
 - Leafless Trees
 - Extremely-High sea level
 - Underwater Villages and Ruins
