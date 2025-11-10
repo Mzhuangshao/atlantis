@@ -148,4 +148,3 @@
 - 阿斯asuhosus [[Youtube 主页](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)] <!-- https://www.youtube.com/watch?v=bKmsmwyKYl0 -->
 - 胡闹的啊宅 [[Bilibili 主页](https://space.bilibili.com/403200093)] <!-- https://www.bilibili.com/video/av114804106729156 -->
 - 奈何祥云xy [[Bilibili 主页](https://space.bilibili.com/383292431)] <!-- https://www.bilibili.com/video/av115156948422369 -->
-/setblock -91 67 87 minecraft:chest{Items:[{Count:1b,Slot:1b,id:"minecraft:fishing_rod",tag:{Damage:0,Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:3s},{id:"minecraft:lure",lvl:3s},{id:"minecraft:mending",lvl:1s}]}}]}
