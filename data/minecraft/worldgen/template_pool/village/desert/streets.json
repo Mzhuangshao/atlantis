@@ -4,9 +4,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/corner_01",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -15,9 +13,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/corner_02",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -26,9 +22,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/straight_01",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 4
@@ -37,9 +31,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/straight_02",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 4
@@ -48,9 +40,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/straight_03",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -59,9 +49,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/crossroad_01",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -70,9 +58,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/crossroad_02",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -81,9 +67,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/crossroad_03",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -92,9 +76,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/square_01",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -103,9 +85,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/square_02",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3
@@ -114,9 +94,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/streets/turn_01",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 3

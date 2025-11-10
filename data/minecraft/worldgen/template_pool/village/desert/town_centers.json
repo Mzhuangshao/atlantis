@@ -4,9 +4,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/town_centers/desert_meeting_point_1",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 98
@@ -15,9 +13,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/town_centers/desert_meeting_point_2",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 98
@@ -26,9 +22,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/desert/town_centers/desert_meeting_point_3",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 49

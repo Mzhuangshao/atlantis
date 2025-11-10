@@ -7,9 +7,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "minecraft:village/taiga/taiga_lamp_post_1",
-        "processors": {
-          "processors": []
-        }
+        "processors": "atlantis:underwater_village"
       }
     },
     {
@@ -18,9 +16,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "minecraft:village/taiga/taiga_decoration_1",
-        "processors": {
-          "processors": []
-        }
+        "processors": "atlantis:underwater_village"
       }
     },
     {
@@ -29,9 +25,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "minecraft:village/taiga/taiga_decoration_2",
-        "processors": {
-          "processors": []
-        }
+        "processors": "atlantis:underwater_village"
       }
     },
     {
@@ -40,9 +34,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "minecraft:village/taiga/taiga_decoration_3",
-        "processors": {
-          "processors": []
-        }
+        "processors": "atlantis:underwater_village"
       }
     },
     {
@@ -51,9 +43,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "minecraft:village/taiga/taiga_decoration_4",
-        "processors": {
-          "processors": []
-        }
+        "processors": "atlantis:underwater_village"
       }
     },
     {
@@ -62,9 +52,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "minecraft:village/taiga/taiga_decoration_5",
-        "processors": {
-          "processors": []
-        }
+        "processors": "atlantis:underwater_village"
       }
     },
     {
@@ -73,9 +61,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "minecraft:village/taiga/taiga_decoration_6",
-        "processors": {
-          "processors": []
-        }
+        "processors": "atlantis:underwater_village"
       }
     },
     {

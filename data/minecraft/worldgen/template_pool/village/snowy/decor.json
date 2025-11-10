@@ -4,9 +4,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/snowy/snowy_lamp_post_01",
-        "processors": {
-          "processors": []
-        },
+        "processors": "atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 4
@@ -15,9 +13,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/snowy/snowy_lamp_post_02",
-        "processors": {
-          "processors": []
-        },
+        "processors": "atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 4
@@ -26,9 +22,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/snowy/snowy_lamp_post_03",
-        "processors": {
-          "processors": []
-        },
+        "processors": "atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 1

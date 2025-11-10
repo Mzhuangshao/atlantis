@@ -4,7 +4,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -13,7 +13,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -22,7 +22,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_3",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -31,7 +31,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_4",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -40,7 +40,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_5",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -49,7 +49,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_6",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 1
@@ -58,7 +58,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_7",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -67,7 +67,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_house_8",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 3
@@ -76,7 +76,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_medium_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -85,7 +85,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_medium_house_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -94,7 +94,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_big_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -103,7 +103,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_butcher_shop_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -112,7 +112,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_butcher_shop_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -121,7 +121,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_tool_smith_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -130,7 +130,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_fletcher_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -139,9 +139,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_shepherds_house_1",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 2
@@ -150,7 +148,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_armorer_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -159,7 +157,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_fisher_cottage_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -168,7 +166,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_tannery_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -177,7 +175,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_cartographer_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 1
@@ -186,7 +184,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_library_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 5
@@ -195,7 +193,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_library_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 1
@@ -204,7 +202,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_masons_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -213,7 +211,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_weaponsmith_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -222,7 +220,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_temple_3",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -231,7 +229,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_temple_4",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -240,7 +238,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_stable_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -249,9 +247,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_stable_2",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 2
@@ -260,9 +256,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_large_farm_1",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 4
@@ -271,9 +265,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_small_farm_1",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 4
@@ -282,9 +274,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_animal_pen_1",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 1
@@ -293,9 +283,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_animal_pen_2",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 1
@@ -304,9 +292,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_animal_pen_3",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 5
@@ -315,9 +301,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_accessory_1",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 1
@@ -326,7 +310,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_meeting_point_4",
-        "processors": "minecraft:mossify_70_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 3
@@ -335,9 +319,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_meeting_point_5",
-        "processors": {
-          "processors": []
-        },
+        "processors":"atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 1

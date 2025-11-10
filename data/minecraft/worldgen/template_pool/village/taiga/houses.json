@@ -4,7 +4,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_small_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 4
@@ -13,7 +13,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_small_house_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 4
@@ -22,7 +22,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_small_house_3",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 4
@@ -31,7 +31,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_small_house_4",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 4
@@ -40,7 +40,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_small_house_5",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 4
@@ -49,7 +49,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_medium_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -58,7 +58,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_medium_house_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -67,7 +67,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_medium_house_3",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -76,7 +76,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_medium_house_4",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -85,7 +85,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_butcher_shop_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -94,7 +94,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_tool_smith_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -103,7 +103,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_fletcher_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -112,7 +112,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_shepherds_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -121,7 +121,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_armorer_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 1
@@ -130,7 +130,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_armorer_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 1
@@ -139,7 +139,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_fisher_cottage_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 3
@@ -148,7 +148,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_tannery_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -157,7 +157,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_cartographer_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -166,7 +166,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_library_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -175,7 +175,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_masons_house_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -184,7 +184,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_weaponsmith_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -193,7 +193,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_weaponsmith_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -202,7 +202,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_temple_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2
@@ -211,9 +211,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_large_farm_1",
-        "processors": {
-          "processors": []
-        },
+        "processors": "atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 6
@@ -222,9 +220,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_large_farm_2",
-        "processors": {
-          "processors": []
-        },
+        "processors": "atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 6
@@ -233,9 +229,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_small_farm_1",
-        "processors": {
-          "processors": []
-        },
+        "processors": "atlantis:underwater_village",
         "projection": "rigid"
       },
       "weight": 1
@@ -244,7 +238,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/houses/taiga_animal_pen_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "atlantis:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 2

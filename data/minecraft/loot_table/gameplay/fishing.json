@@ -24,8 +24,8 @@
               }
             }
           ],
-          "quality": 2,
           "value": "minecraft:gameplay/fishing/treasure",
+          "quality": 2,
           "weight": 5
         },
         {
@@ -42,14 +42,14 @@
               }
             }
           ],
-          "quality": 2,
           "value": "atlantis:fishing/barrels",
+          "quality": 2,
           "weight": 15
         },
         {
           "type": "minecraft:loot_table",
-          "quality": -1,
           "value": "minecraft:gameplay/fishing/fish",
+          "quality": -1,
           "weight": 85
         }
       ],
