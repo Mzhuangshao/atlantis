@@ -7,7 +7,7 @@
       "type": "player",
       "gamemode": "survival",
       "advancements": {
-        "atlantis:atlantis/in_water": true
+        "atlantis:atlantis/below_sea_wandering": true
       }
     }
   }
