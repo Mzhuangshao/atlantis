@@ -6,7 +6,7 @@
 - Modrinth 载点 : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - mcmod 百科页面 : [亚特兰蒂斯：水寒火暖](https://www.mcmod.cn/class/17704.html)
 - **视频介绍及概念PV** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
-- 阅读语言选择 : → [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/docs/README_zh_tw.md)]   [[English](https://github.com/Mzhuangshao/atlantis/blob/main/docs/README_en_us.md)]
+- 阅读语言选择 : → [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 - 阅读语言选择 : → [[简体中文](.\README.md)]   [[繁體中文](.\docs\README_zh_tw.md)]   [[English](.\docs\README_en_us.md)]
 
 ## 🔱 原作特色内容

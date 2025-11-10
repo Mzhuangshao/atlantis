@@ -7,7 +7,7 @@
 - Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - mcmod : [Atlantis: Fire Beneath Water](https://www.mcmod.cn/class/17704.html)
 - **Videos** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
-- Readme in other languages : [[简体中文](.\README.md)]   [[繁體中文](.\docs\README_zh_tw.md)] → [English] ←
+- Readme in other languages : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)] → [English] ←
 
 ## 🔱 Original Map Feature
 
