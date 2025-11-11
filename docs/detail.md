@@ -6,8 +6,8 @@
 - Modrinth 载点 : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - mcmod 百科页面 : [亚特兰蒂斯：水寒火暖](https://www.mcmod.cn/class/17704.html)
 - **视频介绍及概念PV** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
-- 阅读语言选择 : → [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
-- 阅读语言选择 : → [[简体中文](.\README.md)]   [[繁體中文](.\docs\README_zh_tw.md)]   [[English](.\docs\README_en_us.md)]
+- 为下文内容选择阅读语言 : → [[以简体中文阅读](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[以繁體中文閲覽](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)]   [[Read in English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
+<!-- - 为下文内容选择阅读语言 : → [[以简体中文阅读](.\README.md)]   [[以繁體中文閲覽](.\docs\README_zh_tw.md)]   [[Read in English](.\docs\README_en_us.md)] -->
 
 ## 🔱 原作特色内容
 
@@ -38,30 +38,30 @@
 - 所有类型的木桶都会出现金粒和铁粒，在1.21.2及更高版本会额外出现空收纳袋，并用其收纳金粒和铁粒；
 - 不同类型的木桶的物资如下表所示。
 
-| 木桶类型       | 木桶的特有内容物                                                       | 木桶的通常内容物                               |
+| 木桶类型       | 木桶的特有内容物                                                       | 木桶的常见内容物                               |
 | -------------- | ---------------------------------------------------------------------- | ---------------------------------------------- |
 | 普通木桶       | 金粒、铁粒                                                             |                                                |
-| 地图木桶       | *动物圈地图*、空地图、指南针、纸                                       | 金粒、铁粒、*收纳袋（在1.21.2及更高版本出现）* |
-| 杂物木桶       | 小麦、胡萝卜、马铃薯、毒马铃薯、皮革装备、箭矢、玻璃瓶、骨头、骷髅头颅 | 金粒、铁粒、*收纳袋（在1.21.2及更高版本出现）* |
-| 繁花森林木桶   | 常见的花卉                                                             | 金粒、铁粒、*收纳袋（在1.21.2及更高版本出现）* |
-| 向日葵平原木桶 | 向日葵                                                                 | 金粒、铁粒、*收纳袋（在1.21.2及更高版本出现）* |
-| 丛林群系木桶   | 丛林树苗、可可豆                                                       | 金粒、铁粒、*收纳袋（在1.21.2及更高版本出现）* |
-| 针叶林群系木桶 | 甜浆果、云杉树苗、兔子皮                                               | 金粒、铁粒、*收纳袋（在1.21.2及更高版本出现）* |
-| 海洋群系木桶   | 海带、海晶碎片、海晶砂粒、*海洋之心*                                   | 金粒、铁粒、*收纳袋（在1.21.2及更高版本出现）* |
+| 地图木桶       | *动物圈地图*、空地图、指南针、纸                                       | 金粒、铁粒、<u>*收纳袋（在1.21.2及更高版本出现）*</u> |
+| 杂物木桶       | 小麦、胡萝卜、马铃薯、毒马铃薯、皮革装备、箭矢、玻璃瓶、骨头、骷髅头颅 | 金粒、铁粒、<u>*收纳袋（在1.21.2及更高版本出现）*</u> |
+| 繁花森林木桶   | 常见的花卉                                                             | 金粒、铁粒、<u>*收纳袋（在1.21.2及更高版本出现）*</u> |
+| 向日葵平原木桶 | 向日葵                                                                 | 金粒、铁粒、<u>*收纳袋（在1.21.2及更高版本出现）*</u> |
+| 丛林群系木桶   | 丛林树苗、可可豆                                                       | 金粒、铁粒、<u>*收纳袋（在1.21.2及更高版本出现）*</u> |
+| 针叶林群系木桶 | 甜浆果、云杉树苗、兔子皮                                               | 金粒、铁粒、<u>*收纳袋（在1.21.2及更高版本出现）*</u> |
+| 海洋群系木桶   | 海带、海晶碎片、海晶砂粒、*海洋之心*                                   | 金粒、铁粒、<u>*收纳袋（在1.21.2及更高版本出现）*</u> |
 
 ### ⚙️ 其它内容
 
-- 由于海平面以上过于冰冷，以至于**玩家在海平面上的行动十分困难**。
-  - ***拥有持续性抗性提升II效果的玩家可以抵御海面的寒冷。***
-  - ***拥有海洋祝福的玩家可以抵御海面的寒冷。***
+- 由于海面上过于冰冷，以至于**玩家在海面以上的行动十分困难**。
+  - 拥有持续性抗性提升II效果的玩家可以抵御海面的寒冷。
+  - 拥有潮涌能量的玩家可以抵御海面的寒冷。
 - 定制的进度系统（持续更新中，**欢迎提供更改意见**）；
 - 可以用海晶碎片、海晶砂粒、鹦鹉螺壳搭配海绵来合成更多海绵，此合成表在获得海绵后自动解锁；
-- 玩家手动种植的苍白橡树有概率带有嘎枝之心（在1.21.4及更高版本出现）。
+- 玩家手动种植的苍白橡树有概率带有<u>*嘎枝之心（在1.21.4及更高版本出现）*</u>。
 
 ### 🐱 生物
 
-- 猪灵（Piglin）可以交易出所有锻造模板（含纹饰模板与装备升级模板）；
-- 嗅探兽（Sniffer）可以挖掘出所有陶片碎片；
+- 猪灵可以交易出所有锻造模板（含纹饰模板与装备升级模板）；
+- 嗅探兽可以挖掘出所有陶片碎片；
 - 玩家被玩家抡死会掉落**玩家头颅**；
 - 河流群系刷新溺尸的几率比普通世界更低。
 
@@ -77,7 +77,7 @@
 
 #### 新结构 游商小屋（Wandering trader Room）
 
-- 生成在距离初始小屋约64格的位置；
+- 伴随在初始小屋周边不远处，每个世界仅有一座游商小屋；
 - 流浪商人每3天在小屋中心的平滑石台阶上刷新。
 
 #### 新结构 生物<ruby>圈<rt>juàn</rt></ruby>（Animal Domes）
@@ -85,7 +85,7 @@
 > *一座座玻璃球罩使希望留存，动物们得以在这场洪水中存活*
 
 - 散布在世界各地，根据当地群系环境有不同的样貌；
-- 可以通过钓鱼的木桶获得前往此结构的指引地图。
+- *可以通过钓鱼的木桶获得前往此结构的指引地图。*
 
 #### 原版结构
 
@@ -132,3 +132,35 @@
 - 影雨ShadowStorm : 文案提供、副标题题名<!-- 吉祥物 -->
 - Nickid2018 : 技术支持
 - 中文 Minecraft Wiki 及社群 : 技术支持
+
+### 
+
+- 舞秋风台 [[YouTube 主页](https://www.youtube.com/@MrChesterccj)] [[Bilibili 主页](https://space.bilibili.com/3513275)] <!-- https://www.bilibili.com/video/av1073531 https://www.youtube.com/watch?v=RbzBAtncUks -->
+- 悠然小天 [[Bilibili 主页](https://space.bilibili.com/3746384)] <!-- https://v.youku.com/video?vid=XODAwMTg1MTcy -->
+
+### 
+
+- 小黑犬解说 [[Bilibili 主页](https://space.bilibili.com/191880668)] <!-- https://www.douyin.com/video/7423354055461784883-->
+- 剑阳大宝贝 [[Bilibili 主页](https://space.bilibili.com/3546735683046223)] <!-- https://www.bilibili.com/video/av113271323494903 -->
+- 晓K人 [[Bilibili 主页](https://space.bilibili.com/3546697930115900)] <!-- https://www.bilibili.com/video/av113271323494910 -->
+- 九糖Jokioo [[Bilibili 主页](https://space.bilibili.com/3494363103496786)]
+- 悠尼YOONI [[Youtube 主页](https://www.youtube.com/@YOONI_QQ)] <!-- https://www.youtube.com/watch?v=NN-afHildzY -->
+- 红月RedMoon [[Youtube 主页](https://www.youtube.com/@MoonRed)] [[Bilibili 主页](https://space.bilibili.com/488765688)] <!-- https://www.youtube.com/watch?v=J9wV-tJ5JCM -->
+- 阿斯asuhosus [[Youtube 主页](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)] <!-- https://www.youtube.com/watch?v=bKmsmwyKYl0 -->
+- 胡闹的啊宅 [[Bilibili 主页](https://space.bilibili.com/403200093)] <!-- https://www.bilibili.com/video/av114804106729156 -->
+- 奈何祥云xy [[Bilibili 主页](https://space.bilibili.com/383292431)] <!-- https://www.bilibili.com/video/av115156948422369 -->
+
+### 📄 创作与使用
+
+#### 📌 视频制作
+
+- 请在**视频简介、评论区或视频内容三处中任选一**，注明本数据包作者`M家庄少`，以及提供数据包的链接或下载链接。
+  - 下载链接（作者推荐）：`https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
+  - 下载链接（最先发布）：`https://github.com/Mzhuangshao/atlantis/releases`
+- 在bilibili发布的视频可以附上概念PV的BV号`BV11hSyYPEkc`
+- 在YouTube发布的视频可以附上巴哈姆特论坛帖子`https://forum.gamer.com.tw/C.php?bsn=18673&snA=202921`
+
+#### 📌 数据包二次使用说明
+
+1. 请勿将本数据包用于商业用途；
+2. 遵循CC BY-NC 4.0协议转发。

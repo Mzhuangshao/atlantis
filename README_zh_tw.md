@@ -6,7 +6,7 @@
 - Modrinth 載點 : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - mcmod 百科頁面 : [亚特兰蒂斯：水寒火暖](https://www.mcmod.cn/class/17704.html)
 - **影片與概念PV** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
-- 閲讀語言選擇 : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)] → [繁體中文] ← [[English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
+- 閲讀語言選擇 : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)] → [以繁體中文閲覽] ← [[Read in English](https://github.com/Mzhuangshao/atlantis/blob/main/README_en_us.md)]
 
 ## 🔱 原作特色內容
 
@@ -51,8 +51,8 @@
 ### ⚙️ 其它內容
 
 - 由於海面以上過於寒冷，以至於***玩家在海平面以上的行動十分困難***。
-  - ***擁有持續性抗性提升II效果的玩家可以低禦海面的寒冷。***
-  - ***擁有海洋祝福的玩家可以低禦海面的寒冷。***
+  - 擁有持續性抗性提升II效果的玩家可以低禦海面的寒冷。
+  - 擁有潮涌能量的玩家可以低禦海面的寒冷。
 - 自訂的進度系統（持續更新中）；
 - 可以用海磷碎片、海磷晶體、鸚鵡螺殼搭配海綿合成更多海綿，這個合成配方在獲得海綿后自動解鎖；
 - 玩家手動種植的蒼白橡樹有機率帶有嘎枝之心（在1.21.4及更高版本出現）。
@@ -132,19 +132,17 @@
 - Nickid2018 : 技術支援
 - 中文 Minecraft Wiki 及社群 : 技術支援
 
-#### 
+### 📄 創作與使用
 
-- 舞秋風台 [[YouTube 頻道](https://www.youtube.com/@MrChesterccj)] [[Bilibili 頻道](https://space.bilibili.com/3513275)] <!-- https://www.bilibili.com/video/av1073531 https://www.youtube.com/watch?v=RbzBAtncUks -->
-- 悠然小天 [[Bilibili 頻道](https://space.bilibili.com/3746384)] <!-- https://v.youku.com/video?vid=XODAwMTg1MTcy -->
+#### 📌 影片製作
 
-#### 
+- 請在**影片簡介、留言區或影片內容三處中任選一**，註明本資料包作者`M家庄少`，以及提供資料包的連結或下載連結。 
+  - 下載連結（作者推薦）：`https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
+  - 下載連結（最早發布）：`https://github.com/Mzhuangshao/atlantis/releases`
+- 在bilibili發佈的影片可以附上概念PV的BV號`BV11hSyYPEkc`
+- 在YouTube上發布的影片可以附上巴哈姆特論壇貼文`https://forum.gamer.com.tw/C.php?bsn=18673&snA=202921`
 
-- 小黑犬解说 [[Bilibili 頻道](https://space.bilibili.com/191880668)] <!-- https://www.douyin.com/video/7423354055461784883-->
-- 剑阳大宝贝 [[Bilibili 頻道](https://space.bilibili.com/3546735683046223)] <!-- https://www.bilibili.com/video/av113271323494903 -->
-- 晓K人 [[Bilibili 頻道](https://space.bilibili.com/3546697930115900)] <!-- https://www.bilibili.com/video/av113271323494910 -->
-- 九糖Jokioo [[Bilibili 頻道](https://space.bilibili.com/3494363103496786)]
-- 悠尼YOONI [[Youtube 頻道](https://www.youtube.com/@YOONI_QQ)] <!-- https://www.youtube.com/watch?v=NN-afHildzY -->
-- 红月RedMoon [[Youtube 頻道](https://www.youtube.com/@MoonRed)] [[Bilibili 頻道](https://space.bilibili.com/488765688)] <!-- https://www.youtube.com/watch?v=J9wV-tJ5JCM -->
-- 阿斯asuhosus [[Youtube 頻道](https://www.youtube.com/channel/UC31opT8RH0KAOTRPjyTJqQQ)] <!-- https://www.youtube.com/watch?v=bKmsmwyKYl0 -->
-- 胡闹的啊宅 [[Bilibili 頻道](https://space.bilibili.com/403200093)] <!-- https://www.bilibili.com/video/av114804106729156 -->
-- 奈何祥云xy [[Bilibili 頻道](https://space.bilibili.com/383292431)] <!-- https://www.bilibili.com/video/av115156948422369 -->
+#### 📌 資料包二次使用說明
+
+1. 可分享，但請勿將本資料包用於商業用途；
+2. 遵循CC BY-NC 4.0協議轉送。

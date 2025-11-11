@@ -7,7 +7,7 @@
 - Modrinth : [Atlantis: Fire Beneath Water](https://modrinth.com/datapack/atlantis-firebeneathwater)
 - mcmod : [Atlantis: Fire Beneath Water](https://www.mcmod.cn/class/17704.html)
 - **Videos** : [[PV - Bilibili](https://www.bilibili.com/video/BV11hSyYPEkc/)]   [[PV - YouTube](https://youtu.be/-Dn8rR7_0oo)]
-- Readme in other languages : [[简体中文](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[繁體中文](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)] → [English] ←
+- Read in other languages : [[以简体中文阅读](https://github.com/Mzhuangshao/atlantis/blob/main/README.md)]   [[以繁體中文閲覽](https://github.com/Mzhuangshao/atlantis/blob/main/README_zh_tw.md)] → [Read in English] ←
 
 ## 🔱 Original Map Feature
 
@@ -52,8 +52,8 @@
 ### ⚙️ Others
 
 - The surface is extremely cold, **making movement very difficult for players**.
-  - ***Players with sustained resistance II buffs can withstand the cold of the sea.***
-  - ***Players with the Ocean Blessing buff can also withstand the cold of the sea.***
+  - Players with sustained resistance II buffs can withstand the cold of the sea.
+  - ***Players with the Ocean Blessing buff can also withstand the cold of the sea.
 - Customized Advancements System (continuously updated).
 - After obtaining a Sponge for the first time will unlock the repice of Sponge. You can use prismarine crystals, prismarine shard, nautilus shells with sponges to craft more.
 - The Pale Oak planted by the player has a chance to have the Creaking Heart ((available in 1.21.4 and later).
@@ -114,3 +114,28 @@
 ## 🎨 Future
 
 1. Multi-language Support
+
+## 🎉 Credits and Special Thanks
+
+- minecraft-pg5: Original team
+
+- ShadowStorm: Text provided, subtitle <!-- Mascot -->
+
+- Nickid2018: Technical support
+
+- Minecraft Wiki and community: Technical support
+
+### 📄 Creator
+
+#### 📌 Video Production
+
+- Please credit the author of this datapack, `M家庄少`, and provide a link to the datapack or a download link in one of the following places: **video description, comments section, or video content**.
+  - Download Link (): `https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
+
+- Videos posted on YouTube can include the Bahamut forum post: `https://forum.gamer.com.tw/C.php?bsn=18673&snA=202921`
+
+#### 📌 Data Pack Secondary Use Instructions
+
+1. Shareable, but please do not use this data pack for commercial purposes;
+
+2. Forwarded under the CC BY-NC 4.0 license.
