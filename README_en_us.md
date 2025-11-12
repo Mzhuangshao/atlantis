@@ -118,11 +118,8 @@
 ## 🎉 Credits and Special Thanks
 
 - minecraft-pg5: Original team
-
 - ShadowStorm: Text provided, subtitle <!-- Mascot -->
-
 - Nickid2018: Technical support
-
 - Minecraft Wiki and community: Technical support
 
 ### 📄 Creator
@@ -131,11 +128,9 @@
 
 - Please credit the author of this datapack, `M家庄少`, and provide a link to the datapack or a download link in one of the following places: **video description, comments section, or video content**.
   - Download Link (): `https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
-
 - Videos posted on YouTube can include the Bahamut forum post: `https://forum.gamer.com.tw/C.php?bsn=18673&snA=202921`
 
 #### 📌 Data Pack Secondary Use Instructions
 
 1. Shareable, but please do not use this data pack for commercial purposes;
-
 2. Forwarded under the CC BY-NC 4.0 license.
