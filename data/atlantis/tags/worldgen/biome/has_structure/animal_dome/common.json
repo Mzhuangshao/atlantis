@@ -7,6 +7,9 @@
     "minecraft:old_growth_birch_forest",
     "minecraft:windswept_forest",
     "minecraft:windswept_hills",
-    "minecraft:meadow"
+    "minecraft:meadow",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:taiga"
   ]
 }
