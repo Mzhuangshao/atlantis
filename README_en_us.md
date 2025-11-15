@@ -127,7 +127,7 @@
 #### 📌 Video Production
 
 - Please credit the author of this datapack, `M家庄少`, and provide a link to the datapack or a download link in one of the following places: **video description, comments section, or video content**.
-  - Download Link (): `https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
+  - Download Link : `https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
 - Videos posted on YouTube can include the Bahamut forum post: `https://forum.gamer.com.tw/C.php?bsn=18673&snA=202921`
 
 #### 📌 Data Pack Secondary Use Instructions

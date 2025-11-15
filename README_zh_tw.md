@@ -136,11 +136,13 @@
 
 #### 📌 影片製作
 
-- 請在**影片簡介、留言區或影片內容三處中任選一**，註明本資料包作者`M家庄少`，以及提供資料包的連結或下載連結。 
-  - 下載連結（作者推薦）：`https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
-  - 下載連結（最早發布）：`https://github.com/Mzhuangshao/atlantis/releases`
-- 在bilibili發佈的影片可以附上概念PV的BV號`BV11hSyYPEkc`
+- 請在**影片簡介、留言區或影片內容三處中任選一**，註明本資料包作者`M家庄少`，以及提供資料包的連結或下載連結。
+  - 下載連結1：`https://redenmc.com/zh_cn/litematica/atlantis_firebeneathwater`
+  - 下載連結2（作者推薦）：`https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
+  - 下載連結3：`https://github.com/Mzhuangshao/atlantis/releases`
+- 在bilibili發佈的影片可以附上概念PV的BV號`BV11hSyYPEkc   https://www.bilibili.com/video/BV11hSyYPEkc`
 - 在YouTube上發布的影片可以附上巴哈姆特論壇貼文`https://forum.gamer.com.tw/C.php?bsn=18673&snA=202921`
+
 
 #### 📌 資料包二次使用說明
 
