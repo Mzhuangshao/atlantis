@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "atlantis:jungle_temple/jungle_pyramid_1",
+        "processors": "mossify_70_percent"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "atlantis:jungle_temple/jungle_pyramid_2",
+        "processors": "mossify_70_percent"
+      }
+    }
+  ]
+}
