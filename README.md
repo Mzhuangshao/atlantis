@@ -92,9 +92,6 @@
 | ------------------------------- | -------------------------------------------- |
 | 林地府邸 (Woodland Mansion)     | **不再生成**                                 |
 | 雪屋 (Igloo)                    | **不再生成**                                 |
-| 沙漠神殿 (Desert Pyramid)       | **不再生成**                                 |
-| 丛林神庙 (Jungle Pyramid)       | **不再生成**                                 |
-| 沙漠水井 (Desert Well)          | **不再生成**                                 |
 | 海底神殿 (Ocean Monument)       | 可以生成在所有海洋群系                       |
 | 掠夺者前哨站 (Pillager Outpost) | 不再附带铁傀儡                               |
 | 女巫小屋 (Swamp Hut)            | **生成高度固定**，可以在沼泽与红树林沼泽生成 |
@@ -105,8 +102,7 @@
 | 针叶林村庄 (Taiga Village)      | 可以生成在原始针叶林类群系                   |
 | 热带草原村庄 (Savanna Village)  | 可以生成在恶地类群系                         |
 
-- 提升了女巫小屋的结构范围内生成女巫的数量；
-- 定位距离最近的女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`或`/locate structure atlantis:swamp_hut`；
+- 定位距离最近的女巫小屋可以使用指令`/locate structure minecraft:swamp_hut`；
 - 定位距离最近的生物圈可以使用指令`/locate structure #atlantis:animal_dome`；
 - 单独定位特定类型的生物圈可以使用指令`/locate structure atlantis:animal_dome/[类型]`。
 

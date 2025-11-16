@@ -93,9 +93,6 @@
 | ------------------ | ----------------------------------------------------------------------- |
 | Woodland Mansion   | **No longer generated**                                                 |
 | Igloo              | **No longer generated**                                                 |
-| Desert Pyramid     | **No longer generated**                                                 |
-| Jungle Pyramid     | **No longer generated**                                                 |
-| Desert Well        | **No longer generated**                                                 |
 | Ocean Monument     | Can generate in all Ocean biomes                                        |
 | Pillager Outpost   | No longer contain Iron Golems                                           |
 | Swamp Hut          | Fixed generate height, can generate in Swamp and Mangrove Swamp         |
@@ -106,8 +103,7 @@
 | Taiga Village      | Can generate in Old Growth Taiga biomes                                 |
 | Savanna Village    | Can generate in Badlands biomes                                         |
 
-- Modified the count of witches spawn within the hut structure range.
-- To locate the nearest Swamp Hut, use the command `/locate structure #minecraft:swamp_hut` or `/locate structure atlantis:swamp_hut`
+- To locate the nearest Swamp Hut, use the command `/locate structure minecraft:swamp_hut`
 - To locate the nearest Animal Domes, use the command `/locate structure #atlantis:animal_dome`
 - To locate a specific type of Animal Domes, use the command `/locate structure atlantis:animal_dome_[type]`
 
