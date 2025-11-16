@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.1,
+    "locate_offset": [
+      8,
+      0,
+      8
+    ],
+    "salt": 0,
+    "separation": 2,
+    "spacing": 4
+  },
+  "structures": [
+    {
+      "structure": "minecraft:desert_well",
+      "weight": 1
+    }
+  ]
+}

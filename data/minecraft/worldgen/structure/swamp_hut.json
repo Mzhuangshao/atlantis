@@ -27,7 +27,7 @@
     }
   },
   "terrain_adaptation": "beard_thin",
-  "start_pool": "atlantis:swamp_hut",
+  "start_pool": "atlantis:swamp_hut/swamp_hut",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",
