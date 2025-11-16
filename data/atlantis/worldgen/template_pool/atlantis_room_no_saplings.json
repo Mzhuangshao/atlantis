@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "atlantis:atlantis_room_no_saplings",
-        "processors": "minecraft:empty",
+        "processors": [],
         "liquid_settings": "ignore_waterlogging"
       }
     }

@@ -6,12 +6,12 @@
   "start_pool": "atlantis:desert_pyramid/pyramid",
   "size": 2,
   "start_height": {
-    "type": "minecraft:very_biased_to_bottom",
+    "type": "minecraft:uniform",
     "min_inclusive": {
-      "absolute": -16
+      "absolute": -8
     },
     "max_inclusive": {
-      "absolute": -8
+      "absolute": -2
     }
   },
   "project_start_to_heightmap": "OCEAN_FLOOR_WG",
