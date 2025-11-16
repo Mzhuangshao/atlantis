@@ -8,10 +8,10 @@
   "start_height": {
     "type": "minecraft:very_biased_to_bottom",
     "min_inclusive": {
-      "absolute": -8
+      "absolute": -16
     },
     "max_inclusive": {
-      "absolute": -16
+      "absolute": -8
     }
   },
   "project_start_to_heightmap": "OCEAN_FLOOR_WG",
