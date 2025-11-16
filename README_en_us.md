@@ -69,7 +69,6 @@
 
 - Overworld sea level is Y281, water surface is Y280, world height limit is Y320 unchanged.
 - Overworld mountains reach up to Y312。
-- Nether lava sea level is Y40.
 - Now there will be landforms similar to continental shelves and continental slopes on the seabed, and the ocean have become deeper.
 - Icebergs will be generated in most cold biomes.
 
