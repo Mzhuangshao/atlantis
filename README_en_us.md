@@ -68,7 +68,8 @@
 ### ⛰ World Generation
 
 - Overworld sea level is Y281, water surface is Y280, world height limit is Y320 unchanged.
-- Overworld mountains reach up to Y312。
+- Overworld mountains reach up to Y312.
+- Nether lava sea level is Y40.
 - Now there will be landforms similar to continental shelves and continental slopes on the seabed, and the ocean have become deeper.
 - Icebergs will be generated in most cold biomes.
 
@@ -94,7 +95,7 @@
 | Igloo              | **No longer generated**                                                 |
 | Ocean Monument     | Can generate in all Ocean biomes                                        |
 | Pillager Outpost   | No longer contain Iron Golems                                           |
-| Swamp Hut          | Fixed generate height, can generate in Swamp and Mangrove Swamp         |
+| Swamp Hut          | Can generate **underground** in Swamp and Mangrove Swamp                |
 | Village            | No longer contain with Villagers, Iron Golems, and some flora and fauna |
 | Plains Village     | Can generate in Forest                                                  |
 | Desert Village     | Can generate in Warm Ocean                                              |
