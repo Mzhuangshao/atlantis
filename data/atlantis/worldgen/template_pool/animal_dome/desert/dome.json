@@ -2,11 +2,20 @@
   "name": "atlantis:animal_dome_desert",
   "elements": [
     {
-      "weight": 1,
+      "weight": 70,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "atlantis:animal_dome/desert/dome_desert",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "atlantis:animal_dome/common/dome_common_animals",
         "processors": "minecraft:empty"
       }
     }

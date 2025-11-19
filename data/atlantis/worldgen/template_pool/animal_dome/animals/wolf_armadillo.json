@@ -2,7 +2,7 @@
   "name": "atlantis:wolf_armadillo",
   "elements": [
     {
-      "weight": 15,
+      "weight": 40,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/armadillo",
@@ -11,7 +11,7 @@
       }
     },
     {
-      "weight": 15,
+      "weight": 40,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/wolf",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:empty_pool_element"
       }

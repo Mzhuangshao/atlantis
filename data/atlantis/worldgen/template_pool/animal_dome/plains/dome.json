@@ -2,7 +2,7 @@
   "name": "atlantis:animal_dome_plains",
   "elements": [
     {
-      "weight": 10,
+      "weight": 50,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
@@ -11,7 +11,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 50,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",

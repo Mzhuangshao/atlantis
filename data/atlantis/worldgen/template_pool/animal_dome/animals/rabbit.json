@@ -2,7 +2,7 @@
   "name": "atlantis:rabbit",
   "elements": [
     {
-      "weight": 20,
+      "weight": 75,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "atlantis:animal_dome/animals/rabbit",
@@ -11,7 +11,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 25,
       "element": {
         "element_type": "minecraft:empty_pool_element"
       }
