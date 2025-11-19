@@ -3,9 +3,9 @@
     "type": "minecraft:random_spread",
     "spacing": 8,
     "separation": 4,
-    "salt": 0,
+    "salt": 852941,
     "frequency_reduction_method": "legacy_type_2",
-    "frequency": 0.15,
+    "frequency": 0.1,
     "locate_offset": [
       8,
       0,
