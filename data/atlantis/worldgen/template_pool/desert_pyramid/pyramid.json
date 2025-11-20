@@ -1,14 +1,22 @@
 {
-  "name": "atlantis:pyramid",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 100,
+      "weight": 50,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "atlantis:desert_pyramid/pyramid",
-        "processors": []
+        "location": "atlantis:desert_pyramid/pyramid_1",
+        "processors": "atlantis:desert_pyramid_brushblock"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "atlantis:desert_pyramid/pyramid_2",
+        "processors": "atlantis:desert_pyramid_brushblock"
       }
     }
   ]

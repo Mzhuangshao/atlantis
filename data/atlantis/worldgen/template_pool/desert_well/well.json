@@ -7,7 +7,7 @@
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
         "location": "atlantis:desert_well/well",
-        "processors": []
+        "processors": "atlantis:desert_well_brushblock"
       }
     }
   ]
