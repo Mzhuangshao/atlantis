@@ -5,7 +5,7 @@
     "separation": 4,
     "salt": 852941,
     "frequency_reduction_method": "legacy_type_2",
-    "frequency": 0.1,
+    "frequency": 0.08,
     "locate_offset": [
       8,
       0,
