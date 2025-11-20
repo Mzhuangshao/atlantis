@@ -140,13 +140,13 @@
           "input_predicate": {
             "block": "minecraft:farmland",
             "predicate_type": "minecraft:random_block_match",
-            "probability": 0.5
+            "probability": 0.7
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:dirt"
+            "Name": "minecraft:coarse_dirt"
           }
         },
         {

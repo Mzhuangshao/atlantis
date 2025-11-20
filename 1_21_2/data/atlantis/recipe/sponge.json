@@ -10,7 +10,8 @@
     "P": [
       "minecraft:prismarine_crystals",
       "minecraft:prismarine_shard",
-      "minecraft:nautilus_shell"
+      "minecraft:nautilus_shell",
+      "minecraft:gold_ingot"
     ]
   },
   "result": {
