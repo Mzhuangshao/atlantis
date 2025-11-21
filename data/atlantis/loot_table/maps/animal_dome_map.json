@@ -12,8 +12,18 @@
             {
               "function": "minecraft:exploration_map",
               "destination": "atlantis:animal_dome",
-              "decoration": "minecraft:target_x",
+              "decoration": "target_x",
               "zoom": 1
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "动物圈地图",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
             }
           ]
         }

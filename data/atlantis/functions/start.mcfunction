@@ -14,6 +14,8 @@ recipe take @a *
 effect give @a minecraft:regeneration 2 4 true
 effect give @a minecraft:saturation 2 4 true
 difficulty hard
+# 获取当前玩家数量
+# execute store result storage atlantis:player_count player_count int 1 run list
 
 execute at @e[tag=atlantis_room] run setworldspawn ~ ~ ~
 execute at @e[tag=atlantis_room] run spawnpoint @a ~ ~ ~
