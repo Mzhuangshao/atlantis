@@ -41,7 +41,7 @@
 | ---------------- | ------------------------------------------------------------------ | --------------------------------------------------------- |
 | 普通木桶         | 金粒、鐵粒                                                         |                                                           |
 | 地圖木桶         | *動物圈地圖*、空地圖、指南針、紙張                                 | 金粒、鉄粒、<ins>*收納袋（在1.21.2及更高版本出現）*</ins> |
-| 雜物木桶         | 小麥、胡蘿蔔、土豆、毒土豆、皮革裝備、箭矢、玻璃瓶、骨頭、骷髏頭顱 | 金粒、鉄粒、<ins>*收納袋（在1.21.2及更高版本出現）*</ins> |
+| 雜物木桶         | 小麥、胡蘿蔔、土豆、毒土豆、鎖鏈裝備、箭矢、玻璃瓶、骨頭、骷髏頭顱 | 金粒、鉄粒、<ins>*收納袋（在1.21.2及更高版本出現）*</ins> |
 | 繁花森林木桶     | 常見的花卉                                                         | 金粒、鉄粒、<ins>*收納袋（在1.21.2及更高版本出現）*</ins> |
 | 向日葵平原木桶   | 向日葵                                                             | 金粒、鉄粒、<ins>*收納袋（在1.21.2及更高版本出現）*</ins> |
 | 叢林生態域木桶   | 叢林樹苗、可可豆                                                   | 金粒、鉄粒、<ins>*收納袋（在1.21.2及更高版本出現）*</ins> |
@@ -51,10 +51,9 @@
 ### ⚙️ 其它內容
 
 - 由於海面以上過於寒冷，以至於***玩家在海平面以上的行動十分困難***。
-  - 擁有持續性抗性提升II效果的玩家可以低禦海面的寒冷。
-  - 擁有潮涌能量的玩家可以低禦海面的寒冷。
+  - 擁有持續性抗性提升II或潮湧能量的效果可以緩解。
 - 自訂的進度系統（持續更新中）；
-- 可以用海磷碎片、海磷晶體、鸚鵡螺殼搭配海綿合成更多海綿，這個合成配方在獲得海綿后自動解鎖；
+- 用海磷碎片、海磷晶體、鸚鵡螺殼、金錠搭配海綿可以合成更多海綿，這個合成配方在獲得海綿后自動解鎖；
 - 玩家手動種植的蒼白橡樹有機率帶有<ins>嘎枝之心（在1.21.4及更高版本出現）</ins>。
 
 ### 🐱 生物
@@ -91,7 +90,6 @@
 | 原版結構                        | 更改                               |
 | ------------------------------- | ---------------------------------- |
 | 綠林府邸 (Woodland Mansion)     | **不再生成**                       |
-| 雪屋 (Igloo)                    | **不再生成**                       |
 | 海底遺跡 (Ocean Monument)       | 可以生成在所有海洋生態域           |
 | 掠奪者前哨站 (Pillager Outpost) | 不再附帶鐵傀儡                     |
 | 女巫小屋 (Swamp Hut)            | 可在沼澤與紅樹林沼澤的**地底**生成 |
@@ -102,9 +100,8 @@
 | 針葉林村莊 (Taiga Village)      | 可以生成在原生針葉林類生態域       |
 | 金合歡村莊 (Savanna Village)    | 可以生成在惡地類生態域             |
 
-- 定位最近的女巫小屋可以使用指令`/locate structure #minecraft:swamp_hut`；
 - 定位最近的生物圈 (Animal Domes) 可以使用指令`/locate structure #atlantis:animal_dome`；
-- 單獨定位特定類型的生物圈 (Animal Domes) 可以使用指令`/locate structure atlantis:animal_dome/[類型]`。
+- 單獨定位特定類型的生物圈 (Animal Domes) 可以使用指令`/locate structure atlantis:animal_dome/[類型]`，例如`/locate structure atlantis:animal_dome/desert`可以查找沙漠類型的動物圈。
 
 ## 🎨 規劃
 
@@ -133,9 +130,7 @@
 #### 📌 影片製作
 
 - 請在**影片簡介、留言區或影片內容三處中任選一**，註明本資料包作者`M家庄少`，以及提供資料包的連結或下載連結。
-  - 下載連結1：`https://redenmc.com/zh_cn/litematica/atlantis_firebeneathwater`
-  - 下載連結2（作者推薦）：`https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
-  - 下載連結3：`https://github.com/Mzhuangshao/atlantis/releases`
+  - 下載連結（作者推薦）：`https://modrinth.com/datapack/atlantis-firebeneathwater/versions`
 - 在bilibili發佈的影片可以附上概念PV的BV號`BV11hSyYPEkc   https://www.bilibili.com/video/BV11hSyYPEkc`
 - 在YouTube上發布的影片可以附上巴哈姆特論壇貼文`https://forum.gamer.com.tw/C.php?bsn=18673&snA=202921`
 
