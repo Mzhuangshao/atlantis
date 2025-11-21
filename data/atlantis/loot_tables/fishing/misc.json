@@ -108,7 +108,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_helmet",
+          "name": "minecraft:chainmail_helmet",
           "weight": 10,
           "functions": [
             {
@@ -125,7 +125,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate",
+          "name": "minecraft:chainmail_chestplate",
           "weight": 10,
           "functions": [
             {
@@ -142,7 +142,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_leggings",
+          "name": "minecraft:chainmail_leggings",
           "weight": 10,
           "functions": [
             {
@@ -159,7 +159,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_boots",
+          "name": "minecraft:chainmail_boots",
           "weight": 10,
           "functions": [
             {
