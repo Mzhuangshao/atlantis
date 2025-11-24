@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "biome": "ocean"
+            "biome": "minecraft:ocean"
           }
         }
       }
