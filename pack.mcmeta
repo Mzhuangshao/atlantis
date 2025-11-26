@@ -1,10 +1,7 @@
 {
   "pack": {
     "pack_format": 15,
-    "supported_formats": [
-      15,
-      999
-    ],
+    "supported_formats": [15, 999],
     "description": [
       {
         "text": "水",
@@ -27,31 +24,19 @@
   "overlays": {
     "entries": [
       {
-        "formats": [
-          48,
-          999
-        ],
+        "formats": [48, 999],
         "directory": "1_21"
       },
       {
-        "formats": [
-          57,
-          999
-        ],
+        "formats": [57, 999],
         "directory": "1_21_2"
       },
       {
-        "formats": [
-          59,
-          999
-        ],
+        "formats": [59, 999],
         "directory": "1_21_4"
       },
       {
-        "formats": [
-          70,
-          999
-        ],
+        "formats": [70, 999],
         "directory": "1_21_5"
       }
     ]
