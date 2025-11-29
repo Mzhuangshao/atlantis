@@ -12,15 +12,9 @@
         },
         {
           "type": "minecraft:tag",
-          "name": "atlantis:smithing_templates",
+          "name": "atlantis:piglin_bartering_templates",
           "expand": true,
-          "weight": 2,
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.8
-            }
-          ]
+          "weight": 2
         },
         {
           "type": "minecraft:item",

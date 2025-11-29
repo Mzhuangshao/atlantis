@@ -59,8 +59,7 @@
 
 ### 🐱 Mobs
 
-- Piglins can bartering all Smithing Template (including the Trim Template and the Upgrade Template).
-- Sniffers can dig up all Pottery Sherd.
+- Piglins can bartering Netherite Upgrade, Eye Armor Trim and Vex Armor Trim.
 - Players drop **Player heads** when they killed by another player.
 - River biomes have a lower chance of spawning Drowned than normal worlds.
 
