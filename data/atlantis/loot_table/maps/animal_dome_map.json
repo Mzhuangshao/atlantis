@@ -17,12 +17,7 @@
             },
             {
               "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "text": "动物圈地图",
-                  "italic": false
-                }
-              ],
+              "lore": [{ "text": "动物圈地图", "italic": false }],
               "mode": "append"
             }
           ]

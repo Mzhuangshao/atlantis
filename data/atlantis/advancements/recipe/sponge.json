@@ -5,18 +5,13 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sponge",
-              "minecraft:wet_sponge"
-            ]
+            "items": ["minecraft:sponge", "minecraft:wet_sponge"]
           }
         ]
       }
     }
   },
   "rewards": {
-    "recipes": [
-      "atlantis:sponge"
-    ]
+    "recipes": ["atlantis:sponge"]
   }
 }

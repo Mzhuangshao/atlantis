@@ -17,11 +17,7 @@
       }
     }
   },
-  "requirements": [
-    [
-      "too_high"
-    ]
-  ],
+  "requirements": [["too_high"]],
   "rewards": {
     "function": "atlantis:events/over_high_effect/warning"
   }

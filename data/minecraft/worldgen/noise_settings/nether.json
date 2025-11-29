@@ -167,9 +167,7 @@
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:biome",
-          "biome_is": [
-            "minecraft:basalt_deltas"
-          ]
+          "biome_is": ["minecraft:basalt_deltas"]
         },
         "then_run": {
           "type": "minecraft:sequence",
@@ -209,7 +207,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e308,
                       "min_threshold": -0.012,
                       "noise": "minecraft:patch"
                     },
@@ -249,7 +247,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e308,
                       "min_threshold": 0.0,
                       "noise": "minecraft:nether_state_selector"
                     },
@@ -279,9 +277,7 @@
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:biome",
-          "biome_is": [
-            "minecraft:soul_sand_valley"
-          ]
+          "biome_is": ["minecraft:soul_sand_valley"]
         },
         "then_run": {
           "type": "minecraft:sequence",
@@ -302,7 +298,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e308,
                       "min_threshold": 0.0,
                       "noise": "minecraft:nether_state_selector"
                     },
@@ -338,7 +334,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e308,
                       "min_threshold": -0.012,
                       "noise": "minecraft:patch"
                     },
@@ -378,7 +374,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e308,
                       "min_threshold": 0.0,
                       "noise": "minecraft:nether_state_selector"
                     },
@@ -446,9 +442,7 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:biome",
-                "biome_is": [
-                  "minecraft:warped_forest"
-                ]
+                "biome_is": ["minecraft:warped_forest"]
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -456,7 +450,7 @@
                   "type": "minecraft:not",
                   "invert": {
                     "type": "minecraft:noise_threshold",
-                    "max_threshold": 1.7976931348623157E308,
+                    "max_threshold": 1.7976931348623157e308,
                     "min_threshold": 0.54,
                     "noise": "minecraft:netherrack"
                   }
@@ -478,7 +472,7 @@
                         "type": "minecraft:condition",
                         "if_true": {
                           "type": "minecraft:noise_threshold",
-                          "max_threshold": 1.7976931348623157E308,
+                          "max_threshold": 1.7976931348623157e308,
                           "min_threshold": 1.17,
                           "noise": "minecraft:nether_wart"
                         },
@@ -504,9 +498,7 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:biome",
-                "biome_is": [
-                  "minecraft:crimson_forest"
-                ]
+                "biome_is": ["minecraft:crimson_forest"]
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -514,7 +506,7 @@
                   "type": "minecraft:not",
                   "invert": {
                     "type": "minecraft:noise_threshold",
-                    "max_threshold": 1.7976931348623157E308,
+                    "max_threshold": 1.7976931348623157e308,
                     "min_threshold": 0.54,
                     "noise": "minecraft:netherrack"
                   }
@@ -536,7 +528,7 @@
                         "type": "minecraft:condition",
                         "if_true": {
                           "type": "minecraft:noise_threshold",
-                          "max_threshold": 1.7976931348623157E308,
+                          "max_threshold": 1.7976931348623157e308,
                           "min_threshold": 1.17,
                           "noise": "minecraft:nether_wart"
                         },
@@ -565,9 +557,7 @@
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:biome",
-          "biome_is": [
-            "minecraft:nether_wastes"
-          ]
+          "biome_is": ["minecraft:nether_wastes"]
         },
         "then_run": {
           "type": "minecraft:sequence",
@@ -585,7 +575,7 @@
                 "type": "minecraft:condition",
                 "if_true": {
                   "type": "minecraft:noise_threshold",
-                  "max_threshold": 1.7976931348623157E308,
+                  "max_threshold": 1.7976931348623157e308,
                   "min_threshold": -0.012,
                   "noise": "minecraft:soul_sand_layer"
                 },
@@ -678,7 +668,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e308,
                       "min_threshold": -0.012,
                       "noise": "minecraft:gravel_layer"
                     },

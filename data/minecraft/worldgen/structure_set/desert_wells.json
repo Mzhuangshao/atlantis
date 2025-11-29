@@ -6,11 +6,7 @@
     "salt": 852941,
     "frequency_reduction_method": "legacy_type_2",
     "frequency": 0.08,
-    "locate_offset": [
-      8,
-      0,
-      8
-    ]
+    "locate_offset": [8, 0, 8]
   },
   "structures": [
     {

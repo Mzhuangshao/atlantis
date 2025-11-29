@@ -3,11 +3,7 @@
     "condition": "minecraft:location_check",
     "predicate": {
       "block": {
-        "blocks": [
-          "minecraft:air",
-          "minecraft:void_air",
-          "minecraft:cave_air"
-        ]
+        "blocks": ["minecraft:air", "minecraft:void_air", "minecraft:cave_air"]
       }
     }
   },
@@ -16,11 +12,7 @@
     "offsetY": 1,
     "predicate": {
       "block": {
-        "blocks": [
-          "minecraft:air",
-          "minecraft:void_air",
-          "minecraft:cave_air"
-        ]
+        "blocks": ["minecraft:air", "minecraft:void_air", "minecraft:cave_air"]
       }
     }
   }
