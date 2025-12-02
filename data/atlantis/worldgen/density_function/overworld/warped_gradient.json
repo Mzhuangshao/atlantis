@@ -15,8 +15,8 @@
             "type": "minecraft:y_clamped_gradient",
             "from_y": 16,
             "to_y": 48,
-            "from_value": 0.625,
-            "to_value": 0.375
+            "from_value": 0.75,
+            "to_value": 0.425
           },
           "when_out_of_range": 0
         },
@@ -29,8 +29,8 @@
             "type": "minecraft:y_clamped_gradient",
             "from_y": -64,
             "to_y": 16,
-            "from_value": 0.875,
-            "to_value": 0.625
+            "from_value": 0.95,
+            "to_value": 0.75
           },
           "when_out_of_range": 0
         }
@@ -44,7 +44,7 @@
           "type": "minecraft:y_clamped_gradient",
           "from_y": 48,
           "to_y": 320,
-          "from_value": 0.375,
+          "from_value": 0.425,
           "to_value": -1.5
         },
         "when_out_of_range": 0
